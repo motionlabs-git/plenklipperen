@@ -1,26 +1,134 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+	--primary: #55a630;
+	--darkGreen: #0f1a17;
+	--primaryAccent: #438027;
+	--lightGray: #f0f2f3;
+	--lightGrayAccent: #dcdddf;
+
+	--darkGray: #969696;
+
+	--siteWidth: 1290px;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+	--color-primary: var(--primary);
+	--color-darkGreen: var(--darkGreen);
+	--color-primaryAccent: var(--primaryAccent);
+	--color-lightGray: var(--lightGray);
+	--color-lightGrayAccent: var(--lightGrayAccent);
+
+	--color-darkGray: var(--darkGray);
+
+	--font-rubik: var(--font-rubik);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+::selection {
+	@apply bg-primary text-white;
+}
+
+h1 {
+	@apply text-7xl font-bold leading-[1.2em];
+}
+
+h2 {
+	@apply text-4xl font-bold leading-[1.4em];
+}
+
+h3 {
+	@apply text-3xl font-bold leading-[1.4em];
+}
+
+h4 {
+	@apply text-xl font-bold leading-[1.4em];
+}
+
+p {
+	@apply font-normal;
+}
+
+section {
+	@apply py-24 px-4 w-full flex justify-center;
+
+	.section-wrapper {
+		width: 100%;
+		max-width: 1290px;
+	}
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+	@apply font-rubik font-light;
+
+	&.deny-scroll {
+		height: 100vh;
+		overflow-y: hidden;
+	}
+}
+
+/* NAVBAR */
+#navSubmenu {
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	transform: translateY(-4px);
+	transition:
+		opacity 0.25s ease,
+		transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+		visibility 0s linear 0.25s;
+
+	transition-duration: 0.2s;
+
+	&.show {
+		opacity: 1;
+		visibility: visible;
+		pointer-events: auto;
+		transform: translateY(0);
+		transition:
+			opacity 0.25s ease,
+			transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+			visibility 0s;
+	}
+}
+
+#mobileNavigation {
+	opacity: 0;
+	transition:
+		opacity 0.25s ease,
+		transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+	&.show {
+		opacity: 1;
+		/* pointer-events: auto;
+			transform: translateY(0); */
+		transition:
+			opacity 0.25s ease,
+			transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+			visibility 0s;
+	}
+}
+
+.blureBox {
+	@apply backdrop-blur-sm bg-darkGray/20 border-black/20 border;
+}
+
+.divider {
+	@apply h-0.5 bg-lightGray w-full;
+}
+
+input[type='text'] {
+	@apply bg-white border border-black rounded-full outline-primary shadow-2xs px-4 py-3;
+}
+
+textarea {
+	@apply bg-white border border-black rounded-xl outline-primary shadow-2xs px-4 py-3;
+}
+
+label {
+	@apply cursor-pointer;
+
+	&.required::after {
+		content: ' *';
+		color: red;
+	}
 }
