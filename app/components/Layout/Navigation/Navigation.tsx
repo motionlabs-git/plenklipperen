@@ -5,13 +5,15 @@ import GreenButton from '../../UI/GreenButton'
 import NavLink from './NavLink'
 import NavLinkWithSubmenu from './NavLinkWithSubmenu'
 import Hamburger from './Hamburger'
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import MobileNavigation from './MobileNavigation'
 import { NavigationLinks } from '@/app/contstants/navigationLinks'
+import { usePathname } from 'next/navigation'
 
 const Navigation = () => {
 	const [mobileNavigation, setMobileNavigation] = useState(false)
 	const mobileNavRef = useRef<null | HTMLElement>(null)
+	const path = usePathname()
 
 	const openMobileMenu = () => {
 		setMobileNavigation(true)
@@ -30,6 +32,10 @@ const Navigation = () => {
 			setMobileNavigation(false)
 		}, 250)
 	}
+
+	useEffect(() => {
+		closeMobileMenu()
+	}, [path])
 
 	return (
 		<nav className='w-full fixed z-50 top-0 left-0 pt-8 px-4 flex flex-col items-center'>
@@ -60,10 +66,6 @@ const Navigation = () => {
 							/>
 						)
 					})}
-
-					{/* <NavLink text='Winter' link='/' />
-					<NavLink text='Prices' link='/' />
-					<NavLink text='Gallery' link='/' /> */}
 				</ul>
 
 				<div className='flex items-center'>
@@ -79,7 +81,6 @@ const Navigation = () => {
 			{mobileNavigation && (
 				<MobileNavigation
 					ref={mobileNavRef}
-					isOpened={mobileNavigation}
 					handleClose={closeMobileMenu}
 				/>
 			)}

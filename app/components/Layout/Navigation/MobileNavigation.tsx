@@ -8,11 +8,9 @@ import { NavigationLinks } from '@/app/contstants/navigationLinks'
 import { Contact } from '@/app/contstants/contact'
 
 const MobileNavigation = ({
-	isOpened,
 	handleClose,
 	ref,
 }: {
-	isOpened: boolean
 	handleClose: () => void
 	ref: RefObject<HTMLElement | null>
 }) => {
