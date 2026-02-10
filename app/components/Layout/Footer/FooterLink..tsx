@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { Handset } from '@gravity-ui/icons'
 import Icon from '../../UI/Icon'
 
 const FooterLink = ({
@@ -14,12 +13,18 @@ const FooterLink = ({
 	icon: React.JSX.Element
 }) => {
 	return (
-		<Link href={link} className='flex items-center gap-6 group'>
+		<Link
+			target='_blank'
+			href={link}
+			className='group flex items-center gap-6 group'
+		>
 			<Icon className='group-hover:bg-primary'>{icon}</Icon>
 
 			<div className='flex flex-col leading-6'>
 				<p className='!font-bold'> {title}</p>
-				<p className='!text-sm '>{text}</p>
+				<p className='!text-sm group-hover:text-primary duration-200'>
+					{text}
+				</p>
 			</div>
 		</Link>
 	)

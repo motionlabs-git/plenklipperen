@@ -2,22 +2,29 @@ import Image from 'next/image'
 import Link from 'next/link'
 import ChevronRight from '../../UI/ChevronRight'
 
-const SubmenuItem = () => {
+const SubmenuItem = ({
+	title,
+	text,
+	image,
+	link,
+}: {
+	title: string
+	text: string
+	image: string
+	link: string
+}) => {
 	return (
 		<Link
-			href={'/'}
+			href={link}
 			className='relative bg-lightGray rounded-2xl shadow-xs w-full aspect-square hover:bg-lightGrayAccent duration-200 p-4 text-black normal-case flex flex-col'
 		>
-			<span className='text-lg'>Cutting</span>
+			<span className='text-lg'>{title}</span>
 
-			<p className=' text-darkGray '>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi
-				omnis fuga labor
-			</p>
+			<p className=' text-darkGray '>{text}</p>
 
 			<div className='relative w-full h-full flex-1 bg-darkGray rounded-2xl mt-4 overflow-hidden'>
 				<Image
-					src={'/images/Hero_image.jpg'}
+					src={image}
 					alt={'Submenu image'}
 					width={500}
 					height={500}

@@ -1,7 +1,4 @@
-import Icon from '../../../../components/UI/Icon'
-import Image from 'next/image'
-import Link from 'next/link'
-import { ChevronRight } from '@gravity-ui/icons'
+import { ServicesLinks } from '@/app/contstants/navigationLinks'
 import ServiceCard from './ServiceCard'
 
 const Services = () => {
@@ -24,10 +21,16 @@ const Services = () => {
 					</p>
 				</div>
 
-				<div className='flex gap-8 mt-10'>
-					<ServiceCard />
-					<ServiceCard />
-					<ServiceCard />
+				<div className='grid grid-cols-2 gap-8 mt-10'>
+					{ServicesLinks.map((service) => (
+						<ServiceCard
+							key={service.link}
+							title={service.title}
+							text={service.text}
+							image={service.image}
+							link={service.link}
+						/>
+					))}
 				</div>
 			</div>
 		</section>

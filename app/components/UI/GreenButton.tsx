@@ -1,14 +1,18 @@
 import { ChevronRight } from '@gravity-ui/icons'
+import Link from 'next/link'
 
 const GreenButton = ({
 	text,
 	className,
+	link,
 }: {
 	text: string
 	className?: string
+	link: string
 }) => {
 	return (
-		<button
+		<Link
+			href={link}
 			aria-label={text}
 			className={`p-2 bg-primary rounded-full flex items-center gap-4 hover:bg-primaryAccent duration-200 cursor-pointer shadow-sm select-none w-fit ${className}`}
 		>
@@ -22,7 +26,7 @@ const GreenButton = ({
 					width={15}
 				></ChevronRight>
 			</span>
-		</button>
+		</Link>
 	)
 }
 

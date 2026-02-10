@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import { ChevronDown } from '@gravity-ui/icons'
 import SubmenuItem from './SubmenuItem'
+import { ServicesLinks } from '@/app/contstants/navigationLinks'
 
 const NavLinkWithSubmenu = ({ text, link }: { text: string; link: string }) => {
 	const [isSubmenu, setIsSubmenu] = useState(false)
@@ -30,10 +31,15 @@ const NavLinkWithSubmenu = ({ text, link }: { text: string; link: string }) => {
 					onMouseLeave={() => setIsSubmenu(false)}
 				>
 					<div className='bg-white w-full rounded-3xl flex gap-4 p-4'>
-						<SubmenuItem />
-						<SubmenuItem />
-
-						<SubmenuItem />
+						{ServicesLinks.map((service) => (
+							<SubmenuItem
+								key={service.link}
+								title={service.title}
+								text={service.text}
+								image={service.image}
+								link={service.link}
+							/>
+						))}
 					</div>
 				</div>
 			</div>

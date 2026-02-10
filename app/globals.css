@@ -8,6 +8,7 @@
 	--lightGrayAccent: #dcdddf;
 
 	--darkGray: #969696;
+	--footerWhite: #fbfcfc;
 
 	--siteWidth: 1290px;
 }
@@ -20,6 +21,7 @@
 	--color-lightGrayAccent: var(--lightGrayAccent);
 
 	--color-darkGray: var(--darkGray);
+	--color-footerWhite: var(--footerWhite);
 
 	--font-rubik: var(--font-rubik);
 }
@@ -29,15 +31,15 @@
 }
 
 h1 {
-	@apply text-7xl font-bold leading-[1.2em];
+	@apply text-5xl md:text-7xl font-bold leading-[1.2em];
 }
 
 h2 {
-	@apply text-4xl font-bold leading-[1.4em];
+	@apply text-3xl md:text-4xl font-bold leading-[1.4em];
 }
 
 h3 {
-	@apply text-3xl font-bold leading-[1.4em];
+	@apply text-2xl md:text-3xl font-bold leading-[1.4em];
 }
 
 h4 {

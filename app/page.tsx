@@ -1,3 +1,4 @@
+import References from './components/Layout/Footer/References'
 import Hero from './components/Sections/Mainpage/Hero'
 import OurWork from './components/Sections/Mainpage/OurWork/OurWork'
 
@@ -9,21 +10,37 @@ export default function Home() {
 		<>
 			<Hero />
 			<OurWork />
+			<span className='divider'></span>
 			<Services />
-
+			<span className='divider'></span>
 			<section>
 				<div className='section-wrapper flex flex-col gap-24'>
 					<SideImageBlock
 						text='alskjdf lasdjfl ajsdlkfj lasdjf lajsdlf '
-						title='klasjdfl j alksdjf lasdjlf adjs asdlk f'
+						title='Summer sevice text'
+						image='/images/Hero_image.jpg'
+						list={[
+							'lasdkjfklasd',
+							'lasdkjflkasdjl',
+							'askldfjadklsjfklasd f',
+						]}
+						link='/services'
 					/>
 					<SideImageBlock
 						reversed
 						text='alskjdf lasdjfl ajsdlkfj lasdjf lajsdlf '
-						title='klasjdfl j alksdjf lasdjlf adjs asdlk f'
+						title='Winter service text'
+						image='/images/vinterford.jpg'
+						list={[
+							'lasdkjfklasd',
+							'lasdkjflkasdjl',
+							'askldfjadklsjfklasd f',
+						]}
+						link='/winter-services'
 					/>
 				</div>
 			</section>
+			<References />
 		</>
 	)
 }

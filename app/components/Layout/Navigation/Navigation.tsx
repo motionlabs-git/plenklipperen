@@ -71,6 +71,7 @@ const Navigation = () => {
 					<GreenButton
 						text={'Contact us'}
 						className='text-sm pl-4 font-semibold hidden md:flex'
+						link='/contact'
 					/>
 				</div>
 			</div>

@@ -7,12 +7,13 @@ import { Envelope, Handset, House } from '@gravity-ui/icons'
 import Icon from '../../UI/Icon'
 import { Facebook, Instagram } from 'feather-icons-react'
 import { NavigationLinks } from '@/app/contstants/navigationLinks'
+import { Contact } from '@/app/contstants/contact'
 
 const Footer = () => {
 	const year = new Date().getFullYear()
 
 	return (
-		<footer className='flex justify-center px-4'>
+		<footer className='flex justify-center px-4 bg-footerWhite'>
 			<div className='w-full max-w-[var(--siteWidth)] py-12'>
 				<div className='flex justify-between py-12 flex-col items-center gap-8 sm:flex-row'>
 					<Link href={'/'}>
@@ -45,8 +46,8 @@ const Footer = () => {
 						<li>
 							<FooterLink
 								title={'Phone'}
-								text={'111 111 111'}
-								link={'phone:111111111'}
+								text={Contact.phone}
+								link={`phone:${Contact.phone}`}
 								icon={<Handset />}
 							/>
 						</li>
@@ -54,16 +55,16 @@ const Footer = () => {
 						<li>
 							<FooterLink
 								title={'Email'}
-								text={'plenklipperen@email.cz'}
-								link={'mailto:aksdfj'}
+								text={Contact.mail}
+								link={`mailto:${Contact.mail}`}
 								icon={<Envelope />}
 							/>
 						</li>
 						<li>
 							<FooterLink
 								title={'Address'}
-								text={'Nordre Vardhaugen 71, 5253 Sandsli'}
-								link={'phone:111111111'}
+								text={Contact.address}
+								link={Contact.addressLink}
 								icon={<House />}
 							/>
 						</li>
@@ -71,7 +72,7 @@ const Footer = () => {
 
 					<ul className='flex items-center gap-8 '>
 						<li>
-							<Link href={'/'}>
+							<Link target='_blank' href={Contact.fbLink}>
 								<Icon className='hover:bg-primary'>
 									<Facebook className='w-4'></Facebook>
 								</Icon>
@@ -79,7 +80,7 @@ const Footer = () => {
 						</li>
 
 						<li>
-							<Link href={'/'}>
+							<Link target='_blank' href={Contact.igLink}>
 								<Icon className='hover:bg-primary'>
 									<Instagram className='w-4'></Instagram>
 								</Icon>

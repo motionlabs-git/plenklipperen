@@ -4,6 +4,8 @@ import MobileNavLink from './MobileNavLink'
 import Icon from '../../UI/Icon'
 import { Facebook, Instagram } from 'feather-icons-react'
 import { RefObject } from 'react'
+import { NavigationLinks } from '@/app/contstants/navigationLinks'
+import { Contact } from '@/app/contstants/contact'
 
 const MobileNavigation = ({
 	isOpened,
@@ -33,13 +35,19 @@ const MobileNavigation = ({
 					</button>
 
 					<ul className='mt-'>
-						<MobileNavLink text='Home' link='/' />
-						<MobileNavLink text='Services' link='/' />
-						<MobileNavLink text='' link='/' />
-						<MobileNavLink text='Home' link='/' />
+						{NavigationLinks.slice(0, -1).map((item) => {
+							return (
+								<MobileNavLink
+									key={item.link}
+									text={item.text}
+									link={item.link}
+								/>
+							)
+						})}
 					</ul>
 
 					<GreenButton
+						link='/contact'
 						text={'Contact us'}
 						className='text-sm pl-4 font-semibold'
 					/>
@@ -47,7 +55,7 @@ const MobileNavigation = ({
 
 				<ul className=' flex items-center gap-4'>
 					<li>
-						<Link href={'/'}>
+						<Link target='_blank' href={Contact.fbLink}>
 							<Icon className='hover:bg-primary bg-white group'>
 								<Facebook className='w-4 text-black group-hover:text-white duration-200'></Facebook>
 							</Icon>
@@ -55,7 +63,7 @@ const MobileNavigation = ({
 					</li>
 
 					<li>
-						<Link href={'/'}>
+						<Link target='_blank' href={Contact.igLink}>
 							<Icon className='hover:bg-primary bg-white group'>
 								<Instagram className='w-4 text-black group-hover:text-white duration-200'></Instagram>
 							</Icon>

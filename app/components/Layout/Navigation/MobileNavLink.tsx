@@ -1,9 +1,8 @@
 import Link from 'next/link'
-import React from 'react'
 
 const MobileNavLink = ({ text, link }: { text: string; link: string }) => {
 	return (
-		<li className='font-bold uppercase text-white hover:text-primary duration-200 w-fit'>
+		<li className='font-bold uppercase text-white hover:text-primary duration-200 w-fit py-2'>
 			<Link className='py-2' href={link}>
 				{text}
 			</Link>
