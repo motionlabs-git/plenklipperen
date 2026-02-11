@@ -10,15 +10,17 @@ import { Contact } from '@/app/contstants/contact'
 const MobileNavigation = ({
 	handleClose,
 	ref,
+	path,
 }: {
 	handleClose: () => void
 	ref: RefObject<HTMLElement | null>
+	path: string
 }) => {
 	return (
 		<nav
 			ref={ref}
 			id='mobileNavigation'
-			className='fixed w-screen h-screen inset-0 py-8 px-4 opacity-0 flex md:hidden justify-end'
+			className='fixed w-screen h-[100dvh] inset-0 py-4 sm:py-8 px-4 opacity-0 flex md:hidden justify-end'
 		>
 			<div className='w-full h-full absolute inset-0 bg-darkGreen/50'></div>
 
@@ -39,6 +41,7 @@ const MobileNavigation = ({
 									key={item.link}
 									text={item.text}
 									link={item.link}
+									selected={item.link === path}
 								/>
 							)
 						})}

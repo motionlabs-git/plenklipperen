@@ -5,7 +5,7 @@ const Services = () => {
 	return (
 		<section>
 			<div className='section-wrapper'>
-				<div className='flex flex-col sm:flex-row gap-8'>
+				<div className='flex flex-col sm:flex-row gap-4 sm:gap-8'>
 					<h2 className='flex-1'>
 						Naše služby{' '}
 						<span className='text-darkGray'>
@@ -21,7 +21,7 @@ const Services = () => {
 					</p>
 				</div>
 
-				<div className='grid grid-cols-1 md:grid-cols-2 gap-8 mt-10'>
+				<div className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mt-10'>
 					{ServicesLinks.map((service) => (
 						<ServiceCard
 							key={service.link}

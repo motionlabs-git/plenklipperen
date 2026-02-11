@@ -6,7 +6,7 @@ const ContactUs = () => {
 	return (
 		<section className='relative'>
 			<div className='section-wrapper'>
-				<div className=' flex gap-8'>
+				<div className=' flex flex-col sm:flex-row gap-4 sm:gap-8'>
 					<h2 className='flex-1'>
 						Bestill en{' '}
 						<span className='text-darkGray'>
@@ -22,7 +22,7 @@ const ContactUs = () => {
 					</p>
 				</div>
 
-				<div className='flex gap-8 mt-10'>
+				<div className='flex flex-col md:flex-row gap-8 mt-10'>
 					<div className='relative w-full rounded-2xl overflow-hidden flex-1'>
 						<Image
 							className='rounded-2xl w-full h-full object-cover'
@@ -33,8 +33,8 @@ const ContactUs = () => {
 						/>
 
 						<div className='absolute bottom-0 px-4 pb-4'>
-							<div className=' blureBox w-full flex-1 rounded-2xl p-8 flex items-center gap-6'>
-								<span className='w-16 aspect-square bg-lightGray flex justify-center items-center rounded-full text-darkGreen'>
+							<div className=' blureBox w-full flex-1 rounded-2xl p-4 sm:p-8 flex items-center gap-6'>
+								<span className='min-w-10 md:min-w-16 w-10 md:w-16 aspect-square bg-lightGray flex justify-center items-center rounded-full text-darkGreen'>
 									<Send className='pt-1 pr-1' />
 								</span>
 

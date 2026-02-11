@@ -1,9 +1,14 @@
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
 
-const NavLink = ({ text, link }: { text: string; link: string }) => {
-	const path = usePathname()
-
+const NavLink = ({
+	text,
+	link,
+	path,
+}: {
+	text: string
+	link: string
+	path: string
+}) => {
 	return (
 		<li
 			className={`hover:text-primary duration-200 h-full ${path === link ? 'text-primary' : 'text-black'}`}

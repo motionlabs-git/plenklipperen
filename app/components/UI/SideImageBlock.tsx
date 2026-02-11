@@ -47,10 +47,10 @@ const SideImageBlock = ({
 					)}
 				</h3>
 
-				<p className='mt-8'>{text}</p>
+				<p className='mt-4 md:mt-8'>{text}</p>
 
 				{list && (
-					<ul className='mt-8 flex flex-col gap-3'>
+					<ul className='mt-4 md:mt-8 flex flex-col gap-3'>
 						{list.map((item, i) => (
 							<li key={i} className='flex gap-2 items-center'>
 								<span className='aspect-square w-8 min-w-4 rounded-full bg-primary text-white flex justify-center items-center'>

@@ -28,7 +28,7 @@ const Hero = () => {
 
 					<GreenButton
 						link='/'
-						className='mt-4 text-lg pl-6 font-semibold'
+						className='mt-4 text-base sm:text-lg pl-6 font-semibold'
 						text={'See services'}
 					/>
 				</div>

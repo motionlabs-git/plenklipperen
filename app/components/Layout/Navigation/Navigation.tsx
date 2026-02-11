@@ -38,15 +38,15 @@ const Navigation = () => {
 	}, [path])
 
 	return (
-		<nav className='w-full fixed z-50 top-0 left-0 pt-8 px-4 flex flex-col items-center'>
-			<div className='bg-white h-18 shadow-md rounded-full px-4 flex justify-between items-center gap-2 w-full max-w-[1290px]'>
+		<nav className='w-full fixed z-50 top-0 left-0 pt-4 sm:pt-8 px-4 flex flex-col items-center'>
+			<div className='bg-white h-14 sm:h-18 shadow-md rounded-full px-2 sm:px-4 flex justify-between items-center gap-2 w-full max-w-[1290px]'>
 				<Link href={'/'}>
 					<Image
 						src={'/brand/logo.jpg'}
 						alt={'Plenklipperen logo'}
 						width={300}
 						height={200}
-						className='w-40'
+						className='w-32 sm:w-40'
 					></Image>
 				</Link>
 
@@ -63,6 +63,7 @@ const Navigation = () => {
 								key={item.link}
 								text={item.text}
 								link={item.link}
+								path={path}
 							/>
 						)
 					})}
@@ -80,6 +81,7 @@ const Navigation = () => {
 
 			{mobileNavigation && (
 				<MobileNavigation
+					path={path}
 					ref={mobileNavRef}
 					handleClose={closeMobileMenu}
 				/>

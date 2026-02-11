@@ -20,12 +20,12 @@ const ContactForm = () => {
 	}
 
 	return (
-		<form onSubmit={handleSubmit(onSubmit)} className='p-10'>
+		<form onSubmit={handleSubmit(onSubmit)} className='p-4 sm:p-10'>
 			<h4 className='sm:w-2/3'>
 				Our Team is Always Here for Support and Assistance
 			</h4>
 
-			<fieldset className='flex flex-col md:flex-row gap-4 mt-4'>
+			<fieldset className='flex flex-col md:flex-row gap-2 sm:gap-4 mt-4'>
 				<Input
 					{...register('name')}
 					error={errors.name}
@@ -43,7 +43,7 @@ const ContactForm = () => {
 				/>
 			</fieldset>
 
-			<fieldset className='flex gap-4 mt-4'>
+			<fieldset className='mt-2 sm:mt-4'>
 				<Input
 					{...register('email')}
 					error={errors.email}
@@ -53,7 +53,7 @@ const ContactForm = () => {
 				/>
 			</fieldset>
 
-			<fieldset className='flex gap-4 mt-4'>
+			<fieldset className='mt-2 sm:mt-4'>
 				<Input
 					{...register('address')}
 					error={errors.name}
@@ -71,7 +71,7 @@ const ContactForm = () => {
 					<textarea
 						id='message'
 						className='w-full block mt-2 '
-						rows={10}
+						rows={8}
 						{...register('message')}
 					></textarea>
 

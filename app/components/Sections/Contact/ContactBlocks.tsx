@@ -4,8 +4,8 @@ import Link from 'next/link'
 
 const ContactBlocks = () => {
 	return (
-		<ul className='flex flex-col flex-wrap sm:flex-row pt-12 gap-8 w-full text-left'>
-			<li className='blureBox flex-1 rounded-2xl p-8 flex items-center gap-6'>
+		<ul className='flex flex-col flex-wrap sm:flex-row pt-12 gap-4 md:gap-8 w-full text-left'>
+			<li className='blureBox flex-1 rounded-2xl p-6 md:p-8 flex items-center gap-6'>
 				<span className='min-w-14 w-14 sm:min-w-16 sm:w-16 aspect-square bg-lightGray flex justify-center items-center rounded-full text-black'>
 					<Handset />
 				</span>
@@ -16,7 +16,7 @@ const ContactBlocks = () => {
 				</div>
 			</li>
 
-			<li className='blureBox flex-1 rounded-2xl p-8 flex items-center gap-6'>
+			<li className='blureBox flex-1 rounded-2xl p-6 md:p-8 flex items-center gap-6'>
 				<span className='min-w-14 w-14 sm:min-w-16 sm:w-16 aspect-square bg-lightGray flex justify-center items-center rounded-full text-black'>
 					<Envelope />
 				</span>
@@ -27,7 +27,7 @@ const ContactBlocks = () => {
 				</div>
 			</li>
 
-			<li className='blureBox flex-1 rounded-2xl p-8 flex items-center gap-6'>
+			<li className='blureBox flex-1 rounded-2xl p-6 md:p-8 flex items-center gap-6'>
 				<span className='min-w-14 w-14 sm:min-w-16 sm:w-16 aspect-square bg-lightGray flex justify-center items-center rounded-full text-black'>
 					<House />
 				</span>

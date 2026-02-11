@@ -14,7 +14,7 @@ export default function Home() {
 			<Services />
 			<span className='divider'></span>
 			<section>
-				<div className='section-wrapper flex flex-col gap-24'>
+				<div className='section-wrapper flex flex-col gap-12 md:gap-24'>
 					<SideImageBlock
 						text='alskjdf lasdjfl ajsdlkfj lasdjf lajsdlf '
 						title='Summer sevice text'

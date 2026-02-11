@@ -8,9 +8,11 @@ import Icon from '../../UI/Icon'
 import { Facebook, Instagram } from 'feather-icons-react'
 import { NavigationLinks } from '@/app/contstants/navigationLinks'
 import { Contact } from '@/app/contstants/contact'
+import { usePathname } from 'next/navigation'
 
 const Footer = () => {
 	const year = new Date().getFullYear()
+	const path = usePathname()
 
 	return (
 		<footer className='flex justify-center px-4 bg-footerWhite'>
@@ -26,13 +28,14 @@ const Footer = () => {
 						></Image>
 					</Link>
 
-					<ul className='flex flex-wrap gap-6 uppercase font-medium text-sm'>
+					<ul className='flex flex-wrap gap-4 md:gap-6 uppercase font-medium text-sm'>
 						{NavigationLinks.map((item) => {
 							return (
 								<NavLink
 									key={item.link}
 									text={item.text}
 									link={item.link}
+									path={path}
 								/>
 							)
 						})}
@@ -42,7 +45,7 @@ const Footer = () => {
 				<div className='divider'></div>
 
 				<div className='py-12 flex justify-between flex-col md:flex-row gap-8'>
-					<ul className='flex sm:items-center gap-8 flex-wrap flex-col sm:flex-row items-start'>
+					<ul className='flex sm:items-center gap-4 md:gap-8 flex-wrap flex-col sm:flex-row items-start'>
 						<li>
 							<FooterLink
 								title={'Phone'}
@@ -70,7 +73,7 @@ const Footer = () => {
 						</li>
 					</ul>
 
-					<ul className='flex items-center gap-8 '>
+					<ul className='flex items-center gap-4 md:gap-8'>
 						<li>
 							<Link target='_blank' href={Contact.fbLink}>
 								<Icon className='hover:bg-primary'>

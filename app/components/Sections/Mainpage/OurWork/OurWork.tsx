@@ -15,7 +15,7 @@ const OurWork = () => {
 					</h2>
 				</div>
 
-				<div className='flex flex-col sm:grid sm:grid-cols-7 sm:grid-rows-2 gap-8 mt-24 aspect-video'>
+				<div className='flex flex-col sm:grid sm:grid-cols-7 sm:grid-rows-2 gap-4 md:gap-8 mt-24 aspect-video'>
 					<ImageBox
 						img={'/images/stripes.jpg'}
 						text={'lorem ipsum dolor sit amet'}
