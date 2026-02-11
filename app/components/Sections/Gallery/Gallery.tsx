@@ -28,15 +28,15 @@ const Gallery = () => {
 	const [selectedImage, setSelectedImage] = useState<null | number>(null)
 
 	const nextImage = () => {
-		if (selectedImage === gallery.length - 1) {
-			setSelectedImage(0)
-		} else setSelectedImage((prev) => prev + 1)
+		setSelectedImage((prev) =>
+			prev !== null ? (prev + 1) % gallery.length : null
+		)
 	}
 
 	const prevImage = () => {
-		if (selectedImage === 0) {
-			setSelectedImage(gallery.length - 1)
-		} else setSelectedImage((prev) => prev - 1)
+		setSelectedImage((prev) =>
+			prev !== null ? (prev - 1 + gallery.length) % gallery.length : null
+		)
 	}
 
 	return (
