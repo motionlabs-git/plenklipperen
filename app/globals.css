@@ -51,7 +51,7 @@ p {
 }
 
 section {
-	@apply py-24 px-4 w-full flex justify-center;
+	@apply py-16 sm:py-24 px-4 w-full flex justify-center;
 
 	.section-wrapper {
 		width: 100%;

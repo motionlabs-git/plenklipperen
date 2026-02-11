@@ -1,13 +1,10 @@
 import Image from 'next/image'
 import GreenButton from '../../UI/GreenButton'
-import ChevronRight from '../../UI/ChevronRight'
-import PlayButton from '../../UI/PlayButton'
-import { CircleInfo } from '@gravity-ui/icons'
-import Link from 'next/link'
+import ContactForm from '../Contact/Form/ContactForm'
 
 const Hero = () => {
 	return (
-		<section className='min-h-screen'>
+		<section className='relative min-h-screen h-fit'>
 			<div className='absolute inset-0 w-full h-full select-none'>
 				<div className='absolute inset-0 bg-black/30'></div>
 
@@ -20,7 +17,7 @@ const Hero = () => {
 				></Image>
 			</div>
 
-			<div className='section-wrapper relative text-white flex gap-10 items-end'>
+			<div className='section-wrapper pt-14 relative text-white flex-col lg:flex-row flex gap-10 items-end'>
 				<div className='flex-1'>
 					<h1>SNØ OG GRØNT VEDLIKEHOLD BERGEN</h1>
 					<p className='mt-6 text-lg'>
@@ -36,8 +33,14 @@ const Hero = () => {
 					/>
 				</div>
 
-				<div className='flex-1 flex gap-4 h-full items-end'>
-					<Link
+				<div className='flex-1 w-full flex gap-4 h-full items-end'>
+					<div className='bg-white/30 w-full rounded-2xl'>
+						<div className='rounded-2xl blureBox  text-black'>
+							<ContactForm />
+						</div>
+					</div>
+
+					{/* <Link
 						href={'/'}
 						className='group relative blureBox flex items-center justify-center rounded-2xl aspect-4/5 w-full overflow-hidden '
 					>
@@ -58,7 +61,7 @@ const Hero = () => {
 
 					<div className='rounded-2xl aspect-4/5 w-full blureBox'>
 						<ChevronRight className='absolute bottom-4 right-4 bg-black' />
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</section>

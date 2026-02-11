@@ -13,6 +13,8 @@ const page = () => {
 			/>
 			<WinterServices />
 
+			<span className='divider'></span>
+
 			<ContactUs />
 		</>
 	)

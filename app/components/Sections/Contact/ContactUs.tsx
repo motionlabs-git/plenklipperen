@@ -1,4 +1,3 @@
-import { Envelope } from '@gravity-ui/icons'
 import { Send } from 'feather-icons-react'
 import Image from 'next/image'
 import ContactForm from './Form/ContactForm'

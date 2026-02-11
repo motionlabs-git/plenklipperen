@@ -12,7 +12,7 @@ const ImageBox = ({
 }) => {
 	return (
 		<div
-			className={`group relative rounded-2xl overflow-hidden ${className}`}
+			className={`group relative rounded-2xl overflow-hidden  ${className}`}
 		>
 			<Image
 				src={img}

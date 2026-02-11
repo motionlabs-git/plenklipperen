@@ -19,8 +19,10 @@ const ServiceCard = ({
 			href={link}
 			className='rounded-2xl shadow-2xs bg-lightGray flex-1 p-6 hover:bg-lightGrayAccent duration-200'
 		>
-			<div className='flex justify-between'>
-				<h3>{title}</h3>
+			<div className='flex gap-2 justify-between'>
+				<h3 className='text-wrap whitespace-break-spaces wrap-anywhere'>
+					{title}
+				</h3>
 				<Icon className='bg-black hover:bg-primary'>
 					<ChevronRight />
 				</Icon>

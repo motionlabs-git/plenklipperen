@@ -14,11 +14,11 @@ const Hero = () => {
 			<div className='absolute inset-0 w-full h-full bg-black/30'></div>
 
 			<div className='section-wrapper relative text-center flex flex-col items-center pt-12'>
-				<h1 className='max-w-4/5'>
+				<h1 className='sm:max-w-4/5'>
 					La oss knytte kontakter og bygge en bærekraftig fremtid
 					sammen
 				</h1>
-				<p className='mt-8 text-lg max-w-4/5'>
+				<p className='mt-8 text-lg sm:max-w-4/5'>
 					Empowering farmers with innovative, eco-friendly practices
 					to meet rising global food demands, conserve natural
 					resources, strengthen communities, and protect our planet’s

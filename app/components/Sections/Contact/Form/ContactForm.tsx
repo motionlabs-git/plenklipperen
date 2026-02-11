@@ -21,11 +21,11 @@ const ContactForm = () => {
 
 	return (
 		<form onSubmit={handleSubmit(onSubmit)} className='p-10'>
-			<h4 className='w-2/3'>
+			<h4 className='sm:w-2/3'>
 				Our Team is Always Here for Support and Assistance
 			</h4>
 
-			<fieldset className='flex gap-4 mt-4'>
+			<fieldset className='flex flex-col md:flex-row gap-4 mt-4'>
 				<Input
 					{...register('name')}
 					error={errors.name}
