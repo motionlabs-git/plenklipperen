@@ -1,5 +1,5 @@
 const sitemap = () => {
-	const baseURL = 'https://acme.com'
+	const baseURL = 'https://plenklipperen.no'
 
 	return [
 		{
@@ -9,10 +9,34 @@ const sitemap = () => {
 			priority: 1,
 		},
 		{
-			url: `${baseURL}/about`,
+			url: `${baseURL}/om-oss`,
+			lastModified: new Date(),
+			changeFrequency: 'monthly',
+			priority: 0.9,
+		},
+		{
+			url: `${baseURL}/tjenester`,
+			lastModified: new Date(),
+			changeFrequency: 'monthly',
+			priority: 0.9,
+		},
+		{
+			url: `${baseURL}/vintertjeneste`,
+			lastModified: new Date(),
+			changeFrequency: 'monthly',
+			priority: 0.9,
+		},
+		{
+			url: `${baseURL}/galleri`,
 			lastModified: new Date(),
 			changeFrequency: 'monthly',
 			priority: 0.8,
+		},
+		{
+			url: `${baseURL}/kontakt`,
+			lastModified: new Date(),
+			changeFrequency: 'monthly',
+			priority: 0.9,
 		},
 	]
 }

@@ -4,12 +4,20 @@ import { ChevronDown } from '@gravity-ui/icons'
 import SubmenuItem from './SubmenuItem'
 import { ServicesLinks } from '@/app/contstants/navigationLinks'
 
-const NavLinkWithSubmenu = ({ text, link }: { text: string; link: string }) => {
+const NavLinkWithSubmenu = ({
+	text,
+	link,
+	path,
+}: {
+	text: string
+	link: string
+	path: string
+}) => {
 	const [isSubmenu, setIsSubmenu] = useState(false)
 
 	return (
 		<li
-			className='hover:text-primary duration-200 h-full '
+			className={`hover:text-primary ${path === link ? 'text-primary' : 'text-black'} duration-200 h-full `}
 			onMouseLeave={() => setIsSubmenu(false)}
 		>
 			<Link

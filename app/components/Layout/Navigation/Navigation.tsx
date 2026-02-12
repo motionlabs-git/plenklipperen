@@ -57,6 +57,7 @@ const Navigation = () => {
 								text={item.text}
 								link={item.link}
 								key={item.link}
+								path={path}
 							/>
 						) : (
 							<NavLink
