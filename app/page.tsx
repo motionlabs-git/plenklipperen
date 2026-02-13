@@ -17,7 +17,7 @@ export default function Home() {
 				<div className='section-wrapper flex flex-col gap-12 md:gap-24'>
 					<SideImageBlock
 						text='alskjdf lasdjfl ajsdlkfj lasdjf lajsdlf '
-						title='Summer sevice text'
+						title='Sommer­tjenester'
 						image='/images/Hero_image.jpg'
 						list={[
 							'lasdkjfklasd',

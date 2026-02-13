@@ -19,17 +19,17 @@ const Hero = () => {
 
 			<div className='section-wrapper pt-14 relative text-white flex-col lg:flex-row flex gap-10 items-end'>
 				<div className='flex-1'>
-					<h1>SNØ OG GRØNT VEDLIKEHOLD BERGEN</h1>
-					<p className='mt-6 text-lg'>
-						We empower farmers with sustainable practices, quality
-						seeds, and modern technologies to cultivate abundant
-						harvests, support comm
+					<h1>Hagevedlikehold og snørydding i Bergen</h1>
+					<p className='mt-6 !text-lg'>
+						Vi tilbyr profesjonell gressklipp, hagevedlikehold,
+						trefelling og snørydding for private og bedrifter i
+						Bergen. Rask respons og pålitelig service hele året.
 					</p>
 
 					<GreenButton
-						link='/'
+						link='/tjenester'
 						className='mt-4 text-base sm:text-lg pl-6 font-semibold'
-						text={'See services'}
+						text={'Gå til tjenester'}
 					/>
 				</div>
 
@@ -39,29 +39,6 @@ const Hero = () => {
 							<ContactForm />
 						</div>
 					</div>
-
-					{/* <Link
-						href={'/'}
-						className='group relative blureBox flex items-center justify-center rounded-2xl aspect-4/5 w-full overflow-hidden '
-					>
-						<Image
-							src={'/images/instagram.jpg'}
-							alt={'Alt'}
-							width={500}
-							height={500}
-							className='w-full h-full object-cover opacity-80 group-hover:opacity-100 duration-200'
-						/>
-
-						<div className='absolute right-2 bottom-2 flex gap-2 items-center blureBox rounded-full px-3 py-1 text-sm'>
-							<CircleInfo />
-							<span>See our instagram!</span>
-						</div>
-						<PlayButton className='absolute' />
-					</Link>
-
-					<div className='rounded-2xl aspect-4/5 w-full blureBox'>
-						<ChevronRight className='absolute bottom-4 right-4 bg-black' />
-					</div> */}
 				</div>
 			</div>
 		</section>

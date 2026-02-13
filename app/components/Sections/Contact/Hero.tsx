@@ -18,11 +18,9 @@ const Hero = () => {
 					La oss knytte kontakter og bygge en bærekraftig fremtid
 					sammen
 				</h1>
-				<p className='mt-8 text-lg sm:max-w-4/5'>
-					Empowering farmers with innovative, eco-friendly practices
-					to meet rising global food demands, conserve natural
-					resources, strengthen communities, and protect our planet’s
-					sustainable future.
+				<p className='mt-8 !text-lg sm:max-w-4/5'>
+					Ta kontakt med oss – ring, send en e-post eller fyll ut
+					kontaktskjemaet, så svarer vi raskt.
 				</p>
 
 				<ContactBlocks />

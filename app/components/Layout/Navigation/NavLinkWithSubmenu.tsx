@@ -43,7 +43,7 @@ const NavLinkWithSubmenu = ({
 							<SubmenuItem
 								key={service.link}
 								title={service.title}
-								text={service.text}
+								text={service.subTitle}
 								image={service.image}
 								link={service.link}
 							/>

@@ -7,10 +7,12 @@ const OurWork = () => {
 			<div className='section-wrapper'>
 				<div className='w-full flex justify-center'>
 					<h2 className='text-center sm:w-2/3 leading-12'>
-						Naše práce.. ukázky toho, jak makáme Lorem ipsum dolor
-						sit amet consectetur adipisicing elit. Nostrum{' '}
+						Våre prosjekter i Bergen.{' '}
 						<span className='text-darkGray'>
-							veniam similique consectetur adip
+							Eksempler på gressklipping, hagevedlikehold,
+							trefelling og vinterservice i Bergen. Pålitelig
+							arbeid med synlige resultater og langvarig omsorg
+							for eiendommen din.
 						</span>
 					</h2>
 				</div>

@@ -1,25 +1,39 @@
-import Image from 'next/image'
+import ReferenceCard from './ReferenceCard'
 
 const References = () => {
 	return (
-		<section className='relative min-h-screen'>
-			<div className='w-full h-full absolute inset-0'>
-				<div className='absolute inset-0 bg-linear-to-t from-transparent to-white from-80%'></div>
-				<Image
-					src={'/images/Hero_image.jpg'}
-					alt={'References image'}
-					width={2000}
-					height={2000}
-					className='w-full h-full object-cover'
-				/>
-			</div>
+		<section>
+			<div className='section-wrapper'>
+				<h2>
+					What they{' '}
+					<span className='text-darkGray'>say about us</span>
+				</h2>
 
-			<div className='section-wrapper relative text-white'>
-				<h1>References</h1>
-				oasdjflkasdj asldkjf lasdjfl kasdjlfjasl Lorem ipsum dolor sit
-				amet consectetur adipisicing elit. Non obcaecati dolor cumque
-				veritatis labore quibusdam, sequi atque molestiae aspernatur
-				voluptates et quaerat rem aut magnam fuga alias odio iusto ex.
+				<div className='mt-10 grid aspect-square lg:aspect-video grid-cols-1 sm:grid-cols-2 sm:grid-rows-2 gap-4 md:gap-8'>
+					<ReferenceCard
+						title={'Name Surname'}
+						text={
+							'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit at repudiandae doloribus distinctio odioofficia, molestias explicabo cupiditate asperioresdolores sed dolorum facilis alias ut molestiaedeleniti reiciendis perferendis cumque.'
+						}
+						className={'row-span-1 col-span-1'}
+					/>
+
+					<ReferenceCard
+						title={'Name Surname'}
+						text={
+							'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit at repudiandae doloribus distinctio odioofficia, molestias explicabo cupiditate asperioresdolores sed dolorum facilis alias ut molestiaedeleniti reiciendis perferendis cumque.'
+						}
+						className={'row-span-2 col-span-1'}
+					/>
+
+					<ReferenceCard
+						title={'Name Surname'}
+						text={
+							'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit at repudiandae doloribus distinctio odioofficia, molestias explicabo cupiditate asperioresdolores sed dolorum facilis alias ut molestiaedeleniti reiciendis perferendis cumque.'
+						}
+						className={'row-span-1 col-span-1 '}
+					/>
+				</div>
 			</div>
 		</section>
 	)

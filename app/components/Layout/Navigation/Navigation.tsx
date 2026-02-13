@@ -73,9 +73,9 @@ const Navigation = () => {
 				<div className='flex items-center'>
 					<Hamburger handleClick={openMobileMenu} />
 					<GreenButton
-						text={'Contact us'}
+						text={'Kontakt oss'}
 						className='text-sm pl-4 font-semibold hidden md:flex'
-						link='/contact'
+						link='/kontakt'
 					/>
 				</div>
 			</div>

@@ -6,7 +6,7 @@ const page = () => {
 		<>
 			<PageHeadingSection
 				image={'/images/vinterford.jpg'}
-				title={'Plenklipperen gallery'}
+				title={'Galleri av vårt arbeid'}
 			/>
 
 			<Gallery />

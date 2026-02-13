@@ -11,7 +11,7 @@ const ContactBlocks = () => {
 				</span>
 
 				<div>
-					<p className='text-xl !font-bold'>Phone number</p>
+					<p className='text-xl !font-bold'>Telefon</p>
 					<Link href={`phone:${Contact.phone}`}>{Contact.phone}</Link>
 				</div>
 			</li>
@@ -22,7 +22,7 @@ const ContactBlocks = () => {
 				</span>
 
 				<div>
-					<p className='text-xl !font-bold'>Email</p>
+					<p className='text-xl !font-bold'>E-post</p>
 					<Link href={`mailto:${Contact.mail}`}>{Contact.mail}</Link>
 				</div>
 			</li>
@@ -33,7 +33,7 @@ const ContactBlocks = () => {
 				</span>
 
 				<div>
-					<p className='text-xl !font-bold'>Email</p>
+					<p className='text-xl !font-bold'>Adresse</p>
 					<p>{Contact.address}</p>
 				</div>
 			</li>

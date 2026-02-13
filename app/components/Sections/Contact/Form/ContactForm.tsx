@@ -22,7 +22,7 @@ const ContactForm = () => {
 	return (
 		<form onSubmit={handleSubmit(onSubmit)} className='p-4 sm:p-10'>
 			<h4 className='sm:w-2/3'>
-				Our Team is Always Here for Support and Assistance
+				Vårt team er alltid tilgjengelig for støtte og hjelp
 			</h4>
 
 			<fieldset className='flex flex-col md:flex-row gap-2 sm:gap-4 mt-4'>
@@ -31,7 +31,7 @@ const ContactForm = () => {
 					error={errors.name}
 					id='name'
 					required
-					placeholder='Name'
+					placeholder='Navn'
 				/>
 
 				<Input
@@ -39,7 +39,7 @@ const ContactForm = () => {
 					error={errors.name}
 					id='phone'
 					required
-					placeholder='Phone'
+					placeholder='Telefon'
 				/>
 			</fieldset>
 
@@ -49,7 +49,7 @@ const ContactForm = () => {
 					error={errors.email}
 					id='email'
 					required
-					placeholder='Email'
+					placeholder='E-post'
 				/>
 			</fieldset>
 
@@ -58,14 +58,14 @@ const ContactForm = () => {
 					{...register('address')}
 					error={errors.name}
 					id='address'
-					placeholder='Address'
+					placeholder='Adresse'
 				/>
 			</fieldset>
 
 			<fieldset className='flex gap-4 mt-4'>
 				<span className='flex-1'>
 					<label htmlFor='message' className='required'>
-						Message
+						Beskjed
 					</label>
 
 					<textarea
@@ -88,7 +88,7 @@ const ContactForm = () => {
 					className='px-8 py-3 bg-primary rounded-full flex items-center gap-4 hover:bg-primaryAccent duration-200 cursor-pointer shadow-sm select-none w-fit text-white font-bold '
 					type='submit'
 				>
-					Submit form
+					Send forespørsel
 				</button>
 			</fieldset>
 		</form>

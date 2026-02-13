@@ -5,9 +5,11 @@ const SummerServices = () => {
 		<section>
 			<div className='section-wrapper flex flex-col gap-12 md:gap-24'>
 				<SideImageBlock
-					title={'Cutting'}
-					id='grasscutting'
-					text={'Text about cutting, things we do how it works'}
+					title={'Plenhold'}
+					id='plenhold'
+					text={
+						'Vi tilbyr både regelmessig og engangs gressklipp for private boliger, bedrifter og større eiendommer. Vi sørger for et jevnt og pent resultat, kantklipping og opprydding etter arbeidet. Plenen din holder seg velstelt gjennom hele sesongen.'
+					}
 					image={'/images/Hero_image.jpg'}
 					list={[
 						'lasdkjfklasd',
@@ -17,8 +19,8 @@ const SummerServices = () => {
 				/>
 
 				<SideImageBlock
-					title={'Maintanance'}
-					id='maintanance'
+					title={'Hagevedlikehold'}
+					id='hagevedlikehold'
 					text={'Text about maintanance, things we do how it works'}
 					image={'/images/Hero_image.jpg'}
 					list={[
@@ -30,7 +32,8 @@ const SummerServices = () => {
 				/>
 
 				<SideImageBlock
-					title={'Tree cutting'}
+					title={'Trefelling'}
+					id='trefelling'
 					text={'Text about tree cutting, things we do how it works'}
 					image={'/images/Hero_image.jpg'}
 					list={[

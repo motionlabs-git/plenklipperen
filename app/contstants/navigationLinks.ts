@@ -1,27 +1,31 @@
 export const ServicesLinks = [
 	{
 		title: 'Plenhold',
-		text: 'Some text about gresskliping',
+		subTitle: 'Plenklipp, kantklipping, opprydding av gress',
+		text: 'Vi tilbyr både regelmessig og engangs gressklipp for private boliger, bedrifter og større eiendommer. Vi sørger for et jevnt og pent resultat, kantklipping og opprydding etter arbeidet. Plenen din holder seg velstelt gjennom hele sesongen.',
 		image: '/images/Hero_image.jpg',
 		link: '/tjenester#plenhold',
 	},
 	{
-		title: 'Maintanance',
-		text: 'Planting, weed removing, hedge cutting...',
+		title: 'Hagevedlikehold',
+		subTitle: 'Luking, planting, hekkklipping, bortkjøring av løv',
+		text: 'Komplett hagevedlikehold – luking, planting, beskjæring av hekk, bortkjøring av løv og sesongarbeid. Vi hjelper deg med å holde hagen sunn, ryddig og representativ uten stress.',
 		image: '/images/bushes.jpg',
-		link: '/tjenester#maintanance',
+		link: '/tjenester#hagevedlikehold',
 	},
 	{
-		title: 'Tree cutting',
-		text: 'Some text about tree cutting',
+		title: 'Trefelling',
+		subTitle: 'Trefelling, oppkapping av ved, opprydding',
+		text: 'Sikker trefelling inkludert oppkapping av ved og opprydding på eiendommen. Vi håndterer både små og store trær med fokus på sikkerhet og profesjonell utførelse.',
 		image: '/images/chris_adam.jpg',
-		link: '/tjenester#tree-cutting',
+		link: '/tjenester#trefelling',
 	},
 	{
-		title: 'Adjustments/repairs',
-		text: 'Other jobs like painting, repairs, cleaning',
+		title: 'Reparasjoner og justeringer',
+		subTitle: 'Maling, rydding av tomt, mindre reparasjoner',
+		text: 'Mindre reparasjoner, maling, rydding av tomt og annet vedlikeholdsarbeid rundt bolig eller næringseiendom. En pålitelig og effektiv løsning når noe må ordnes.',
 		image: '/images/okap.jpg',
-		link: '/tjenester#adjustments',
+		link: '/tjenester#justeringer',
 	},
 ]
 

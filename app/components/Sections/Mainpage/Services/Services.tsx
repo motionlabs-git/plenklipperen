@@ -7,17 +7,17 @@ const Services = () => {
 			<div className='section-wrapper'>
 				<div className='flex flex-col sm:flex-row gap-4 sm:gap-8'>
 					<h2 className='flex-1'>
-						Naše služby{' '}
+						Våre tjenester{' '}
 						<span className='text-darkGray'>
-							profesjonell konsultasjon i dag
+							– få mest mulig ut av hagen din
 						</span>
 					</h2>
 
 					<p className='flex-1'>
-						Bare fyll ut det korte skjemaet, så vil teamet vårt
-						raskt svare med den mest effektive og personlige
-						løsningen som er skreddersydd for dine unike behov og
-						mål.
+						Vi tilbyr skreddersydde løsninger for hage og
+						uteområder. Enten du trenger regelmessig vedlikehold
+						eller en engangsjobb, sørger vi for pålitelig arbeid med
+						synlige resultater.
 					</p>
 				</div>
 
