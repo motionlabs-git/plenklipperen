@@ -3,7 +3,8 @@ import GreenButton from './components/UI/GreenButton'
 
 export const metadata: Metadata = {
 	title: `Oi! Denne siden ble ikke funnet`,
-	description: '',
+	description:
+		'Vi tilbyr profesjonell gressklipp, hagevedlikehold, trefelling og snørydding for private og bedrifter i Bergen. Rask respons og pålitelig service hele året.',
 	keywords: '',
 	authors: [{ name: 'Motionlabs', url: 'https://motionlabs.cz' }],
 	twitter: {

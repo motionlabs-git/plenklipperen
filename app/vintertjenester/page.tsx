@@ -4,8 +4,9 @@ import ContactUs from '../components/Sections/Contact/ContactUs'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-	title: `Vintertjenester`,
-	description: '',
+	title: `Snørydding og vintertjenester i Bergen`,
+	description:
+		'Profesjonell snørydding og strøing i Bergen. Trygge uteområder hele vinteren for private, borettslag og bedrifter.',
 }
 
 const page = () => {

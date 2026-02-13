@@ -38,8 +38,8 @@ const Navigation = () => {
 	}, [path])
 
 	return (
-		<nav className='w-full fixed z-50 top-0 left-0 pt-4 sm:pt-8 px-4 flex flex-col items-center'>
-			<div className='bg-white h-14 sm:h-18 shadow-md rounded-full px-2 sm:px-4 flex justify-between items-center gap-2 w-full max-w-[1290px]'>
+		<header className='w-full fixed z-50 top-0 left-0 pt-4 sm:pt-8 px-4 flex flex-col items-center'>
+			<nav className='bg-white h-14 sm:h-18 shadow-md rounded-full px-2 sm:px-4 flex justify-between items-center gap-2 w-full max-w-[1290px]'>
 				<Link aria-label='Plenklipperen logo' href={'/'}>
 					<Image
 						src={'/brand/logo.jpg'}
@@ -78,7 +78,7 @@ const Navigation = () => {
 						link='/kontakt'
 					/>
 				</div>
-			</div>
+			</nav>
 
 			{mobileNavigation && (
 				<MobileNavigation
@@ -87,7 +87,7 @@ const Navigation = () => {
 					handleClose={closeMobileMenu}
 				/>
 			)}
-		</nav>
+		</header>
 	)
 }
 

@@ -11,7 +11,7 @@ const rubik = Rubik({
 })
 
 export const metadata: Metadata = {
-	metadataBase: new URL('https://plenklipperen.no'),
+	metadataBase: new URL('https://plenklipperen.vercel.app'),
 	authors: [{ name: 'Motionlabs', url: 'https://motionlabs.cz' }],
 	title: {
 		default: `Plenklipperen - Hagevedlikehold og Snørydding i Bergen`,
@@ -30,30 +30,14 @@ export const metadata: Metadata = {
 		images: '/brand/open-graph.png',
 	},
 	icons: {
-		icon: [
-			{
-				media: '(prefers-color-scheme: light)',
-				url: '/brand/favicon-dark.ico',
-				href: '/brand/favicon-dark.ico',
-			},
-			{
-				media: '(prefers-color-scheme: dark)',
-				url: '/brand/favicon-light.ico',
-				href: '/brand/favicon-light.ico',
-			},
-		],
-		apple: [
-			{
-				media: '(prefers-color-scheme: light)',
-				url: '/brand/apple-touch-icon-dark.png',
-				href: '/brand/apple-touch-icon-dark.png',
-			},
-			{
-				media: '(prefers-color-scheme: dark)',
-				url: '/brand/apple-touch-icon-light.png',
-				href: '/brand/apple-touch-icon-light.png',
-			},
-		],
+		icon: {
+			url: '/brand/favicon.ico',
+			href: '/brand/favicon.ico',
+		},
+		apple: {
+			url: '/brand/apple-touch-icon.png',
+			href: '/brand/apple-touch-icon.png',
+		},
 	},
 }
 

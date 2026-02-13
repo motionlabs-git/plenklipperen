@@ -7,7 +7,7 @@ const SideImageBlock = ({
 	id,
 	title,
 	grayTitle,
-	text,
+	texts,
 	image,
 	list,
 	link,
@@ -16,7 +16,7 @@ const SideImageBlock = ({
 	grayTitle?: string
 	title: string
 	id?: string
-	text: string
+	texts: string[]
 	image: string
 	list?: string[]
 	link?: string
@@ -47,7 +47,11 @@ const SideImageBlock = ({
 					)}
 				</h3>
 
-				<p className='mt-4 md:mt-8'>{text}</p>
+				{texts.map((text, i) => (
+					<p key={i} className='mt-4 md:mt-8'>
+						{text}
+					</p>
+				))}
 
 				{list && (
 					<ul className='mt-4 md:mt-8 flex flex-col gap-3'>
@@ -65,7 +69,7 @@ const SideImageBlock = ({
 				{link && (
 					<GreenButton
 						className='mt-8 pl-6 py-2 font-semibold'
-						text='Read more about it'
+						text='Les mer'
 						link={link}
 					/>
 				)}

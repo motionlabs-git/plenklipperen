@@ -16,27 +16,38 @@ export default function Home() {
 			<section>
 				<div className='section-wrapper flex flex-col gap-12 md:gap-24'>
 					<SideImageBlock
-						text='alskjdf lasdjfl ajsdlkfj lasdjf lajsdlf '
+						texts={[
+							'Vi tilbyr profesjonelle sommertjenester i Bergen for private boliger, borettslag og næringseiendommer. Vårt fokus er å levere pålitelig hagearbeid og vedlikehold som holder uteområdene dine velstelte, funksjonelle og representative gjennom hele sesongen.',
+							'Enten du trenger regelmessig gressklipping i Bergen, komplett hagevedlikehold eller trygg trefelling, tilpasser vi løsningene etter eiendommens behov. Med lokalkunnskap og effektiv gjennomføring sørger vi for at hagen og uteområdet ditt holder høy standard hele sommeren.',
+						]}
 						title='Sommer­tjenester'
 						image='/images/Hero_image.jpg'
 						list={[
-							'lasdkjfklasd',
-							'lasdkjflkasdjl',
-							'askldfjadklsjfklasd f',
+							'Gressklipping i Bergen',
+							'Kantklipp og plenvedlikehold',
+							'Komplett hagevedlikehold',
+							'Beskjæring av hekker og busker',
+							'Høytrykksspyling av terrasser og uteområder',
+							'Rydding av tomt og bortkjøring av hageavfall',
 						]}
-						link='/services'
+						link='/tjenester'
 					/>
 					<SideImageBlock
 						reversed
-						text='alskjdf lasdjfl ajsdlkfj lasdjf lajsdlf '
+						texts={[
+							'Vi tilbyr pålitelig snørydding og vintervedlikehold i Bergen og omegn, inkludert boligområder og næringseiendommer. Når vinteren kommer, er det viktig med rask og effektiv brøyting for å sikre trygge uteområder.',
+							'Vi hjelper både privatkunder, borettslag og bedrifter med snømåking, strøing og forebyggende vintervedlikehold gjennom hele sesongen.',
+						]}
 						title='Vintertjenester'
 						image='/images/vinterford.jpg'
 						list={[
-							'lasdkjfklasd',
-							'lasdkjflkasdjl',
-							'askldfjadklsjfklasd f',
+							'Snørydding av gårdsplasser og parkeringsområder',
+							'Brøyting for borettslag og bedrifter',
+							'Strøing for økt sikkerhet',
+							'Sesongbaserte avtaler',
+							'Rask respons ved snøfall',
 						]}
-						link='/winter-services'
+						link='/vintertjenester'
 					/>
 				</div>
 			</section>

@@ -3,8 +3,9 @@ import Gallery from '../components/Sections/Gallery/Gallery'
 import PageHeadingSection from '../components/UI/PageHeadingSection'
 
 export const metadata: Metadata = {
-	title: `Galleri`,
-	description: '',
+	title: `Galleri | Hagearbeid og snørydding i Bergen`,
+	description:
+		'Se bilder av våre prosjekter innen gressklipping, hagearbeid, trefelling og snørydding i Bergen. Kvalitet og synlige resultater. Plenklipperen - Vi klipper plen!',
 }
 
 const page = () => {
