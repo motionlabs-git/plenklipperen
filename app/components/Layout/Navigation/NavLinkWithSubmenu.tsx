@@ -21,6 +21,7 @@ const NavLinkWithSubmenu = ({
 			onMouseLeave={() => setIsSubmenu(false)}
 		>
 			<Link
+				aria-label={text}
 				className='h-full flex items-center gap-1'
 				href={link}
 				onMouseEnter={() => setIsSubmenu(true)}

@@ -16,6 +16,7 @@ const ServiceCard = ({
 }) => {
 	return (
 		<Link
+			aria-label={title}
 			href={link}
 			className='rounded-2xl shadow-2xs bg-lightGray flex flex-col justify-between flex-1 p-6 hover:bg-lightGrayAccent duration-200'
 		>

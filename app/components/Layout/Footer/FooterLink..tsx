@@ -14,6 +14,7 @@ const FooterLink = ({
 }) => {
 	return (
 		<Link
+			aria-label={title}
 			target='_blank'
 			href={link}
 			className='group flex items-center gap-6 group'

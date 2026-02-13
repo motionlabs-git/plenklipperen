@@ -27,6 +27,7 @@ const MobileNavigation = ({
 			<div className='relative bg-darkGreen h-full rounded-3xl w-full sm:w-2/3 p-8 flex flex-col justify-between '>
 				<div className='flex flex-col gap-8'>
 					<button
+						aria-label='Close mobile navigation'
 						onClick={handleClose}
 						className='w-fit aspect-square relative flex justify-center items-center cursor-pointer self-end hover:rotate-90 duration-200 p-1'
 					>
@@ -56,7 +57,11 @@ const MobileNavigation = ({
 
 				<ul className=' flex items-center gap-4'>
 					<li>
-						<Link target='_blank' href={Contact.fbLink}>
+						<Link
+							aria-label='Plenklipperen facebook link'
+							target='_blank'
+							href={Contact.fbLink}
+						>
 							<Icon className='hover:bg-primary bg-white group'>
 								<Facebook className='w-4 text-black group-hover:text-white duration-200'></Facebook>
 							</Icon>
@@ -64,7 +69,11 @@ const MobileNavigation = ({
 					</li>
 
 					<li>
-						<Link target='_blank' href={Contact.igLink}>
+						<Link
+							aria-label='Plenklipperen instagram link'
+							target='_blank'
+							href={Contact.igLink}
+						>
 							<Icon className='hover:bg-primary bg-white group'>
 								<Instagram className='w-4 text-black group-hover:text-white duration-200'></Instagram>
 							</Icon>

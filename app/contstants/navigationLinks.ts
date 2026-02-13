@@ -44,8 +44,8 @@ export const NavigationLinks = [
 		subLinks: [...ServicesLinks],
 	},
 	{
-		text: 'Vintertjeneste',
-		link: '/vintertjeneste',
+		text: 'Vintertjenester',
+		link: '/vintertjenester',
 	},
 	{
 		text: 'Galleri',

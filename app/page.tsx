@@ -29,7 +29,7 @@ export default function Home() {
 					<SideImageBlock
 						reversed
 						text='alskjdf lasdjfl ajsdlkfj lasdjf lajsdlf '
-						title='Winter service text'
+						title='Vintertjenester'
 						image='/images/vinterford.jpg'
 						list={[
 							'lasdkjfklasd',

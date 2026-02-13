@@ -18,7 +18,7 @@ const Footer = () => {
 		<footer className='flex justify-center px-4 bg-footerWhite'>
 			<div className='w-full max-w-[var(--siteWidth)] py-12'>
 				<div className='flex justify-between py-12 flex-col items-center gap-8 sm:flex-row'>
-					<Link href={'/'}>
+					<Link aria-label='Plenklipperen logo' href={'/'}>
 						<Image
 							src={'/brand/logo.jpg'}
 							alt={'Plenklipperen logo'}
@@ -75,7 +75,11 @@ const Footer = () => {
 
 					<ul className='flex items-center gap-4 md:gap-8'>
 						<li>
-							<Link target='_blank' href={Contact.fbLink}>
+							<Link
+								aria-label='Plenklipperen facebook link'
+								target='_blank'
+								href={Contact.fbLink}
+							>
 								<Icon className='hover:bg-primary'>
 									<Facebook className='w-4'></Facebook>
 								</Icon>
@@ -83,7 +87,11 @@ const Footer = () => {
 						</li>
 
 						<li>
-							<Link target='_blank' href={Contact.igLink}>
+							<Link
+								aria-label='Plenklipperen instagram link'
+								target='_blank'
+								href={Contact.igLink}
+							>
 								<Icon className='hover:bg-primary'>
 									<Instagram className='w-4'></Instagram>
 								</Icon>
@@ -95,7 +103,7 @@ const Footer = () => {
 				<div className='divider'></div>
 
 				<div className='py-6 flex justify-between flex-wrap'>
-					<p className='text-darkGray text-sm'>
+					<p className='text-darkGray !text-sm'>
 						&#169; {year === 2025 ? year : `2025 - ${year}`} | {''}
 						<Link
 							className='hover:text-primary'
@@ -106,7 +114,7 @@ const Footer = () => {
 						</Link>
 					</p>
 
-					<p className='text-sm text-darkGray'>
+					<p className='!text-sm text-darkGray'>
 						This website was created by
 						<Link
 							target='_blank'

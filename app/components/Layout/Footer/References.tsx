@@ -5,8 +5,7 @@ const References = () => {
 		<section>
 			<div className='section-wrapper'>
 				<h2>
-					What they{' '}
-					<span className='text-darkGray'>say about us</span>
+					Hva de sier <span className='text-darkGray'>om oss</span>
 				</h2>
 
 				<div className='mt-10 grid aspect-square lg:aspect-video grid-cols-1 sm:grid-cols-2 sm:grid-rows-2 gap-4 md:gap-8'>

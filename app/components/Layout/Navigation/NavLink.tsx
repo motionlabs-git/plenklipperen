@@ -14,6 +14,7 @@ const NavLink = ({
 			className={`hover:text-primary duration-200 h-full ${path === link ? 'text-primary' : 'text-black'}`}
 		>
 			<Link
+				aria-label={text}
 				className='h-full flex items-center gap-1 text-nowrap whitespace-nowrap'
 				href={link}
 			>

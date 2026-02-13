@@ -1,5 +1,24 @@
-import React from 'react'
+import { Metadata } from 'next'
 import GreenButton from './components/UI/GreenButton'
+
+export const metadata: Metadata = {
+	title: `Oi! Denne siden ble ikke funnet`,
+	description: '',
+	keywords: '',
+	authors: [{ name: 'Motionlabs', url: 'https://motionlabs.cz' }],
+	twitter: {
+		card: 'summary_large_image',
+	},
+	openGraph: {
+		title: 'Plenklipperen - Hagevedlikehold og Snørydding i Bergen',
+		description: '',
+		images: '/brand/open-graph.png',
+	},
+	robots: {
+		index: false,
+		follow: false,
+	},
+}
 
 const PageNotFound = () => {
 	return (

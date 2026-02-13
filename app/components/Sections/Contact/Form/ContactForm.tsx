@@ -85,6 +85,7 @@ const ContactForm = () => {
 
 			<fieldset className='flex justify-center mt-4'>
 				<button
+					aria-label='Submit form'
 					className='px-8 py-3 bg-primary rounded-full flex items-center gap-4 hover:bg-primaryAccent duration-200 cursor-pointer shadow-sm select-none w-fit text-white font-bold '
 					type='submit'
 				>

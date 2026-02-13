@@ -1,7 +1,12 @@
-import React from 'react'
 import PageHeadingSection from '../components/UI/PageHeadingSection'
 import WinterServices from '../components/Sections/WinterServices/WinterServices'
 import ContactUs from '../components/Sections/Contact/ContactUs'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+	title: `Vintertjenester`,
+	description: '',
+}
 
 const page = () => {
 	return (

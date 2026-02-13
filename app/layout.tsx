@@ -17,14 +17,16 @@ export const metadata: Metadata = {
 		default: `Plenklipperen - Hagevedlikehold og Snørydding i Bergen`,
 		template: 'Plenklipperen - %s',
 	},
-	description: '',
+	description:
+		'Vi tilbyr profesjonell gressklipp, hagevedlikehold, trefelling og snørydding for private og bedrifter i Bergen. Rask respons og pålitelig service hele året.',
 	keywords: '',
 	twitter: {
 		card: 'summary_large_image',
 	},
 	openGraph: {
-		title: 'Motionlabs - Web development',
-		description: '',
+		title: 'Plenklipperen - Hagevedlikehold og Snørydding i Bergen',
+		description:
+			'Vi tilbyr profesjonell gressklipp, hagevedlikehold, trefelling og snørydding for private og bedrifter i Bergen. Rask respons og pålitelig service hele året.',
 		images: '/brand/open-graph.png',
 	},
 	icons: {

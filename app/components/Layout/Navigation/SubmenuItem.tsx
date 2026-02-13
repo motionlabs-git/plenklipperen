@@ -15,6 +15,7 @@ const SubmenuItem = ({
 }) => {
 	return (
 		<Link
+			aria-label={text}
 			href={link}
 			className='relative bg-lightGray rounded-2xl shadow-xs w-full aspect-square hover:bg-lightGrayAccent duration-200 p-4 text-black normal-case flex flex-col'
 		>

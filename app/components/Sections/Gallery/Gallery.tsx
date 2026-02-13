@@ -44,6 +44,7 @@ const Gallery = () => {
 			{selectedImage !== null && (
 				<div className='fixed inset-0 w-screen h-dvh  bg-darkGreen/50 backdrop-blur-xs z-50 py-24 px-4 flex gap-4 items-center justify-center select-none'>
 					<button
+						aria-label='Previous image'
 						onClick={prevImage}
 						className='absolute z-50 left-6 md:left-0 md:relative'
 					>
@@ -53,6 +54,7 @@ const Gallery = () => {
 					</button>
 					<div className='relative aspect-4/5 rounded-2xl overflow-hidden h-auto w-xl'>
 						<button
+							aria-label='Close gallery image'
 							onClick={() => setSelectedImage(null)}
 							className='absolute top-2 right-2'
 						>
@@ -71,6 +73,7 @@ const Gallery = () => {
 					</div>
 
 					<button
+						aria-label='Next image'
 						className='absolute z-50 right-6 md:left-0 md:relative'
 						onClick={nextImage}
 					>

@@ -12,7 +12,12 @@ const ContactBlocks = () => {
 
 				<div>
 					<p className='text-xl !font-bold'>Telefon</p>
-					<Link href={`phone:${Contact.phone}`}>{Contact.phone}</Link>
+					<Link
+						aria-label='Plenklipperen phone link'
+						href={`phone:${Contact.phone}`}
+					>
+						{Contact.phone}
+					</Link>
 				</div>
 			</li>
 
@@ -23,7 +28,12 @@ const ContactBlocks = () => {
 
 				<div>
 					<p className='text-xl !font-bold'>E-post</p>
-					<Link href={`mailto:${Contact.mail}`}>{Contact.mail}</Link>
+					<Link
+						aria-label='Plenklipperen email link'
+						href={`mailto:${Contact.mail}`}
+					>
+						{Contact.mail}
+					</Link>
 				</div>
 			</li>
 
