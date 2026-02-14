@@ -12,7 +12,7 @@ const page = () => {
 	return (
 		<>
 			<PageHeadingSection
-				image={'/images/vinterford.jpg'}
+				image={'/images/grass10.jpeg'}
 				title={'Galleri av vårt arbeid'}
 			/>
 

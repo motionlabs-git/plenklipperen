@@ -21,7 +21,7 @@ export default function Home() {
 							'Enten du trenger regelmessig gressklipping i Bergen, komplett hagevedlikehold eller trygg trefelling, tilpasser vi løsningene etter eiendommens behov. Med lokalkunnskap og effektiv gjennomføring sørger vi for at hagen og uteområdet ditt holder høy standard hele sommeren.',
 						]}
 						title='Sommer­tjenester'
-						image='/images/Hero_image.jpg'
+						image='/images/kvitko.jpg'
 						list={[
 							'Gressklipping i Bergen',
 							'Kantklipp og plenvedlikehold',

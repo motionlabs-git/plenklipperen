@@ -7,20 +7,52 @@ import { ChevronLeft, ChevronRight, Xmark } from '@gravity-ui/icons'
 
 const gallery = [
 	{
-		img: '/images/bushes.jpg',
-		title: 'Image ajsdl fasdljafsld lasd',
+		img: '/images/gallery/plenklipperen1.jpg',
+		title: 'Gressklipping i Bergen – velstelt plen etter profesjonell klipp',
 	},
 	{
-		img: '/images/okap.jpg',
-		title: 'Image ajsdl fasdljafsld lasd',
+		img: '/images/gallery/plenklipperen2.jpg',
+		title: 'Profesjonell plenklipping i Bergen for private eiendommer',
 	},
 	{
-		img: '/images/vinterford.jpg',
-		title: 'Image ajsdl fasdljafsld lasd',
+		img: '/images/gallery/plenklipperen3.jpg',
+		title: 'Hagevedlikehold i Bergen – perfekt klippet gress',
 	},
 	{
-		img: '/images/stripes.jpg',
-		title: 'Image ajsdl fasdljafsld lasd',
+		img: '/images/gallery/plenklipperen4.jpg',
+		title: 'Plenservice i Bergen med jevnt og tett resultat',
+	},
+	{
+		img: '/images/gallery/plenklipperen5.jpeg',
+		title: 'Gressklipping og kantklipp i Bergen – profesjonelt utført',
+	},
+	{
+		img: '/images/gallery/plenklipperen6.jpeg',
+		title: 'Vedlikehold av hage og plen i Bergen gjennom sesongen',
+	},
+	{
+		img: '/images/gallery/plenklipperen7.jpeg',
+		title: 'Nylig klippet plen i Bergen med synlige striper',
+	},
+	{
+		img: '/images/gallery/plenklipperen8.jpg',
+		title: 'Hagearbeid i Bergen – kvalitet og presisjon i hver detalj',
+	},
+	{
+		img: '/images/gallery/plenklipperen9.jpg',
+		title: 'Profesjonell plenklipper tjeneste i Bergen',
+	},
+	{
+		img: '/images/gallery/plenklipperen10.jpg',
+		title: 'Pent vedlikeholdt uteområde etter gressklipping i Bergen',
+	},
+	{
+		img: '/images/gallery/plenklipperen11.jpg',
+		title: 'Resultat etter hagevedlikehold og plenklipp i Bergen',
+	},
+	{
+		img: '/images/gallery/plenklipperen12.jpg',
+		title: 'Ekspert gressklipping i Bergen for boliger og bedrifter',
 	},
 ]
 

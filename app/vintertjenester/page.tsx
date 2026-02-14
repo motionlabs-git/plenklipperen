@@ -13,9 +13,11 @@ const page = () => {
 	return (
 		<>
 			<PageHeadingSection
-				image={'/images/vinterford.jpg'}
-				title={'Bergen winter services ...i Bergen'}
-				paragraph={'Some texting about winter Services'}
+				image={'/images/vinter3.jpg'}
+				title={'Snørydding og vintertjenester'}
+				paragraph={
+					'Profesjonell snørydding og strøing i Bergen. Trygge uteområder hele vinteren for private, borettslag og bedrifter.'
+				}
 			/>
 			<WinterServices />
 

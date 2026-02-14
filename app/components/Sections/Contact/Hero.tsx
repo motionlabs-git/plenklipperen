@@ -5,7 +5,7 @@ const Hero = () => {
 	return (
 		<section className='relative text-white min-h-[85vh] flex items-end'>
 			<Image
-				src={'/images/nordas.jpg'}
+				src={'/images/Hero_image.jpg'}
 				alt={''}
 				width={2000}
 				height={1200}

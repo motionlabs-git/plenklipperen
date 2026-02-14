@@ -23,7 +23,7 @@ const PageHeading = ({
 			<div className='section-wrapper relative text-center flex flex-col items-center pt-12'>
 				<h1 className='max-w-4/5'>{title}</h1>
 				{paragraph && (
-					<p className='mt-8 text-lg max-w-4/5'>{paragraph}</p>
+					<p className='mt-8 !text-lg max-w-4/5'>{paragraph}</p>
 				)}
 			</div>
 		</section>

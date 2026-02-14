@@ -13,10 +13,10 @@ const page = () => {
 	return (
 		<>
 			<PageHeadingSection
-				image={'/images/nordas.jpg'}
+				image={'/images/grass4.jpg'}
 				title={'Våre tjenester'}
 				paragraph={
-					'Empowering farmers with innovative, eco-friendly practices to meet rising global food demands'
+					'Komplett hagevedlikehold, gressklipping og trefelling i Bergen. Skreddersydde løsninger for private og næringskunder. Plenklipperen - Vi klipper plen!'
 				}
 			/>
 

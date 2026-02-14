@@ -26,7 +26,7 @@ const ContactUs = () => {
 					<div className='relative w-full rounded-2xl overflow-hidden flex-1'>
 						<Image
 							className='rounded-2xl w-full h-full object-cover'
-							src={'/images/guys.jpg'}
+							src={'/images/kontaktoss.jpg'}
 							alt={'Contact image'}
 							width={800}
 							height={600}

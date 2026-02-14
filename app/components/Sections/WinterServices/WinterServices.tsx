@@ -10,7 +10,7 @@ const WinterServices = () => {
 						'Vi tilbyr profesjonell snørydding i Bergen for både private boliger, borettslag og næringseiendommer. Vi sørger for rask og effektiv fjerning av snø fra gårdsplasser, parkeringsområder, inngangspartier og fellesarealer.',
 						'Med krevende og skiftende vinterforhold i Bergen er det viktig med pålitelig brøyting og manuell snømåking ved behov. Vi følger værforholdene nøye og rykker raskt ut for å sikre trygge og fremkommelige uteområder gjennom hele vintersesongen.',
 					]}
-					image={'/images/vinterford.jpg'}
+					image={'/images/vinter4.jpg'}
 					list={[
 						'Snørydding av gårdsplasser og innkjørsler',
 						'Brøyting av parkeringsplasser og større områder',
