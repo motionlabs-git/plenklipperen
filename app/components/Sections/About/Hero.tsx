@@ -17,15 +17,18 @@ const Hero = () => {
 
 					<div>
 						<p className='flex-1 !text-lg'>
-							Bare fyll ut det korte skjemaet, så vil teamet vårt
-							raskt svare med den mest effektive og personlige
-							løsningen som er skreddersydd for dine unike behov
-							og mål.
+							Vi er et lokalt firma i Bergen som tilbyr tjenester
+							innen hagearbeid, vedlikehold av uteområder og
+							vinterservice. Målet vårt er å levere solid arbeid,
+							være pålitelige og skape gode relasjoner med kundene
+							våre over tid. Vi tilpasser oppdragene etter behov
+							og legger vekt på løsninger som fungerer godt i
+							praksis.
 						</p>
 						<GreenButton
-							link='/'
+							link='/tjenester'
 							className='mt-4 text-base sm:text-lg pl-6 font-semibold'
-							text={'See services'}
+							text={'Gå til tjenester'}
 						/>
 					</div>
 				</div>

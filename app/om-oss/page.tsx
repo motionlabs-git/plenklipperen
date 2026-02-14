@@ -13,6 +13,21 @@ const page = () => {
 		<>
 			<Hero />
 
+			<section className=''>
+				<div className='section-wrapper w-full flex justify-center'>
+					<h2 className='text-center sm:w-2/3 leading-12'>
+						Vi har erfaring med oppdrag for private boliger,
+						borettslag og bedrifter. For oss er god kommunikasjon og
+						tydelige avtaler viktig, slik at kundene vet hva de kan
+						forvente.{' '}
+						<span className='text-darkGray'>
+							Vi møter opp som avtalt, gjør jobben ordentlig og
+							sørger for et resultat du kan være fornøyd med.
+						</span>
+					</h2>
+				</div>
+			</section>
+
 			<span className='divider'></span>
 
 			<References />

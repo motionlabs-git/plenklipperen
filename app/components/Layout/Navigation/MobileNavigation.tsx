@@ -49,8 +49,8 @@ const MobileNavigation = ({
 					</ul>
 
 					<GreenButton
-						link='/contact'
-						text={'Contact us'}
+						link='/kontakt'
+						text={'Kontakt oss'}
 						className='text-sm pl-4 font-semibold'
 					/>
 				</div>

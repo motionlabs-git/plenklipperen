@@ -10,25 +10,25 @@ const References = () => {
 
 				<div className='mt-10 grid aspect-square lg:aspect-video grid-cols-1 sm:grid-cols-2 sm:grid-rows-2 gap-4 md:gap-8'>
 					<ReferenceCard
-						title={'Name Surname'}
+						title={'Bergen Snøbrøyting'}
 						text={
-							'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit at repudiandae doloribus distinctio odioofficia, molestias explicabo cupiditate asperioresdolores sed dolorum facilis alias ut molestiaedeleniti reiciendis perferendis cumque.'
+							'Har flere eiendommer! Det er viktig at de er velholdt. Plenklipperen.no gjør det enkelt for meg.'
 						}
 						className={'row-span-1 col-span-1'}
 					/>
 
 					<ReferenceCard
-						title={'Name Surname'}
+						title={'Noen av våre kunder'}
 						text={
-							'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit at repudiandae doloribus distinctio odioofficia, molestias explicabo cupiditate asperioresdolores sed dolorum facilis alias ut molestiaedeleniti reiciendis perferendis cumque.'
+							'Norlandiacare Barnehager, Traudalen Borettslag, Borettslaget Kristian Jansonsvei,Drottningsvik Borettslag, Håvardstun Sameiet, Ulsmåg Borettslag, Scanauto Kokstad, Søvikneset Sameiet, Sameiet Fæster Brygge Kjøkkelvik, Sameiet Søreidet Terasse'
 						}
 						className={'row-span-2 col-span-1'}
 					/>
 
 					<ReferenceCard
-						title={'Name Surname'}
+						title={'Snøbrøyting Bergen'}
 						text={
-							'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit at repudiandae doloribus distinctio odioofficia, molestias explicabo cupiditate asperioresdolores sed dolorum facilis alias ut molestiaedeleniti reiciendis perferendis cumque.'
+							'Mine foreldre er ikke ungdom lengre, du gjør en fantastisk jobb!'
 						}
 						className={'row-span-1 col-span-1 '}
 					/>
