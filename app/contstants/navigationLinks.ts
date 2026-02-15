@@ -10,7 +10,7 @@ export const ServicesLinks = [
 		title: 'Hagevedlikehold',
 		subTitle: 'Luking, planting, hekkklipping, bortkjøring av løv',
 		text: 'Komplett hagevedlikehold – luking, planting, beskjæring av hekk, bortkjøring av løv og sesongarbeid. Vi hjelper deg med å holde hagen sunn, ryddig og representativ uten stress.',
-		image: '/images/bushes4.jpg',
+		image: '/images/plenklipperen_busker2.jpg',
 		link: '/tjenester#hagevedlikehold',
 	},
 	{

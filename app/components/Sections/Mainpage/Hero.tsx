@@ -9,10 +9,10 @@ const Hero = () => {
 				<div className='absolute inset-0 bg-black/30'></div>
 
 				<Image
-					src='/images/stripes1.jpg'
+					src='/images/plenklipperen_hero.jpg'
 					alt='Plenklipperen Hero image'
-					width={3000}
-					height={3000}
+					width={2000}
+					height={1500}
 					className='w-full h-full object-cover'
 				></Image>
 			</div>

@@ -28,7 +28,7 @@ const SummerServices = () => {
 						'Vi tilbyr komplett hagevedlikehold i Bergen og nærliggende områder som Fana, Åsane og Laksevåg. Vi hjelper kunder med å holde hager sunne, ryddige og estetisk velstelte gjennom hele sesongen.',
 						'Vi utfører luking, planting, beskjæring av hekker og sesongbasert arbeid. Hver oppgave tilpasses hagens behov og de klimatiske forholdene i Bergen.',
 					]}
-					image={'/images/bushes2.jpg'}
+					image={'/images/plenklipperen_busker1.jpg'}
 					list={[
 						'Luking og stell av blomsterbed',
 						'Planting og justering av beplantning',

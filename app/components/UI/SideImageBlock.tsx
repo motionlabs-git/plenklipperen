@@ -57,7 +57,7 @@ const SideImageBlock = ({
 					<ul className='mt-4 md:mt-8 flex flex-col gap-3'>
 						{list.map((item, i) => (
 							<li key={i} className='flex gap-2 items-center'>
-								<span className='aspect-square w-8 min-w-4 rounded-full bg-primary text-white flex justify-center items-center'>
+								<span className='aspect-square w-6 min-w-6 sm:w-8 sm:min-w-8 rounded-full bg-primary text-white flex justify-center items-center'>
 									<Check />
 								</span>
 								<span className='font-bold'>{item}</span>
