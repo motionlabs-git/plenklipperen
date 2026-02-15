@@ -5,14 +5,17 @@ const GreenButton = ({
 	text,
 	className,
 	link,
+	blank,
 }: {
 	text: string
 	className?: string
 	link: string
+	blank?: boolean
 }) => {
 	return (
 		<Link
 			href={link}
+			target={blank ? '_blank' : '_self'}
 			aria-label={text}
 			className={`p-2 bg-primary rounded-full flex items-center gap-4 hover:bg-primaryAccent duration-200 cursor-pointer shadow-sm select-none w-fit ${className}`}
 		>
