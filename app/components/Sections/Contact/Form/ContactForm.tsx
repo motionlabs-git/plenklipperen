@@ -47,11 +47,11 @@ const ContactForm = () => {
 					},
 					(error) => {
 						setError('root', {
-							message: 'Something went wrond, try again later.',
+							message: 'Something went wrong, try again later.',
 						})
 
 						throw new Error(
-							'Something went wrond, try again later.',
+							'Something went wrong, try again later.',
 							error
 						)
 					}
