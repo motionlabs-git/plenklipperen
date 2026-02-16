@@ -21,7 +21,7 @@ const sitemap = () => {
 			priority: 0.9,
 		},
 		{
-			url: `${baseURL}/vintertjeneste`,
+			url: `${baseURL}/vintertjenester`,
 			lastModified: new Date(),
 			changeFrequency: 'monthly',
 			priority: 0.9,
