@@ -57,6 +57,7 @@ const SummerServices = () => {
 				<SideImageBlock
 					reversed
 					title={'Reparasjoner og justeringer'}
+					id='justeringer'
 					texts={[
 						'Vi tilbyr mindre reparasjoner og vedlikeholdsarbeid i Bergen, inkludert områder som Fana, Åsane og andre nærliggende bydeler. Vi hjelper kunder med å holde eiendommer i god stand gjennom hele året.',
 						'Vi utfører maling, opprydding av uteområder, mindre bygningsmessige tilpasninger samt høytrykksspyling av terrasser, fasader og andre overflater. Vi er fleksible og kan raskt tilpasse oss behovene til både private og bedriftskunder i Bergen.',

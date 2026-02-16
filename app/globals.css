@@ -30,7 +30,7 @@
 	@apply bg-primary text-white;
 }
 
-body {
+* {
 	scroll-behavior: smooth;
 }
 
