@@ -26,10 +26,6 @@ const ContactForm = () => {
 	})
 
 	const onSubmit: SubmitHandler<ContactFormType> = async () => {
-		console.log(process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!)
-		console.log(process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!)
-		console.log(process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!)
-
 		await emailjs.init({
 			publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!,
 			blockHeadless: true,
