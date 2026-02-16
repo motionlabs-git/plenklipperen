@@ -1,5 +1,5 @@
 const sitemap = () => {
-	const baseURL = 'https://plenklipperen.no'
+	const baseURL = 'https://gressservice.no'
 
 	return [
 		{

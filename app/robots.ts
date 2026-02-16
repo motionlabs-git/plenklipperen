@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
 			allow: '/',
 			disallow: '/private/',
 		},
-		sitemap: ['https://plenklipperen.no/sitemap.xml'],
+		sitemap: ['https://gressservice.no/sitemap.xml'],
 	}
 }

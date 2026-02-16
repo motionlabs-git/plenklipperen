@@ -24,9 +24,10 @@ const ContactForm = () => {
 		resolver: zodResolver(ContactFormSchema),
 		reValidateMode: 'onSubmit',
 	})
+
 	const onSubmit: SubmitHandler<ContactFormType> = async () => {
 		await emailjs.init({
-			publicKey: process.env.EMAILJS_PUBLIC_KEY!,
+			publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!,
 			blockHeadless: true,
 		})
 
@@ -37,8 +38,8 @@ const ContactForm = () => {
 
 			await emailjs
 				.sendForm(
-					process.env.EMAILJS_SERVICE_ID!,
-					process.env.EMAILJS_TEMPLATE_ID!,
+					process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+					process.env.NEXT_PUBLIC_EMAILJS_BOOKING_TEMPLATE_ID!,
 					formRef.current
 				)
 				.then(
@@ -49,6 +50,8 @@ const ContactForm = () => {
 						setError('root', {
 							message: 'Something went wrong, try again later.',
 						})
+
+						console.log(error)
 
 						throw new Error(
 							'Something went wrong, try again later.',
