@@ -33,7 +33,7 @@ const sitemap = () => {
 			priority: 0.8,
 		},
 		{
-			url: `${baseURL}/kontakt`,
+			url: `${baseURL}/kontakt-oss`,
 			lastModified: new Date(),
 			changeFrequency: 'monthly',
 			priority: 0.9,
