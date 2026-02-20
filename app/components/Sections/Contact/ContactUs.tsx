@@ -40,11 +40,11 @@ const ContactUs = () => {
 
 								<div className='text-white'>
 									<p className='text-xl !font-bold'>
-										24/7 support you can trust
+										24/7 support du kan stole på
 									</p>
 									<p>
-										Always available to provide reliable
-										solutions whenever you need us.
+										Alltid tilgjengelig for å levere
+										pålitelige løsninger når du trenger oss.
 									</p>
 								</div>
 							</div>
