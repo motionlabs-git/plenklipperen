@@ -14,7 +14,7 @@ const NavLinkWithSubmenu = ({
 	link: string
 	path: string
 }) => {
-	const [isSubmenu, setIsSubmenu] = useState(true)
+	const [isSubmenu, setIsSubmenu] = useState(false)
 
 	return (
 		<li
