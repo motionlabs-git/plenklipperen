@@ -12,6 +12,9 @@ const rubik = Rubik({
 
 export const metadata: Metadata = {
 	metadataBase: new URL('https://www.gressservice.no'),
+	alternates: {
+		canonical: '/',
+	},
 	authors: [{ name: 'Motionlabs', url: 'https://motionlabs.cz' }],
 	title: {
 		default: `Plenklipperen - Hagevedlikehold og Snørydding i Bergen`,
