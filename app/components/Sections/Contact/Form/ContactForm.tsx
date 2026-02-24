@@ -6,10 +6,10 @@ import {
 import { zodResolver } from '@hookform/resolvers/zod'
 import { SubmitHandler, useForm } from 'react-hook-form'
 import Input from './Input'
-import emailjs from '@emailjs/browser'
 import { useRef } from 'react'
 import { Check } from '@gravity-ui/icons'
 import { Send } from 'feather-icons-react'
+import axios from 'axios'
 
 const ContactForm = () => {
 	const formRef = useRef<null | HTMLFormElement>(null)
@@ -25,42 +25,21 @@ const ContactForm = () => {
 		reValidateMode: 'onSubmit',
 	})
 
-	const onSubmit: SubmitHandler<ContactFormType> = async () => {
-		await emailjs.init({
-			publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!,
-			blockHeadless: true,
-		})
-
+	const onSubmit: SubmitHandler<ContactFormType> = async (data) => {
 		try {
-			if (!formRef.current) {
-				throw new Error('missing form')
-			}
+			await axios.post('/api/v1/email', data).then((res) => {
+				if (res.status !== 200) {
+					setError('root', {
+						message: 'Something went wrong, try again later',
+					})
+				}
 
-			await emailjs
-				.sendForm(
-					process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
-					process.env.NEXT_PUBLIC_EMAILJS_BOOKING_TEMPLATE_ID!,
-					formRef.current
-				)
-				.then(
-					() => {
-						reset()
-					},
-					(error) => {
-						setError('root', {
-							message: 'Something went wrong, try again later.',
-						})
-
-						console.log(error)
-
-						throw new Error(
-							'Something went wrong, try again later.',
-							error
-						)
-					}
-				)
-		} catch (e: unknown) {
-			if (e instanceof TypeError) setError('root', { message: e.message })
+				reset()
+			})
+		} catch (e) {
+			setError('root', {
+				message: 'Something went wrong, try again later',
+			})
 		}
 	}
 
@@ -87,7 +66,6 @@ const ContactForm = () => {
 					{...register('phone')}
 					error={errors.phone}
 					id='phone'
-					required
 					placeholder='Telefon'
 				/>
 			</fieldset>

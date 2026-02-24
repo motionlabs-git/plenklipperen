@@ -10,8 +10,10 @@
 	},
 	"dependencies": {
 		"@emailjs/browser": "^4.4.1",
+		"@emailjs/nodejs": "^5.0.2",
 		"@gravity-ui/icons": "^2.17.0",
 		"@hookform/resolvers": "^5.2.2",
+		"axios": "^1.13.5",
 		"feather-icons-react": "^1.0.0",
 		"next": "16.1.6",
 		"react": "19.2.3",
@@ -24,8 +26,8 @@
 		"@types/node": "^20",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
-		"eslint": "^9",
-		"eslint-config-next": "16.1.6",
+		"eslint": "^10.0.2",
+		"eslint-config-next": "^0.2.4",
 		"tailwindcss": "^4",
 		"typescript": "^5"
 	}
