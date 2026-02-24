@@ -3,6 +3,7 @@ import Hero from './components/Sections/Mainpage/Hero'
 import OurWork from './components/Sections/Mainpage/OurWork/OurWork'
 
 import Services from './components/Sections/Mainpage/Services/Services'
+import Vaktmaster from './components/Sections/Vaktmaster/Vaktmaster'
 import SideImageBlock from './components/UI/SideImageBlock'
 
 export default function Home() {
@@ -51,6 +52,13 @@ export default function Home() {
 					/>
 				</div>
 			</section>
+
+			<span className='divider'></span>
+
+			<Vaktmaster />
+
+			<span className='divider'></span>
+
 			<References />
 		</>
 	)

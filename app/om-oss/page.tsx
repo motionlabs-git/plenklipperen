@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import References from '../components/Layout/Footer/References'
 import Hero from '../components/Sections/About/Hero'
+import Vaktmaster from '../components/Sections/Vaktmaster/Vaktmaster'
 
 export const metadata: Metadata = {
 	title: `Om oss | Din lokale partner i Bergen`,
@@ -27,6 +28,10 @@ const page = () => {
 					</h2>
 				</div>
 			</section>
+
+			<span className='divider'></span>
+
+			<Vaktmaster />
 
 			<span className='divider'></span>
 

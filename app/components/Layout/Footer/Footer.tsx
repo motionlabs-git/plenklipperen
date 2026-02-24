@@ -39,6 +39,19 @@ const Footer = () => {
 								/>
 							)
 						})}
+
+						<li
+							className={`hover:text-primary duration-200 h-full text-black`}
+						>
+							<Link
+								aria-label={'link to Vaktmaster Bergen'}
+								className='h-full flex items-center gap-1 text-nowrap whitespace-nowrap'
+								href={'https://www.vaktmesterbergen.no/'}
+								target='_blank'
+							>
+								Vaktmestertjenester
+							</Link>
+						</li>
 					</ul>
 				</div>
 

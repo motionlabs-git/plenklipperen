@@ -25,7 +25,7 @@ const MobileNavigation = ({
 			<div className='w-full h-full absolute inset-0 bg-darkGreen/50'></div>
 
 			<div className='relative bg-darkGreen h-full rounded-3xl w-full sm:w-2/3 p-8 flex flex-col justify-between '>
-				<div className='flex flex-col gap-8'>
+				<div className='flex flex-col gap-4'>
 					<button
 						aria-label='Close mobile navigation'
 						onClick={handleClose}
@@ -52,6 +52,13 @@ const MobileNavigation = ({
 						link='/kontakt'
 						text={'Kontakt oss'}
 						className='text-sm pl-4 font-semibold'
+					/>
+
+					<GreenButton
+						text={'Se våre vaktmestertjenester'}
+						link={'https://www.vaktmesterbergen.no'}
+						className='text-sm font-semibold pl-4 '
+						blank
 					/>
 				</div>
 
