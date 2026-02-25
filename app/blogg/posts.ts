@@ -7,6 +7,8 @@ export const Posts = [
 		content: `
       <p>Å holde plenen velstelt gjennom sesongen krever både tid og riktig utstyr. Mange boligeiere og bedrifter i Bergen velger derfor profesjonell plenklipping for å sikre et jevnt og pent resultat uten ekstra arbeid selv. Men hva koster egentlig plenklipping i Bergen, og hva påvirker prisen?</p>
 
+      <p>Hvis du ønsker mer informasjon om hva som inngår i tjenesten, kan du lese mer på vår <a href="https://www.gressservice.no/tjenester">tjenesteside for plenklipping og hagevedlikehold</a>.</p>
+
       <p>I denne guiden forklarer vi hvilke faktorer som bestemmer prisen på plenklipping, hva som vanligvis er inkludert i tjenesten, og hvordan du kan få et godt tilbud tilpasset ditt behov.</p>
 
       <h2>Hva påvirker prisen på plenklipping?</h2>
@@ -42,7 +44,7 @@ export const Posts = [
         <li>Profesjonelt resultat hele sommeren</li>
       </ul>
 
-      <p>Mange eiendomseiere i Bergen velger faste avtaler fordi klimaet gjør at gresset vokser raskt i perioder.</p>
+      <p>Mange eiendomseiere i Bergen velger faste avtaler fordi klimaet gjør at gresset vokser raskt i perioder. Profesjonelt vedlikehold kan også kombineres med andre tjenester som hekkeklipping og sesongarbeid for uteområder.</p>
 
       <h2>Hva er inkludert i profesjonell plenklipping?</h2>
       <p>Når du bestiller plenklipping fra en profesjonell leverandør, inkluderer det vanligvis:</p>
@@ -54,7 +56,7 @@ export const Posts = [
         <li>✅ Profesjonelt utstyr</li>
       </ul>
 
-      <p>Ekstra tjenester som gjødsling, vedlikehold av hage eller hekkeklipping kan ofte bestilles i tillegg.</p>
+      <p>Ekstra tjenester som gjødsling, vedlikehold av hage eller hekkeklipping kan ofte bestilles i tillegg. Du kan også se eksempler på utført arbeid i vårt <a href="https://www.gressservice.no/galleri">galleri</a>.</p>
 
       <h2>Når bør du bestille plenklipping?</h2>
       <p>Den beste tiden å starte plenklipping i Bergen er vanligvis på våren, når veksten begynner. Mange kunder bestiller allerede før sesongen starter for å sikre plass i kalenderen.</p>
@@ -64,7 +66,7 @@ export const Posts = [
       <h2>Få tilbud på plenklipping i Bergen</h2>
       <p>Prisen på plenklipping avhenger alltid av området og behovet ditt, derfor anbefales det å be om et uforpliktende tilbud. En profesjonell leverandør vil kunne gi riktig pris etter en enkel vurdering.</p>
 
-      <p>Ønsker du hjelp med plenklipping eller vedlikehold av uteområder i Bergen? Ta kontakt for en hyggelig prat og et tilbud tilpasset din eiendom.</p>
+      <p>Ønsker du hjelp med plenklipping eller vedlikehold av uteområder i Bergen? Ta kontakt via vår <a href="https://www.gressservice.no/kontakt-oss">kontaktside</a> for en hyggelig prat og et tilbud tilpasset din eiendom.</p>
     `,
 		coverImage: '/images/plenklipperen_hero.jpg',
 		date: '2025-02-01',
@@ -322,6 +324,308 @@ export const Posts = [
 				'uteområde vedlikehold',
 				'gressklipping sameie',
 				'hagearbeid bergen',
+			],
+		},
+	},
+	{
+		title: 'Profesjonell hekkeklipping i Bergen – Når og hvordan bør busker klippes?',
+		slug: 'hekkeklipping-bergen-tips',
+		excerpt:
+			'Lurer du på når du bør klippe hekk og busker i Bergen? Her får du tips fra fagfolk og informasjon om profesjonell hekkeklipping.',
+		content: `
+    <p>Busker og hekker er en viktig del av uteområdet rundt boliger og eiendommer i Bergen. Riktig hekkeklipping gir ikke bare et pent uttrykk, men bidrar også til sunn vekst og lengre levetid for plantene.</p>
+
+    <p>Mange eiendomseiere velger profesjonell hjelp for å sikre et jevnt resultat og spare tid. Hos oss kan du lese mer om våre tjenester på <a href="https://www.gressservice.no/tjenester">tjenestesiden</a>.</p>
+
+    <img src="/images/blog/bush1.webp" alt="Hekkeklipping Bergen" />
+
+    <h2>Når bør man klippe hekk i Bergen?</h2>
+    <p>Klimaet på Vestlandet gjør at vekstsesongen ofte starter tidligere enn mange tror. Generelt anbefales det å klippe hekk:</p>
+    <ul>
+      <li>Sent på våren etter første vekstperiode</li>
+      <li>Midt på sommeren for vedlikehold</li>
+      <li>Tidlig høst ved behov</li>
+    </ul>
+
+    <p>Regelmessig vedlikehold gjør arbeidet enklere og gir et bedre resultat.</p>
+
+    <img src="/images/blog/bush2.webp" alt="Busker klipping" />
+
+    <h2>Fordeler med profesjonell hekkeklipping</h2>
+    <p>Profesjonelle tjenester gir flere fordeler:</p>
+    <ul>
+      <li>Presise og rette linjer</li>
+      <li>Riktig teknikk for plantetype</li>
+      <li>Effektiv gjennomføring</li>
+      <li>Opprydding inkludert</li>
+      <li>Trygt arbeid med riktig utstyr</li>
+    </ul>
+
+    <p>Dette er spesielt nyttig for borettslag, næringseiendommer og større hager.</p>
+
+    <img src="/images/blog/bush3.webp" alt="Profesjonell hekkeklipping" />
+
+    <h2>Bestill hekkeklipping i Bergen</h2>
+    <p>Trenger du hjelp med hekk eller busker? Du kan enkelt <a href="https://www.gressservice.no/kontakt-oss">kontakte oss her</a> for et uforpliktende tilbud.</p>
+
+    <p>Vi tilbyr fleksible løsninger for både private kunder, sameier og bedrifter i Bergen og omegn.</p>
+  `,
+		coverImage: '/images/blog/bush1.webp',
+		date: '2025-02-05',
+		author: 'Plenklipperen',
+		category: 'Hagearbeid',
+		seo: {
+			metaTitle: 'Hekkeklipping Bergen | Profesjonell klipping av busker',
+			metaDescription:
+				'Profesjonell hekkeklipping i Bergen for private og bedrifter. Få jevne busker og et pent uteområde.',
+			keywords: [
+				'hekkeklipping bergen',
+				'klippe hekk bergen',
+				'hagearbeid bergen',
+				'busker vedlikehold',
+			],
+		},
+	},
+	{
+		title: 'Hvordan få striper i plenen – Profesjonell plenklipping i Bergen',
+		slug: 'striper-i-plenen-bergen',
+		excerpt:
+			'Drømmer du om perfekte striper i plenen? Her forklarer vi hvordan striping fungerer og hvordan du får et profesjonelt resultat.',
+		content: `
+    <p>En plen med tydelige striper gir et eksklusivt og velstelt uttrykk. Mange forbinder dette med fotballbaner eller parker, men effekten kan også oppnås hjemme i hagen.</p>
+
+    <p>Profesjonell plenklipping handler ikke bare om å kutte gresset, men også om teknikk, utstyr og erfaring. Les mer om våre tjenester på <a href="https://www.gressservice.no/tjenester">tjenestesiden</a>.</p>
+
+    <img src="/images/blog/stripe1.webp" alt="Striper i plenen Bergen" />
+
+    <h2>Hva skaper striper i gresset?</h2>
+    <p>Stripene oppstår når gresset bøyes i forskjellige retninger under klipping. Lyset reflekteres ulikt, noe som gir det karakteristiske mønsteret.</p>
+
+    <ul>
+      <li>Spesielle klippeteknikker</li>
+      <li>Riktig plenklipper</li>
+      <li>Jevn høyde på gresset</li>
+      <li>Regelmessig vedlikehold</li>
+    </ul>
+
+    <img src="/images/blog/stripe2.webp" alt="Plenklipping striper" />
+
+    <h2>Fordeler med profesjonell plenklipping</h2>
+    <p>Når du bruker profesjonelle tjenester får du:</p>
+    <ul>
+      <li>Perfekt og jevnt resultat</li>
+      <li>Sunnere plen</li>
+      <li>Tidsbesparelse</li>
+      <li>Riktig vedlikehold gjennom sesongen</li>
+    </ul>
+
+    <p>Dette er spesielt populært for representasjonsområder, bedrifter og borettslag.</p>
+
+    <img src="/images/blog/stripe3.webp" alt="Profesjonell gressklipping" />
+
+    <h2>Bestill plenklipping i Bergen</h2>
+    <p>Ønsker du en plen som ser profesjonell ut hele sesongen? Ta kontakt via <a href="https://www.gressservice.no/kontakt-oss">kontaktsiden</a> for et tilbud.</p>
+
+    <p>Vi hjelper både private og bedrifter i Bergen med plenklipping og vedlikehold av uteområder.</p>
+  `,
+		coverImage: '/images/blog/stripe1.webp',
+		date: '2025-02-07',
+		author: 'Plenklipperen',
+		category: 'Plenklipping',
+		seo: {
+			metaTitle: 'Striper i plenen Bergen | Profesjonell plenklipping',
+			metaDescription:
+				'Vil du ha striper i plenen? Profesjonell plenklipping i Bergen gir et perfekt og jevnt resultat.',
+			keywords: [
+				'plenklipping bergen',
+				'striper i plenen',
+				'gressklipping bergen',
+				'plen vedlikehold',
+			],
+		},
+	},
+	{
+		title: 'Når bør man starte plenklipping i Bergen? Guide til riktig tidspunkt',
+		slug: 'nar-starte-plenklipping-bergen',
+		excerpt:
+			'Lurer du på når du bør starte plenklipping i Bergen? Her får du tips om riktig tidspunkt, klima og hvordan du får en sunn plen.',
+		content: `
+    <p>Klimaet i Bergen er kjent for mye regn og milde temperaturer, noe som påvirker når gresset begynner å vokse om våren. Mange huseiere lurer derfor på når det egentlig er riktig å starte plenklipping etter vinteren.</p>
+
+    <p>Starter man for tidlig, kan man skade gresset. Starter man for sent, kan plenen bli ujevn og vanskeligere å vedlikeholde gjennom sesongen.</p>
+
+    <h2>Når begynner gresset å vokse i Bergen?</h2>
+    <p>Vanligvis starter veksten når temperaturen stabiliserer seg rundt 7–8 grader. I Bergen skjer dette ofte i mars eller april, men det kan variere fra år til år.</p>
+
+    <p>Et godt tegn på at det er på tide å klippe er når gresset når cirka 8–10 cm høyde.</p>
+
+    <h2>Første plenklipping etter vinteren</h2>
+    <p>Den første klippingen bør være forsiktig:</p>
+    <ul>
+      <li>Ikke klipp for kort</li>
+      <li>Bruk skarpe kniver</li>
+      <li>Klipp når plenen er tørr</li>
+      <li>Fjern løv og rusk først</li>
+    </ul>
+
+    <p>Dette hjelper plenen med å komme sterkt tilbake etter vinteren.</p>
+
+    <h2>Fordel med profesjonell plenklipping</h2>
+    <p>Mange velger profesjonell hjelp for å sikre riktig start på sesongen. Med riktig utstyr og erfaring får man et bedre resultat og en sunnere plen.</p>
+
+    <p>Du kan lese mer om våre tjenester på <a href="https://www.gressservice.no/tjenester">tjenestesiden</a>.</p>
+
+    <h2>Bestill plenklipping i Bergen</h2>
+    <p>Ønsker du hjelp med plenklipping eller vedlikehold av uteområder? Ta kontakt via <a href="https://www.gressservice.no/kontakt-oss">kontaktsiden</a> for et tilbud.</p>
+
+    <p>Vi hjelper både private boliger, borettslag og bedrifter i Bergen.</p>
+  `,
+		coverImage: '/images/gallery/plenklipperen5.jpeg',
+		date: '2025-02-10',
+		author: 'Plenklipperen',
+		category: 'Plenklipping',
+		seo: {
+			metaTitle: 'Når starte plenklipping i Bergen? | Guide 2025',
+			metaDescription:
+				'Når bør du starte plenklipping i Bergen? Les vår guide om riktig tidspunkt og få en sunn og grønn plen.',
+			keywords: [
+				'når klippe plen bergen',
+				'plenklipping bergen',
+				'gressklipping vår',
+				'hage tips bergen',
+			],
+		},
+	},
+	{
+		title: 'Hvor ofte bør man klippe plenen? Tips for perfekt resultat',
+		slug: 'hvor-ofte-klippe-plen',
+		excerpt:
+			'Hvor ofte bør du klippe plenen for best resultat? Her får du råd fra fagfolk og tips til sunn plen i Bergen.',
+		content: `
+    <p>Mange tror plenklipping bare handler om å klippe når gresset blir langt. Men hvor ofte du klipper har stor betydning for både utseendet og helsen til plenen.</p>
+
+    <p>Riktig frekvens gir tettere gress, færre ugressproblemer og et mer profesjonelt resultat.</p>
+
+    <h2>Hvor ofte bør plenen klippes?</h2>
+    <p>I vekstsesongen anbefales det vanligvis:</p>
+    <ul>
+      <li>Hver 7–10 dag i perioder med rask vekst</li>
+      <li>Hver 10–14 dag i roligere perioder</li>
+      <li>Sjeldnere på høsten</li>
+    </ul>
+
+    <p>I Bergen vokser gresset ofte raskt på grunn av fuktig klima, noe som gjør regelmessig vedlikehold ekstra viktig.</p>
+
+    <h2>Den vanligste feilen folk gjør</h2>
+    <p>Den største feilen er å klippe for sjelden og deretter kutte gresset for kort. Dette kan svekke plenen og gjøre den mer utsatt for sykdom og ugress.</p>
+
+    <p>En god regel er å aldri fjerne mer enn en tredjedel av gressets høyde om gangen.</p>
+
+    <h2>Fast avtale gir best resultat</h2>
+    <p>Mange eiendomseiere velger faste avtaler fordi det gir:</p>
+    <ul>
+      <li>Jevn og pen plen hele sesongen</li>
+      <li>Mindre stress</li>
+      <li>Forutsigbare kostnader</li>
+      <li>Bedre plenhelse</li>
+    </ul>
+
+    <p>Du kan lese mer om våre løsninger på <a href="https://www.gressservice.no/tjenester">tjenestesiden</a>.</p>
+
+    <h2>Trenger du hjelp med plenklipping?</h2>
+    <p>Ønsker du profesjonell plenklipping i Bergen? Ta kontakt via <a href="https://www.gressservice.no/kontakt-oss">kontaktsiden</a> for et tilbud.</p>
+
+    <p>Vi tilbyr tjenester for både private hager, borettslag og næringseiendom.</p>
+  `,
+		coverImage: '/images/blog/stripe4.webp',
+		date: '2025-02-12',
+		author: 'Plenklipperen',
+		category: 'Plenklipping',
+		seo: {
+			metaTitle: 'Hvor ofte klippe plen? | Tips for Bergen',
+			metaDescription:
+				'Hvor ofte bør du klippe plenen? Få tips for sunn plen og profesjonelt resultat i Bergen.',
+			keywords: [
+				'hvor ofte klippe plen',
+				'plenklipping bergen',
+				'gressklipping tips',
+				'plen vedlikehold',
+			],
+		},
+	},
+	{
+		title: 'Hvordan bli kvitt mose i plen – Effektive tips som virker',
+		slug: 'bli-kvitt-mose-i-plen',
+		excerpt:
+			'Sliter du med mose i plenen? Her får du effektive tips for å fjerne mose og få en grønnere, sunnere plen.',
+		content: `
+      <p>Mose i plenen er et vanlig problem i Norge, spesielt i områder med mye regn og fuktighet. Mange hageeiere i Bergen opplever at mosen tar over gresset, noe som gjør plenen ujevn og mindre pen. Heldigvis finnes det gode løsninger for å bli kvitt mose og samtidig styrke gresset.</p>
+
+      <p>Hvis du ønsker profesjonell hjelp med plenpleie eller vedlikehold av uteområder, kan du lese mer om våre <a href="https://www.gressservice.no/tjenester">tjenester for plenklipping og hagearbeid</a>.</p>
+
+      <h2>Hvorfor får man mose i plenen?</h2>
+      <p>Mose trives der gresset har dårlige vekstforhold. De vanligste årsakene er:</p>
+      <ul>
+        <li>For lite sollys</li>
+        <li>Fuktig jord</li>
+        <li>Dårlig drenering</li>
+        <li>Kompakt jord</li>
+        <li>Lav pH-verdi i jorden</li>
+        <li>For lite næring</li>
+      </ul>
+
+      <p>Mose er egentlig et tegn på at gresset ikke trives optimalt. Derfor handler løsningen ikke bare om å fjerne mosen, men også om å forbedre forholdene for plenen.</p>
+
+      <h2>Slik fjerner du mose fra plenen</h2>
+      <p>Det finnes flere metoder for å bli kvitt mose:</p>
+
+      <h3>1. Vertikalskjæring</h3>
+      <p>Vertikalskjæring er en effektiv metode for å rive opp mose og dødt materiale fra plenen. Dette gir bedre lufttilgang til røttene og hjelper gresset å vokse sterkere.</p>
+
+      <h3>2. Gjødsling</h3>
+      <p>Riktig gjødsel gir gresset næring slik at det kan konkurrere ut mosen. Nitrogenrik gjødsel fungerer spesielt godt på våren.</p>
+
+      <h3>3. Kalk</h3>
+      <p>Hvis jorden er sur (lav pH), vil kalking forbedre forholdene for gresset og redusere mosen over tid.</p>
+
+      <h3>4. Bedre drenering</h3>
+      <p>I områder med mye fukt kan forbedret drenering eller lufting av jorden være nødvendig for å hindre at mosen kommer tilbake.</p>
+
+      <h2>Når er beste tidspunkt for mosefjerning?</h2>
+      <p>Den beste tiden for å fjerne mose er vår og tidlig høst. Da har gresset gode vekstforhold og kan raskt fylle tomrommene etter mosen.</p>
+
+      <p>Regelmessig vedlikehold gjennom sesongen, inkludert jevnlig klipping, bidrar også til en sunnere plen. Du kan se eksempler på resultater i vårt <a href="https://www.gressservice.no/galleri">galleri</a>.</p>
+
+      <h2>Hvordan forhindre at mose kommer tilbake?</h2>
+      <p>For å unngå nye moseproblemer bør du:</p>
+      <ul>
+        <li>Klipp plenen regelmessig</li>
+        <li>Gjødsle flere ganger i sesongen</li>
+        <li>Lufte jorden ved behov</li>
+        <li>Sørge for riktig pH-verdi</li>
+        <li>Unngå for kort klipping</li>
+      </ul>
+
+      <p>Mange velger profesjonell plenpleie for å sikre jevnt vedlikehold gjennom hele sesongen og et bedre resultat.</p>
+
+      <h2>Få hjelp med plen og hage i Bergen</h2>
+      <p>Hvis plenen din har mye mose eller trenger vedlikehold, kan profesjonell hjelp spare deg for både tid og arbeid. Riktig utstyr og erfaring gir ofte raskere og bedre resultat.</p>
+
+      <p>Ta gjerne kontakt via vår <a href="https://www.gressservice.no/kontakt-oss">kontaktside</a> for et uforpliktende tilbud på plenklipping eller hagearbeid i Bergen.</p>
+    `,
+		coverImage: '/images/Hero_image.jpg',
+		date: '2025-02-01',
+		author: 'Plenklipperen',
+		category: 'Plenpleie',
+		seo: {
+			metaTitle: 'Hvordan bli kvitt mose i plen – Tips som virker',
+			metaDescription:
+				'Hvordan bli kvitt mose i plenen? Se effektive metoder, tips og når du bør fjerne mose for best resultat.',
+			keywords: [
+				'mose i plen',
+				'fjerne mose plen',
+				'plenpleie bergen',
+				'hvordan bli kvitt mose',
 			],
 		},
 	},
