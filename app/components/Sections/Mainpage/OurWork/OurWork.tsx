@@ -27,7 +27,7 @@ const OurWork = () => {
 					/>
 
 					<ImageBox
-						img={'/images/grass10.jpeg'}
+						img={'/images/grass10.jpg'}
 						text={
 							'Perfekt klippet plen med tydelige striper.\nRegelmessig vedlikehold for et velstelt uteområde.'
 						}

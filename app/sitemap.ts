@@ -1,5 +1,14 @@
+import { Posts } from './blogg/posts'
+
 const sitemap = () => {
 	const baseURL = 'https://www.gressservice.no'
+
+	const blogPosts = Posts.map((post) => ({
+		url: `${baseURL}/blogg/${post.slug}`,
+		lastModified: new Date(),
+		changeFrequency: 'monthly',
+		priority: 0.7,
+	}))
 
 	return [
 		{
@@ -38,6 +47,20 @@ const sitemap = () => {
 			changeFrequency: 'monthly',
 			priority: 0.9,
 		},
+		{
+			url: `${baseURL}/blogg`,
+			lastModified: new Date(),
+			changeFrequency: 'monthly',
+			priority: 0.7,
+		},
+
+		...blogPosts,
+		// {
+		// 	url: `${baseURL}/blogg`,
+		// 	lastModified: new Date(),
+		// 	changeFrequency: 'monthly',
+		// 	priority: 0.9,
+		// },
 	]
 }
 

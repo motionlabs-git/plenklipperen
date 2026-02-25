@@ -119,7 +119,7 @@ body {
 }
 
 .divider {
-	@apply h-0.5 bg-lightGray w-full;
+	@apply h-0.5 block bg-lightGray w-full;
 }
 
 input[type='text'] {
@@ -136,5 +136,137 @@ label {
 	&.required::after {
 		content: ' *';
 		color: red;
+	}
+}
+
+/* BLOG  */
+.blogPostContent {
+	margin: 0 auto;
+	line-height: 1.7;
+	font-size: 18px;
+	color: #1a1a1a;
+}
+
+/* Paragraph */
+.blogPostContent p {
+	margin: 16px 0;
+}
+
+/* Headings */
+.blogPostContent h1,
+.blogPostContent h2,
+.blogPostContent h3,
+.blogPostContent h4 {
+	font-weight: 700;
+	line-height: 1.3;
+	margin-top: 32px;
+	margin-bottom: 12px;
+	color: #0f172a;
+}
+
+.blogPostContent h1 {
+	font-size: 32px;
+}
+
+.blogPostContent h2 {
+	font-size: 26px;
+}
+
+.blogPostContent h3 {
+	font-size: 22px;
+}
+
+.blogPostContent h4 {
+	font-size: 20px;
+}
+
+/* Lists */
+.blogPostContent ul,
+.blogPostContent ol {
+	margin: 16px 0;
+	padding-left: 24px;
+}
+
+.blogPostContent li {
+	margin: 8px 0;
+}
+
+/* Strong */
+.blogPostContent strong {
+	font-weight: 600;
+	color: #0f172a;
+}
+
+/* Links */
+.blogPostContent a {
+	color: #55a630;
+	text-decoration: underline;
+	transition: 0.2s;
+}
+
+.blogPostContent a:hover {
+	opacity: 0.8;
+}
+
+/* Images */
+.blogPostContent img {
+	width: 100%;
+	border-radius: 12px;
+	margin: 24px 0;
+	aspect-ratio: 16/9;
+	object-fit: cover;
+}
+
+/* Blockquote */
+.blogPostContent blockquote {
+	border-left: 4px solid #55a630;
+	padding-left: 16px;
+	margin: 24px 0;
+	color: #374151;
+	font-style: italic;
+}
+
+/* Horizontal line */
+.blogPostContent hr {
+	border: none;
+	border-top: 1px solid #e5e7eb;
+	margin: 32px 0;
+}
+
+/* Tables (future proof) */
+.blogPostContent table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 24px 0;
+}
+
+.blogPostContent th,
+.blogPostContent td {
+	border: 1px solid #e5e7eb;
+	padding: 10px;
+	text-align: left;
+}
+
+.blogPostContent th {
+	background: #f8fafc;
+	font-weight: 600;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+	.blogPostContent {
+		font-size: 16px;
+	}
+
+	.blogPostContent h1 {
+		font-size: 26px;
+	}
+
+	.blogPostContent h2 {
+		font-size: 22px;
+	}
+
+	.blogPostContent h3 {
+		font-size: 20px;
 	}
 }

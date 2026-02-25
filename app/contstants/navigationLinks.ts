@@ -48,6 +48,10 @@ export const NavigationLinks = [
 		link: '/vintertjenester',
 	},
 	{
+		text: 'Blogg',
+		link: '/blogg',
+	},
+	{
 		text: 'Galleri',
 		link: '/galleri',
 	},
