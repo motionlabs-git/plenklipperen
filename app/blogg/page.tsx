@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 		title: 'Blogg | Plenklipping og hagearbeid i Bergen',
 		description:
 			'Tips og guider om plenklipping, hagearbeid og vedlikehold av uteområder i Bergen.',
-		url: 'https://www.gressservice.no/blogg',
+		url: 'https://plenklipperen.no/blogg',
 		siteName: 'Plenklipperen',
 		locale: 'nb_NO',
 		type: 'website',

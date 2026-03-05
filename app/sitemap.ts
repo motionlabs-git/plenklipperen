@@ -1,7 +1,7 @@
 import { Posts } from './blogg/posts'
 
 const sitemap = () => {
-	const baseURL = 'https://www.gressservice.no'
+	const baseURL = 'https://plenklipperen.no'
 
 	const blogPosts = Posts.map((post) => ({
 		url: `${baseURL}/blogg/${post.slug}`,

@@ -11,7 +11,7 @@ const rubik = Rubik({
 })
 
 export const metadata: Metadata = {
-	metadataBase: new URL('https://www.gressservice.no'),
+	metadataBase: new URL('https://plenklipperen.no'),
 	alternates: {
 		canonical: '/',
 	},
