@@ -3,7 +3,7 @@ import SideImageBlock from '../../UI/SideImageBlock'
 const SummerServices = () => {
 	return (
 		<section>
-			<div className='section-wrapper flex flex-col gap-12 md:gap-24'>
+			<div className='section-wrapper flex flex-col gap-12 '>
 				<SideImageBlock
 					title={'Plenhold'}
 					id='plenhold'
@@ -19,6 +19,8 @@ const SummerServices = () => {
 						'Mulighet for bortkjøring av hageavfall',
 						'Tjenester for private og kommersielle kunder',
 					]}
+					v={2}
+					link={'/tjenester/plenhold'}
 				/>
 
 				<SideImageBlock
@@ -36,6 +38,8 @@ const SummerServices = () => {
 						'Bortkjøring av løv og hageavfall',
 						'Regelmessig og sesongbasert vedlikehold',
 					]}
+					v={2}
+					link={'/tjenester/hagevedlikehold'}
 					reversed
 				/>
 				<SideImageBlock
@@ -53,11 +57,13 @@ const SummerServices = () => {
 						'Opprydding av greiner og avfall',
 						'Profesjonelt utstyr og erfarent team',
 					]}
+					v={2}
+					link={'/tjenester/trefelling'}
 				/>
 				<SideImageBlock
 					reversed
 					title={'Reparasjoner og justeringer'}
-					id='justeringer'
+					id='reparasjoner-og-justeringer'
 					texts={[
 						'Vi tilbyr mindre reparasjoner og vedlikeholdsarbeid i Bergen, inkludert områder som Fana, Åsane og andre nærliggende bydeler. Vi hjelper kunder med å holde eiendommer i god stand gjennom hele året.',
 						'Vi utfører maling, opprydding av uteområder, mindre bygningsmessige tilpasninger samt høytrykksspyling av terrasser, fasader og andre overflater. Vi er fleksible og kan raskt tilpasse oss behovene til både private og bedriftskunder i Bergen.',
@@ -72,6 +78,27 @@ const SummerServices = () => {
 						'Engangsoppdrag og faste avtaler',
 						'Pålitelig og rask service',
 					]}
+					v={2}
+					link={'/tjenester/reparasjoner-og-justeringer'}
+				/>
+				<SideImageBlock
+					title={'Vaktmester tjenester i Bergen'}
+					texts={[
+						'Ser du etter en pålitelig vaktmester i Bergen? Gjennom vårt søsterselskap tilbyr vi profesjonelle vaktmestertjenester for borettslag, bedrifter og private eiendommer.',
+						'Vaktmestertjenester inkluderer løpende vedlikehold, mindre reparasjoner, tilsyn av eiendommer og praktiske oppgaver både ute og inne. Dette gjør det enkelt å holde eiendommen i god stand gjennom hele året.',
+					]}
+					image={'/images/teknisk-vedlikehold.jpeg'}
+					list={[
+						'Løpende vedlikehold av eiendommer',
+						'Mindre reparasjoner og praktiske oppgaver',
+						'Tilsyn av bygg og uteområder',
+						'Vedlikehold av fellesområder',
+						'Vaktmestertjenester for borettslag og bedrifter',
+						'Fast avtale eller oppdrag ved behov',
+						'Pålitelig service i Bergen',
+					]}
+					v={2}
+					link={'https://www.vaktmesterbergen.no'}
 				/>
 			</div>
 		</section>

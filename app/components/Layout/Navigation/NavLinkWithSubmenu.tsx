@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { ChevronDown } from '@gravity-ui/icons'
 import SubmenuItem from './SubmenuItem'
 import { ServicesLinks } from '@/app/contstants/navigationLinks'
@@ -15,6 +15,10 @@ const NavLinkWithSubmenu = ({
 	path: string
 }) => {
 	const [isSubmenu, setIsSubmenu] = useState(false)
+
+	useEffect(() => {
+		setIsSubmenu(false)
+	}, [path])
 
 	return (
 		<li

@@ -6,7 +6,10 @@ import FooterLink from './FooterLink.'
 import { Envelope, Handset, House } from '@gravity-ui/icons'
 import Icon from '../../UI/Icon'
 import { Facebook, Instagram } from 'feather-icons-react'
-import { NavigationLinks } from '@/app/contstants/navigationLinks'
+import {
+	CityPartLinks,
+	NavigationLinks,
+} from '@/app/contstants/navigationLinks'
 import { Contact } from '@/app/contstants/contact'
 import { usePathname } from 'next/navigation'
 
@@ -17,42 +20,88 @@ const Footer = () => {
 	return (
 		<footer className='flex justify-center px-4 bg-footerWhite'>
 			<div className='w-full max-w-[var(--siteWidth)] py-12'>
-				<div className='flex justify-between py-12 flex-col items-center gap-8 sm:flex-row'>
-					<Link aria-label='Plenklipperen logo' href={'/'}>
-						<Image
-							src={'/brand/logo.jpg'}
-							alt={'Plenklipperen logo'}
-							width={300}
-							height={200}
-							className='w-52'
-						></Image>
-					</Link>
+				<div className='flex justify-between py-12 flex-col  gap-8 sm:flex-row'>
+					<div>
+						<Link aria-label='Plenklipperen logo' href={'/'}>
+							<Image
+								src={'/brand/logo.jpg'}
+								alt={'Plenklipperen logo'}
+								width={300}
+								height={200}
+								className='w-52'
+							></Image>
+						</Link>
 
-					<ul className='flex flex-wrap gap-4 md:gap-6 uppercase font-medium text-sm'>
-						{NavigationLinks.map((item) => {
-							return (
-								<NavLink
-									key={item.link}
-									text={item.text}
-									link={item.link}
-									path={path}
-								/>
-							)
-						})}
-
-						<li
-							className={`hover:text-primary duration-200 h-full text-black`}
-						>
+						<p className='mt-4'>
 							<Link
-								aria-label={'link to Vaktmaster Bergen'}
-								className='h-full flex items-center gap-1 text-nowrap whitespace-nowrap'
-								href={'https://www.vaktmesterbergen.no/'}
-								target='_blank'
+								href={'/'}
+								className='hover:text-primary duration-200'
 							>
-								Vaktmestertjenester
-							</Link>
-						</li>
-					</ul>
+								Plenklipperen.no AS
+							</Link>{' '}
+							- Vi klipper plen!
+						</p>
+
+						<Link
+							aria-label='Vaktmester Bergen logo'
+							href={'https://www.vaktmesterbergen.no'}
+							className='mt-10 block'
+						>
+							<Image
+								src={'/brand/vaktmester-logo.png'}
+								alt={'Vaktmester Bergen logo'}
+								width={300}
+								height={200}
+								className='w-52'
+							></Image>
+						</Link>
+
+						<p className='mt-4'>
+							<Link
+								aria-label='Vaktmester Bergen'
+								href={'https://www.vaktmesterbergen.no'}
+								target='_blank'
+								className='hover:text-primary duration-200'
+							>
+								Vaktmester Bergen
+							</Link>{' '}
+							- Renhold og Vedlikehold av Bygg
+						</p>
+					</div>
+
+					<div className='flex flex-col sm:flex-row gap-10'>
+						<div>
+							<h4>Meny</h4>
+							<ul className='mt-2 flex flex-col gap-2 uppercase font-medium text-sm'>
+								{NavigationLinks.map((item) => {
+									return (
+										<NavLink
+											key={item.link}
+											text={item.text}
+											link={item.link}
+											path={path}
+										/>
+									)
+								})}
+							</ul>
+						</div>
+
+						<div>
+							<h4>Område</h4>
+							<ul className='mt-2 flex flex-col gap-2 uppercase font-medium text-sm'>
+								{CityPartLinks.map((item) => {
+									return (
+										<NavLink
+											key={item.link}
+											text={item.text}
+											link={item.link}
+											path={path}
+										/>
+									)
+								})}
+							</ul>
+						</div>
+					</div>
 				</div>
 
 				<div className='divider'></div>
@@ -61,7 +110,7 @@ const Footer = () => {
 					<ul className='flex sm:items-center gap-4 md:gap-8 flex-wrap flex-col sm:flex-row items-start'>
 						<li>
 							<FooterLink
-								title={'Phone'}
+								title={'Telefon'}
 								text={Contact.phone}
 								link={`phone:${Contact.phone}`}
 								icon={<Handset />}
@@ -70,7 +119,7 @@ const Footer = () => {
 
 						<li>
 							<FooterLink
-								title={'Email'}
+								title={'E-post'}
 								text={Contact.mail}
 								link={`mailto:${Contact.mail}`}
 								icon={<Envelope />}
@@ -78,7 +127,7 @@ const Footer = () => {
 						</li>
 						<li>
 							<FooterLink
-								title={'Address'}
+								title={'Adresse'}
 								text={Contact.address}
 								link={Contact.addressLink}
 								icon={<House />}

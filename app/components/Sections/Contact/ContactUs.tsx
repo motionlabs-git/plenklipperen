@@ -4,7 +4,7 @@ import ContactForm from './Form/ContactForm'
 
 const ContactUs = () => {
 	return (
-		<section className='relative'>
+		<section className='relative' id='kontakt-oss'>
 			<div className='section-wrapper'>
 				<div className=' flex flex-col sm:flex-row gap-4 sm:gap-8'>
 					<h2 className='flex-1'>

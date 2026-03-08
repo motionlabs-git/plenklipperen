@@ -6,6 +6,7 @@ import { Facebook, Instagram } from 'feather-icons-react'
 import { RefObject } from 'react'
 import { NavigationLinks } from '@/app/contstants/navigationLinks'
 import { Contact } from '@/app/contstants/contact'
+import React from 'react'
 
 const MobileNavigation = ({
 	handleClose,
@@ -20,12 +21,12 @@ const MobileNavigation = ({
 		<nav
 			ref={ref}
 			id='mobileNavigation'
-			className='fixed w-screen h-[100dvh] inset-0 py-4 sm:py-8 px-4 opacity-0 flex md:hidden justify-end'
+			className='fixed w-screen h-dvh inset-0 py-4 sm:py-8 px-4 opacity-0 flex md:hidden justify-end'
 		>
 			<div className='w-full h-full absolute inset-0 bg-darkGreen/50'></div>
 
-			<div className='relative bg-darkGreen h-full rounded-3xl w-full sm:w-2/3 p-8 flex flex-col justify-between '>
-				<div className='flex flex-col gap-4'>
+			<div className='relative bg-darkGreen h-full rounded-3xl w-full sm:w-2/3 p-6 flex flex-col justify-between '>
+				<div className='flex flex-col gap-3'>
 					<button
 						aria-label='Close mobile navigation'
 						onClick={handleClose}
@@ -35,8 +36,46 @@ const MobileNavigation = ({
 						<div className='absolute bg-white h-0.5 w-5 rounded-full -rotate-45'></div>
 					</button>
 
-					<ul className='mt-'>
+					<ul className=''>
 						{NavigationLinks.slice(0, -1).map((item) => {
+							if (item.subLinks)
+								return (
+									<div key={item.link}>
+										<MobileNavLink
+											text={item.text}
+											link={item.link}
+											selected={item.link === path}
+										/>
+
+										<ul className='pl-3'>
+											{item.subLinks.map((sublink) => (
+												<li
+													key={sublink.link}
+													className={`font-bold uppercase text-sm hover:text-primary duration-200 w-fit py-2 ${sublink.link === path ? 'text-primary' : 'text-white'}`}
+												>
+													<Link
+														aria-label={
+															sublink.title
+														}
+														className='py-2'
+														href={sublink.link}
+													>
+														{sublink.title}
+													</Link>
+												</li>
+												// <MobileNavLink
+												// 	key={sublink.text}
+												// 	text={sublink.title}
+												// 	link={sublink.link}
+												// 	selected={
+												// 		sublink.link === path
+												// 	}
+												// />
+											))}
+										</ul>
+									</div>
+								)
+
 							return (
 								<MobileNavLink
 									key={item.link}
@@ -62,7 +101,7 @@ const MobileNavigation = ({
 					/>
 				</div>
 
-				<ul className=' flex items-center gap-4'>
+				{/* <ul className=' flex items-center gap-4'>
 					<li>
 						<Link
 							aria-label='Plenklipperen facebook link'
@@ -86,7 +125,7 @@ const MobileNavigation = ({
 							</Icon>
 						</Link>
 					</li>
-				</ul>
+				</ul> */}
 			</div>
 		</nav>
 	)
