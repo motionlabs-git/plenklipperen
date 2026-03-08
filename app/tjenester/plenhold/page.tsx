@@ -91,7 +91,6 @@ const page = () => {
 						texts={[
 							'Vi tilbyr profesjonelt plenhold i Bergen og nærliggende områder. Regelmessig vedlikehold av plen er viktig for at uteområder skal se ryddige og innbydende ut gjennom hele sesongen. Vi hjelper både private boligeiere, borettslag og bedrifter med å holde plenen i god stand.',
 							'Våre tjenester inkluderer plenklipping, kantklipping og generelt vedlikehold av grøntområder. Vi tilpasser arbeidet etter behovet til hver eiendom, enten det gjelder en mindre privat hage eller større fellesområder.',
-							'Våre tjenester inkluderer plenklipping, kantklipping og generelt vedlikehold av grøntområder. Vi tilpasser arbeidet etter behovet til hver eiendom, enten det gjelder en mindre privat hage eller større fellesområder.',
 						]}
 						image={'/images/stripes.jpg'}
 					/>
