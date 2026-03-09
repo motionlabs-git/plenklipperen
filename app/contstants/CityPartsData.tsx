@@ -100,7 +100,7 @@ export const CityPartData = {
 			title: 'Hagevedlikehold Nesttun',
 			description:
 				'Hagevedlikehold i Nesttun. Vi tilbyr plenklipping, hekkeklipp og hagearbeid i Nesttun samt områder som Fana, Lagunen og Paradis i Bergen sør.',
-			image: '/images/hage.',
+			image: '/images/plenklipperen_hero.jpg',
 		},
 		content: {
 			iconsGrid: {
@@ -189,7 +189,7 @@ export const CityPartData = {
 			title: 'Plenklipping Åsane',
 			description:
 				'Plenklipping i Åsane. Vi tilbyr gressklipping, hagevedlikehold og trefelling i Åsane samt nærliggende områder som Arna og Bergen sentrum.',
-			image: '/images/plen.',
+			image: '/images/plenklipperen_hero.jpg',
 		},
 		content: {
 			iconsGrid: {
@@ -278,7 +278,7 @@ export const CityPartData = {
 			title: 'Hagearbeid Fyllingsdalen',
 			description:
 				'Hagearbeid i Fyllingsdalen. Vi tilbyr plenklipping, hekkeklipp og vedlikehold av uteområder i Fyllingsdalen samt Laksevåg og andre deler av Bergen.',
-			image: '/images/hage2.',
+			image: '/images/plenklipperen_hero.jpg',
 		},
 		content: {
 			iconsGrid: {
@@ -367,7 +367,7 @@ export const CityPartData = {
 			title: 'Gressklipping Lagunen',
 			description:
 				'Gressklipping i Lagunen og Rådal. Vi tilbyr plenklipping, hagearbeid og trefelling i Lagunen samt Nesttun og Fana i Bergen sør.',
-			image: '/images/plen3.',
+			image: '/images/plenklipperen_hero.jpg',
 		},
 		content: {
 			iconsGrid: {
@@ -456,7 +456,7 @@ export const CityPartData = {
 			title: 'Plenklipping Laksevåg',
 			description:
 				'Plenklipping i Laksevåg. Vi tilbyr gressklipping, hagevedlikehold og utearbeid i Laksevåg samt Fyllingsdalen og Bergen sentrum.',
-			image: '/images/plen4.',
+			image: '/images/plenklipperen_hero.jpg',
 		},
 		content: {
 			iconsGrid: {

@@ -90,13 +90,13 @@ const MobileNavigation = ({
 					<GreenButton
 						link='/kontakt'
 						text={'Kontakt oss'}
-						className='text-sm pl-4 font-semibold'
+						className='text-xs pl-4 font-semibold'
 					/>
 
 					<GreenButton
 						text={'Se våre vaktmestertjenester'}
 						link={'https://www.vaktmesterbergen.no'}
-						className='text-sm font-semibold pl-4 '
+						className='text-xs font-semibold pl-4 '
 						blank
 					/>
 				</div>

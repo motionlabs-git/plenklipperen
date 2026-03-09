@@ -11,7 +11,7 @@ const MobileNavLink = ({
 }) => {
 	return (
 		<li
-			className={`font-bold uppercase  hover:text-primary duration-200 w-fit py-2 ${selected ? 'text-primary' : 'text-white'}`}
+			className={`font-bold uppercase text-sm hover:text-primary duration-200 w-fit py-2 ${selected ? 'text-primary' : 'text-white'}`}
 		>
 			<Link aria-label={text} className='py-2' href={link}>
 				{text}

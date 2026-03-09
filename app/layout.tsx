@@ -12,7 +12,6 @@ const rubik = Rubik({
 
 export const metadata: Metadata = {
 	metadataBase: new URL('https://plenklipperen.no'),
-
 	authors: [{ name: 'Motionlabs', url: 'https://motionlabs.cz' }],
 	title: {
 		default: `Plenklipperen - Hagevedlikehold og Snørydding i Bergen`,
