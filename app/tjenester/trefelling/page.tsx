@@ -47,16 +47,16 @@ const servicesGrid = [
 
 const gallery = [
 	{
-		title: 'title1',
-		img: '/images/bushes5.jpg',
+		title: 'Transport av tømmer etter trefelling',
+		img: '/images/trailer.jpg',
 	},
 	{
-		title: 'title1',
-		img: '/images/bushes5.jpg',
+		title: 'Profesjonell trefelling i hageområde',
+		img: '/images/trefeling1.jpg',
 	},
 	{
-		title: 'title1',
-		img: '/images/bushes5.jpg',
+		title: 'Sikker nedtaking av tre',
+		img: '/images/trefelig2.jpeg',
 	},
 ]
 
@@ -72,7 +72,7 @@ const page = () => {
 			/>
 
 			<IconGridSection
-				title={'Naše služby'}
+				title={'Våre tjenester'}
 				grid={servicesGrid}
 				link={'/tjenester/trefelling#kontakt-oss'}
 				linkText='Kontakt oss'
@@ -90,7 +90,7 @@ const page = () => {
 							'Arbeidet utføres på en trygg og kontrollert måte, også i områder med begrenset plass. Vi kan felle trær i seksjoner og sørger for at arbeidet gjennomføres effektivt og sikkert.',
 							'Etter trefelling rydder vi opp området slik at eiendommen fremstår ren og ryddig.',
 						]}
-						image={'/images/stripes.jpg'}
+						image={'/images/trefeling-jindra.jpg'}
 					/>
 				</div>
 			</section>

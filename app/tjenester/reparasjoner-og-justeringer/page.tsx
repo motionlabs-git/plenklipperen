@@ -46,19 +46,18 @@ const servicesGrid = [
 
 const gallery = [
 	{
-		title: 'title1',
-		img: '/images/bushes5.jpg',
+		title: 'Reparasjon og vedlikehold av uteområder',
+		img: '/images/repair1.jpeg',
 	},
 	{
-		title: 'title1',
-		img: '/images/bushes5.jpg',
+		title: 'Små reparasjonsarbeider på eiendom',
+		img: '/images/repair2.jpeg',
 	},
 	{
-		title: 'title1',
-		img: '/images/bushes5.jpg',
+		title: 'Reparasjon av asfalt og gårdsplasser',
+		img: '/images/asphalt.jpeg',
 	},
 ]
-
 const page = () => {
 	return (
 		<>
@@ -71,7 +70,7 @@ const page = () => {
 			/>
 
 			<IconGridSection
-				title={'Naše služby'}
+				title={'Våre tjenester'}
 				grid={servicesGrid}
 				link={'/tjenester/reparasjoner-og-justeringer#kontakt-oss'}
 				linkText='Kontakt oss'
@@ -89,7 +88,7 @@ const page = () => {
 							'Tjenestene inkluderer maling, høytrykksspyling av terrasser og fasader samt ulike små reparasjoner og justeringer på eiendommer. Vi kan også hjelpe med rydding og klargjøring av uteområder.',
 							'Med fleksible løsninger kan vi utføre både enkeltoppdrag og regelmessig vedlikehold etter behov.',
 						]}
-						image={'/images/stripes.jpg'}
+						image={'/images/okap.jpg'}
 					/>
 				</div>
 			</section>

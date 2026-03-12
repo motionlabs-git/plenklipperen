@@ -46,15 +46,15 @@ const servicesGrid = [
 
 const gallery = [
 	{
-		title: 'title1',
-		img: '/images/bushes5.jpg',
+		title: 'Profesjonell beskjæring av busker',
+		img: '/images/bushes3.jpg',
 	},
 	{
-		title: 'title1',
-		img: '/images/bushes5.jpg',
+		title: 'Vedlikehold av busker i byområder',
+		img: '/images/bushes-citycentre.jpg',
 	},
 	{
-		title: 'title1',
+		title: 'Formklipping og stell av hagebusker',
 		img: '/images/bushes5.jpg',
 	},
 ]
@@ -71,7 +71,7 @@ const page = () => {
 			/>
 
 			<IconGridSection
-				title={'Naše služby'}
+				title={'Våre tjenester'}
 				grid={servicesGrid}
 				link={'/tjenester/hagevedlikehold#kontakt-oss'}
 				linkText='Kontakt oss'
@@ -89,7 +89,7 @@ const page = () => {
 							'Våre tjenester inkluderer beskjæring av busker og hekker, opprydding av uteområder og stell av blomsterbed. Vi hjelper både med enkeltoppdrag og faste vedlikeholdsavtaler.',
 							'Enten det gjelder en privat hage eller et større uteområde, sørger vi for profesjonelt arbeid og et resultat du kan være fornøyd med.',
 						]}
-						image={'/images/stripes.jpg'}
+						image={'/images/bushes4.jpg'}
 					/>
 				</div>
 			</section>

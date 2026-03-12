@@ -49,16 +49,16 @@ const servicesGrid = [
 
 const gallery = [
 	{
-		title: 'title1',
-		img: '/images/bushes5.jpg',
+		title: 'Profesjonell plenklipping med hagetraktor',
+		img: '/images/Gard_tractor.JPG',
 	},
 	{
-		title: 'title1',
-		img: '/images/bushes5.jpg',
+		title: 'Effektiv klipping av store plenområder',
+		img: '/images/tractor2.jpg',
 	},
 	{
-		title: 'title1',
-		img: '/images/bushes5.jpg',
+		title: 'Nylig klippet og velstelt plen',
+		img: '/images/grass6.jpg',
 	},
 ]
 

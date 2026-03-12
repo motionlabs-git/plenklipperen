@@ -1,3 +1,5 @@
+const baseURL = 'https://plenklipperen.no'
+
 export const Posts = [
 	{
 		title: 'Hva koster plenklipping i Bergen? Prisguide 2025',
@@ -626,6 +628,224 @@ export const Posts = [
 				'fjerne mose plen',
 				'plenpleie bergen',
 				'hvordan bli kvitt mose',
+			],
+		},
+	},
+	{
+		title: 'Når bør man klippe plen i Bergen? Guide til riktig tidspunkt',
+		slug: 'nar-bor-man-klippe-plen-bergen',
+		excerpt:
+			'Lurer du på når du bør klippe plenen i Bergen? Her får du en enkel guide til riktig tidspunkt og hvor ofte plenen bør klippes.',
+		content: `
+  <p>Klimaet i Bergen er kjent for mye regn og fuktighet. Dette påvirker hvordan plenen vokser og hvor ofte den bør klippes. Mange hageeiere opplever at gresset vokser raskt i perioder med mye regn.</p>
+
+  <p>Hvis du ønsker profesjonell hjelp, kan du lese mer om vår tjeneste for <a href="${baseURL}/gressklipping-fana">gressklipping i Fana</a> eller andre områder i Bergen.</p>
+
+  <h2>Når starter plenklippesesongen?</h2>
+  <p>I Bergen starter plenklippesesongen vanligvis i april eller mai, avhengig av temperatur og værforhold.</p>
+
+  <h2>Hvor ofte bør plenen klippes?</h2>
+  <ul>
+    <li>Vår: hver 10–14 dag</li>
+    <li>Sommer: hver 7–10 dag</li>
+    <li>Høst: hver 14 dag</li>
+  </ul>
+
+  <h2>Vanlige feil ved plenklipping</h2>
+  <ul>
+    <li>Klipper gresset for kort</li>
+    <li>Klipper når plenen er våt</li>
+    <li>Klipper for sjelden</li>
+  </ul>
+
+  <p>Hvis du bor i andre deler av Bergen, tilbyr vi også <a href="${baseURL}/plenklipping-asane">plenklipping i Åsane</a>.</p>
+
+  <h2>Trenger du hjelp?</h2>
+  <p>Du kan lese mer om våre tjenester for <a href="${baseURL}/tjenester/plenhold">plenhold</a> eller kontakte oss via <a href="${baseURL}/kontakt-oss">kontaktsiden</a>.</p>
+  `,
+		coverImage: '/images/plen.jpg',
+		date: '2025-02-10',
+		author: 'Plenklipperen',
+		category: 'Plenpleie',
+		seo: {
+			metaTitle: 'Når bør man klippe plen i Bergen?',
+			metaDescription:
+				'Lær når du bør klippe plenen i Bergen og hvor ofte for best resultat.',
+			keywords: [
+				'klippe plen bergen',
+				'plenklipping bergen',
+				'gressklipping bergen',
+			],
+		},
+	},
+	{
+		title: 'Hvordan klippe plen riktig – Tips for en sunn plen',
+		slug: 'hvordan-klippe-plen-riktig',
+		excerpt:
+			'Riktig plenklipping gir en grønnere og sunnere plen. Her er de viktigste tipsene.',
+		content: `
+  <p>Riktig plenklipping handler ikke bare om estetikk. Klipper du plenen riktig, vil gresset vokse tettere og sunnere.</p>
+
+  <p>Vi tilbyr profesjonell <a href="${baseURL}/gressklipping-lagunen">gressklipping i Lagunen</a> og nærliggende områder.</p>
+
+  <h2>Klipp aldri mer enn en tredjedel</h2>
+  <p>Hvis du klipper for mye av gangen, kan gresset bli stresset.</p>
+
+  <h2>Klipp ofte i vekstsesongen</h2>
+  <p>Hyppig klipping gir tettere plen.</p>
+
+  <h2>Hold knivene skarpe</h2>
+  <p>Sløve kniver kan skade gresset.</p>
+
+  <p>Vi tilbyr også <a href="${baseURL}/hagevedlikehold-nesttun">hagevedlikehold i Nesttun</a> for kunder som ønsker komplett vedlikehold av uteområder.</p>
+
+  <h2>Profesjonell hjelp</h2>
+  <p>Les mer om våre <a href="${baseURL}/tjenester">hage- og plen tjenester</a>.</p>
+  `,
+		coverImage: '/images/plen2.jpg',
+		date: '2025-02-15',
+		author: 'Plenklipperen',
+		category: 'Plenpleie',
+		seo: {
+			metaTitle: 'Hvordan klippe plen riktig',
+			metaDescription:
+				'Se de viktigste tipsene for riktig plenklipping og sunn plen.',
+			keywords: ['klippe plen riktig', 'plenklipping tips', 'plenpleie'],
+		},
+	},
+	{
+		title: 'Hva koster plenklipping i Bergen?',
+		slug: 'pris-plenklipping-bergen',
+		excerpt:
+			'Lurer du på hva plenklipping koster i Bergen? Her forklarer vi hva som påvirker prisen.',
+		content: `
+  <p>Prisen på plenklipping i Bergen kan variere avhengig av størrelse på plen, terreng og hvor ofte plenen skal klippes.</p>
+
+  <p>Vi tilbyr blant annet <a href="${baseURL}/plenklipping-laksevag">plenklipping i Laksevåg</a> og andre bydeler.</p>
+
+  <h2>Faktorer som påvirker prisen</h2>
+  <ul>
+    <li>Størrelse på plen</li>
+    <li>Terreng</li>
+    <li>Hyppighet</li>
+    <li>Tilgang til eiendommen</li>
+  </ul>
+
+  <h2>Fast avtale</h2>
+  <p>Mange kunder velger fast avtale gjennom hele sesongen.</p>
+
+  <p>Vi tilbyr også <a href="${baseURL}/hagearbeid-fyllingsdalen">hagearbeid i Fyllingsdalen</a>.</p>
+
+  <p>Kontakt oss via <a href="${baseURL}/kontakt-oss">kontaktsiden</a> for tilbud.</p>
+  `,
+		coverImage: '/images/plen3.jpg',
+		date: '2025-02-20',
+		author: 'Plenklipperen',
+		category: 'Plenpleie',
+		seo: {
+			metaTitle: 'Pris på plenklipping i Bergen',
+			metaDescription:
+				'Hva koster plenklipping i Bergen? Se hvilke faktorer som påvirker prisen.',
+			keywords: [
+				'plenklipping pris bergen',
+				'gressklipping pris',
+				'plenklipping bergen',
+			],
+		},
+	},
+	{
+		title: 'Hvordan vedlikeholde hagen gjennom sesongen',
+		slug: 'vedlikeholde-hage-bergen',
+		excerpt:
+			'Riktig vedlikehold av hagen gir et bedre uteområde gjennom hele året.',
+		content: `
+  <p>En velstelt hage krever jevnlig vedlikehold gjennom hele sesongen.</p>
+
+  <h2>Vår</h2>
+  <p>Rydding, gjødsling og første plenklipp.</p>
+
+  <h2>Sommer</h2>
+  <p>Regelmessig plenklipping og vanning.</p>
+
+  <h2>Høst</h2>
+  <p>Fjerne løv og klargjøre hagen for vinter.</p>
+
+  <p>Vi tilbyr <a href="${baseURL}/hagevedlikehold-nesttun">hagevedlikehold i Nesttun</a> og andre deler av Bergen.</p>
+
+  <p>Se også vårt <a href="${baseURL}/galleri">galleri</a> for resultater.</p>
+  `,
+		coverImage: '/images/hage.jpg',
+		date: '2025-02-25',
+		author: 'Plenklipperen',
+		category: 'Hagearbeid',
+		seo: {
+			metaTitle: 'Hvordan vedlikeholde hagen',
+			metaDescription:
+				'Guide til vedlikehold av hage gjennom hele sesongen.',
+			keywords: [
+				'hagevedlikehold bergen',
+				'hagearbeid bergen',
+				'hage tips',
+			],
+		},
+	},
+	{
+		title: 'Når bør man beskjære hekk i Bergen?',
+		slug: 'beskjaere-hekk-bergen',
+		excerpt:
+			'Lær når og hvordan du bør beskjære hekken for best resultat i Bergen. Riktig tidspunkt gir en sunnere og tettere hekk.',
+		content: `
+  <p>Beskjæring av hekk er en viktig del av hagevedlikehold. En godt vedlikeholdt hekk gir ikke bare et penere uteområde, men bidrar også til at plantene vokser tettere og sunnere.</p>
+
+  <p>I Bergen, hvor klimaet ofte er fuktig, kan hekker vokse raskt i vekstsesongen. Derfor er det viktig å klippe hekken regelmessig for å holde formen og unngå at den blir for stor.</p>
+
+  <h2>Når bør man klippe hekk?</h2>
+  <p>De fleste hekker bør klippes 1–2 ganger i løpet av sesongen:</p>
+  <ul>
+    <li>Første klipp på sen vår eller tidlig sommer</li>
+    <li>Andre klipp mot slutten av sommeren</li>
+  </ul>
+
+  <p>Dette gir hekken tid til å vokse tett og holde en jevn form gjennom hele sesongen.</p>
+
+  <h2>Vanlige typer hekk i Bergen</h2>
+  <ul>
+    <li>Tuja</li>
+    <li>Bøk</li>
+    <li>Liguster</li>
+    <li>Granhekk</li>
+  </ul>
+
+  <p>Hver type hekk kan ha litt forskjellige behov for beskjæring, men jevnlig vedlikehold er alltid viktig.</p>
+
+  <h2>Tips for riktig hekkeklipp</h2>
+  <ul>
+    <li>Bruk skarpe verktøy</li>
+    <li>Klipp litt smalere på toppen enn nederst</li>
+    <li>Unngå å klippe i sterk sol</li>
+    <li>Klipp regelmessig gjennom sesongen</li>
+  </ul>
+
+  <p>Hvis du ønsker profesjonell hjelp med hagearbeid, tilbyr vi også <a href="${baseURL}/hagearbeid-fyllingsdalen">hagearbeid i Fyllingsdalen</a> samt flere andre områder i Bergen.</p>
+
+  <h2>Profesjonell hjelp med hagevedlikehold</h2>
+  <p>For mange huseiere kan regelmessig vedlikehold av hage og hekk ta mye tid. Profesjonell hjelp kan sikre et jevnt og godt resultat gjennom hele sesongen.</p>
+
+  <p>Les mer om våre <a href="${baseURL}/tjenester/hagevedlikehold">tjenester for hagevedlikehold</a> eller ta kontakt via <a href="${baseURL}/kontakt-oss">kontaktsiden</a> for et uforpliktende tilbud.</p>
+  `,
+		coverImage: '/images/hage2.jpg',
+		date: '2025-03-01',
+		author: 'Plenklipperen',
+		category: 'Hagearbeid',
+		seo: {
+			metaTitle: 'Når bør man beskjære hekk i Bergen?',
+			metaDescription:
+				'Se når du bør beskjære hekk i Bergen og få tips til riktig vedlikehold av hage og hekk.',
+			keywords: [
+				'beskjære hekk bergen',
+				'hekkeklipp bergen',
+				'hagevedlikehold bergen',
+				'klippe hekk',
 			],
 		},
 	},
