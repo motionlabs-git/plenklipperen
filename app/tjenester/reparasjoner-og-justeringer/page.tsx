@@ -57,7 +57,7 @@ const gallery = [
 		title: 'Reparasjon av asfalt og gårdsplasser',
 		img: '/images/asphalt.jpeg',
 	},
-]
+]	
 const page = () => {
 	return (
 		<>

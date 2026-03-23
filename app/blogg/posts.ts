@@ -663,7 +663,7 @@ export const Posts = [
   <h2>Trenger du hjelp?</h2>
   <p>Du kan lese mer om våre tjenester for <a href="${baseURL}/tjenester/plenhold">plenhold</a> eller kontakte oss via <a href="${baseURL}/kontakt-oss">kontaktsiden</a>.</p>
   `,
-		coverImage: '/images/plen.jpg',
+		coverImage: '/images/plenklipperen_hero.jpg',
 		date: '2025-02-10',
 		author: 'Plenklipperen',
 		category: 'Plenpleie',
@@ -702,7 +702,7 @@ export const Posts = [
   <h2>Profesjonell hjelp</h2>
   <p>Les mer om våre <a href="${baseURL}/tjenester">hage- og plen tjenester</a>.</p>
   `,
-		coverImage: '/images/plen2.jpg',
+		coverImage: '/images/plenklipperen_hero.jpg',
 		date: '2025-02-15',
 		author: 'Plenklipperen',
 		category: 'Plenpleie',
@@ -738,7 +738,7 @@ export const Posts = [
 
   <p>Kontakt oss via <a href="${baseURL}/kontakt-oss">kontaktsiden</a> for tilbud.</p>
   `,
-		coverImage: '/images/plen3.jpg',
+		coverImage: '/images/blog/blogg1.jpg',
 		date: '2025-02-20',
 		author: 'Plenklipperen',
 		category: 'Plenpleie',
@@ -774,7 +774,7 @@ export const Posts = [
 
   <p>Se også vårt <a href="${baseURL}/galleri">galleri</a> for resultater.</p>
   `,
-		coverImage: '/images/hage.jpg',
+		coverImage: '/images/plenklipperen_hero.jpg',
 		date: '2025-02-25',
 		author: 'Plenklipperen',
 		category: 'Hagearbeid',
@@ -833,7 +833,7 @@ export const Posts = [
 
   <p>Les mer om våre <a href="${baseURL}/tjenester/hagevedlikehold">tjenester for hagevedlikehold</a> eller ta kontakt via <a href="${baseURL}/kontakt-oss">kontaktsiden</a> for et uforpliktende tilbud.</p>
   `,
-		coverImage: '/images/hage2.jpg',
+		coverImage: '/images/plenklipperen_hero.jpg',
 		date: '2025-03-01',
 		author: 'Plenklipperen',
 		category: 'Hagearbeid',
