@@ -1,62 +1,15 @@
 import { Metadata } from 'next'
-import PageHeadingSection from '../components/UI/PageHeadingSection'
-import IconGridSection from '../components/UI/IconGridSection'
-import ContactUs from '../components/Sections/Contact/ContactUs'
-import FAQ from '../components/UI/FAQ/FAQ'
+import CityPartPage, {
+	cityPartMetadata,
+} from '../components/Sections/CityPart/CityPartPage'
 import { CityPartData } from '../contstants/CityPartsData'
-import { pageMetadata } from '../lib/seo'
 
-const { fyllingsdalen: data } = CityPartData
+const { fyllingsdalen: area } = CityPartData
 
-export const metadata: Metadata = pageMetadata({
-	...data.seo,
-	path: '/hagearbeid-fyllingsdalen',
-})
+export const metadata: Metadata = cityPartMetadata(area)
 
 const page = () => {
-	return (
-		<>
-			<PageHeadingSection
-				image={data.seo.image}
-				title={data.seo.title}
-				paragraph={data.seo.description}
-			/>
-
-			<IconGridSection
-				title={data.content.iconsGrid.title}
-				grayTitle={data.content.iconsGrid.grayTitle}
-				grid={data.content.iconsGrid.grid}
-				link={'/tjenester'}
-				linkText='Gå til tjenester'
-			/>
-
-			<span className='divider'></span>
-
-			<FAQ
-				subtitle={
-					'Lurer du på noe? Her finner du svar på de vanligste spørsmålene.'
-				}
-				qaa={data.content.faq.data}
-			/>
-			<span className='divider'></span>
-			<ContactUs />
-
-			<section className='!py-0'>
-				<div className='section-wrapper'>
-					<div className='rounded-2xl overflow-hidden'>
-						<iframe
-							width='100%'
-							height='650px'
-							src={data.map}
-							title={`Kart over ${data.content.iconsGrid.grayTitle}`}
-							loading='lazy'
-							allowFullScreen
-						></iframe>
-					</div>
-				</div>
-			</section>
-		</>
-	)
+	return <CityPartPage area={area} />
 }
 
 export default page

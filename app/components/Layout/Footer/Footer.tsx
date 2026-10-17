@@ -99,6 +99,11 @@ const Footer = () => {
 										/>
 									)
 								})}
+								<NavLink
+									text='Alle områder'
+									link='/omrader'
+									path={path}
+								/>
 							</ul>
 						</div>
 					</div>
@@ -112,7 +117,7 @@ const Footer = () => {
 							<FooterLink
 								title={'Telefon'}
 								text={Contact.phone}
-								link={`phone:${Contact.phone}`}
+								link={`tel:+47${Contact.phone.replace(/\s/g, '')}`}
 								icon={<Handset />}
 							/>
 						</li>

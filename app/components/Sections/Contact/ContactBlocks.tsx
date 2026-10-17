@@ -14,7 +14,7 @@ const ContactBlocks = () => {
 					<p className='text-xl !font-bold'>Telefon</p>
 					<Link
 						aria-label='Plenklipperen phone link'
-						href={`phone:${Contact.phone}`}
+						href={`tel:+47${Contact.phone.replace(/\s/g, '')}`}
 					>
 						{Contact.phone}
 					</Link>

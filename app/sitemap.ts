@@ -13,6 +13,7 @@ const sitemap = (): MetadataRoute.Sitemap => {
 		...NavigationLinks.map((item) => item.link),
 		...ServicesLinks.map((item) => item.link),
 		...CityPartLinks.map((item) => item.link),
+		'/omrader',
 	].map((path) => ({ url: `${SITE_URL}${path === '/' ? '' : path}` }))
 
 	const blogPosts = Posts.map((post) => ({

@@ -16,6 +16,16 @@ const nextConfig: NextConfig = {
 				destination: '/kontakt',
 				permanent: true,
 			},
+			{
+				source: '/hagevedlikehold-nesttun',
+				destination: '/gressklipping-fana',
+				permanent: true,
+			},
+			{
+				source: '/gressklipping-lagunen',
+				destination: '/gressklipping-fana',
+				permanent: true,
+			},
 		]
 	},
 }

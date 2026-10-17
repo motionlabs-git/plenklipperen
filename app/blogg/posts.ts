@@ -686,7 +686,7 @@ export const Posts = [
 		content: `
   <p>Riktig plenklipping handler ikke bare om estetikk. Klipper du plenen riktig, vil gresset vokse tettere og sunnere.</p>
 
-  <p>Vi tilbyr profesjonell <a href="${baseURL}/gressklipping-lagunen">gressklipping i Lagunen</a> og nærliggende områder.</p>
+  <p>Vi tilbyr profesjonell <a href="${baseURL}/gressklipping-fana">gressklipping i Fana og Lagunen</a> og nærliggende områder.</p>
 
   <h2>Klipp aldri mer enn en tredjedel</h2>
   <p>Hvis du klipper for mye av gangen, kan gresset bli stresset.</p>
@@ -697,7 +697,7 @@ export const Posts = [
   <h2>Hold knivene skarpe</h2>
   <p>Sløve kniver kan skade gresset.</p>
 
-  <p>Vi tilbyr også <a href="${baseURL}/hagevedlikehold-nesttun">hagevedlikehold i Nesttun</a> for kunder som ønsker komplett vedlikehold av uteområder.</p>
+  <p>Vi tilbyr også <a href="${baseURL}/gressklipping-fana">hagevedlikehold i Fana og Nesttun</a> for kunder som ønsker komplett vedlikehold av uteområder.</p>
 
   <h2>Profesjonell hjelp</h2>
   <p>Les mer om våre <a href="${baseURL}/tjenester">hage- og plen tjenester</a>.</p>
@@ -770,7 +770,7 @@ export const Posts = [
   <h2>Høst</h2>
   <p>Fjerne løv og klargjøre hagen for vinter.</p>
 
-  <p>Vi tilbyr <a href="${baseURL}/hagevedlikehold-nesttun">hagevedlikehold i Nesttun</a> og andre deler av Bergen.</p>
+  <p>Vi tilbyr <a href="${baseURL}/gressklipping-fana">hagevedlikehold i Fana og Nesttun</a> og andre deler av Bergen.</p>
 
   <p>Se også vårt <a href="${baseURL}/galleri">galleri</a> for resultater.</p>
   `,

@@ -62,28 +62,11 @@ export const NavigationLinks = [
 ]
 
 export const CityPartLinks = [
-	{
-		text: 'Fana',
-		link: '/gressklipping-fana',
-	},
-	{
-		text: 'Nesttun',
-		link: '/hagevedlikehold-nesttun',
-	},
-	{
-		text: 'Åsane',
-		link: '/plenklipping-asane',
-	},
-	{
-		text: 'Fyllingsdalen',
-		link: '/hagearbeid-fyllingsdalen',
-	},
-	{
-		text: 'Lagunen',
-		link: '/gressklipping-lagunen',
-	},
-	{
-		text: 'Laksevåg',
-		link: '/plenklipping-laksevag',
-	},
+	{ text: 'Fana', link: '/gressklipping-fana' },
+	{ text: 'Ytrebygda', link: '/hagevedlikehold-ytrebygda' },
+	{ text: 'Åsane', link: '/plenklipping-asane' },
+	{ text: 'Fyllingsdalen', link: '/hagearbeid-fyllingsdalen' },
+	{ text: 'Laksevåg', link: '/plenklipping-laksevag' },
+	{ text: 'Årstad', link: '/gressklipping-arstad' },
+	{ text: 'Bergen sentrum', link: '/hagearbeid-bergen-sentrum' },
 ]
