@@ -1,4 +1,6 @@
 import Accordeon from './Accordeon'
+import JsonLd from '../../SEO/JsonLd'
+import { faqSchema } from '@/app/lib/seo'
 
 const FAQ = ({
 	subtitle,
@@ -12,6 +14,7 @@ const FAQ = ({
 }) => {
 	return (
 		<section>
+			<JsonLd data={faqSchema(qaa)} />
 			<div className='section-wrapper'>
 				<h2>Ofte stilte spørsmål</h2>
 

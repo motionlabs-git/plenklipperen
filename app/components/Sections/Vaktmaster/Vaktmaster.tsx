@@ -42,7 +42,7 @@ const Vaktmaster = () => {
 					<div className='md:flex-1 rounded-2xl overflow-hidden'>
 						<Image
 							src={'/images/vaktmester_house_cleaning.jpeg'}
-							alt={'Plenklipperen image'}
+							alt={'Vaktmestertjenester og renhold av eiendom i Bergen'}
 							width={800}
 							height={800}
 							className='aspect-9/10 object-cover rounded-2xl'

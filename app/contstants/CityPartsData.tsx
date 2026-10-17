@@ -7,7 +7,7 @@ import { TbSalt } from 'react-icons/tb'
 export const CityPartData = {
 	fana: {
 		seo: {
-			title: 'Gressklipping Fana',
+			title: 'Gressklipping i Fana',
 			description:
 				'Profesjonell gressklipping i Fana. Vi tilbyr plenklipping, hagevedlikehold og trefelling i Fana samt nærliggende områder som Nesttun, Lagunen og Paradis i Bergen.',
 			image: '/images/plenklipperen_hero.jpg',
@@ -97,7 +97,7 @@ export const CityPartData = {
 
 	nesttun: {
 		seo: {
-			title: 'Hagevedlikehold Nesttun',
+			title: 'Hagevedlikehold i Nesttun',
 			description:
 				'Hagevedlikehold i Nesttun. Vi tilbyr plenklipping, hekkeklipp og hagearbeid i Nesttun samt områder som Fana, Lagunen og Paradis i Bergen sør.',
 			image: '/images/plenklipperen_hero.jpg',
@@ -186,7 +186,7 @@ export const CityPartData = {
 
 	asane: {
 		seo: {
-			title: 'Plenklipping Åsane',
+			title: 'Plenklipping i Åsane',
 			description:
 				'Plenklipping i Åsane. Vi tilbyr gressklipping, hagevedlikehold og trefelling i Åsane samt nærliggende områder som Arna og Bergen sentrum.',
 			image: '/images/plenklipperen_hero.jpg',
@@ -275,7 +275,7 @@ export const CityPartData = {
 
 	fyllingsdalen: {
 		seo: {
-			title: 'Hagearbeid Fyllingsdalen',
+			title: 'Hagearbeid i Fyllingsdalen',
 			description:
 				'Hagearbeid i Fyllingsdalen. Vi tilbyr plenklipping, hekkeklipp og vedlikehold av uteområder i Fyllingsdalen samt Laksevåg og andre deler av Bergen.',
 			image: '/images/plenklipperen_hero.jpg',
@@ -364,7 +364,7 @@ export const CityPartData = {
 
 	lagunen: {
 		seo: {
-			title: 'Gressklipping Lagunen',
+			title: 'Gressklipping i Lagunen',
 			description:
 				'Gressklipping i Lagunen og Rådal. Vi tilbyr plenklipping, hagearbeid og trefelling i Lagunen samt Nesttun og Fana i Bergen sør.',
 			image: '/images/plenklipperen_hero.jpg',
@@ -453,7 +453,7 @@ export const CityPartData = {
 
 	laksevag: {
 		seo: {
-			title: 'Plenklipping Laksevåg',
+			title: 'Plenklipping i Laksevåg',
 			description:
 				'Plenklipping i Laksevåg. Vi tilbyr gressklipping, hagevedlikehold og utearbeid i Laksevåg samt Fyllingsdalen og Bergen sentrum.',
 			image: '/images/plenklipperen_hero.jpg',

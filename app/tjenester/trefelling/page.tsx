@@ -10,12 +10,17 @@ import { FaTreeCity } from 'react-icons/fa6'
 import { GiGardeningShears } from 'react-icons/gi'
 import SideImageBlock from '@/app/components/UI/SideImageBlock'
 import SmallGallerySection from '@/app/components/UI/SmallGallerySection'
+import { pageMetadata, serviceSchema } from '@/app/lib/seo'
+import JsonLd from '@/app/components/SEO/JsonLd'
 
-export const metadata: Metadata = {
-	title: `Trefelling`,
+const seo = {
+	title: `Trefelling i Bergen`,
 	description:
 		'Trygg og effektiv trefelling i Bergen. Vi feller trær, fjerner greiner og rydder området etter arbeidet for private eiendommer og uteområder.',
+	path: '/tjenester/trefelling',
 }
+
+export const metadata: Metadata = pageMetadata(seo)
 
 const servicesGrid = [
 	{
@@ -63,7 +68,12 @@ const gallery = [
 const page = () => {
 	return (
 		<>
+			<JsonLd data={serviceSchema(seo)} />
 			<PageHeadingSection
+				breadcrumbs={[
+					{ name: 'Tjenester', path: '/tjenester' },
+					{ name: 'Trefelling', path: seo.path },
+				]}
 				image={'/images/trefelling.jpg'}
 				title={'Trefelling'}
 				paragraph={

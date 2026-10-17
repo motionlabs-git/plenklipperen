@@ -24,6 +24,9 @@ const SideImageBlock = ({
 	link?: string
 	v?: number
 }) => {
+	// title may contain soft hyphens (&shy;) for line breaking
+	const imageAlt = title ? title.replace(/\u00AD/g, '') : ''
+
 	if (v === 2)
 		return (
 			<div
@@ -36,7 +39,7 @@ const SideImageBlock = ({
 				<div className='md:flex-1 rounded-2xl overflow-hidden'>
 					<Image
 						src={image}
-						alt={'Plenklipperen image'}
+						alt={imageAlt}
 						width={800}
 						height={800}
 						className='aspect-9/10 object-cover rounded-2xl'
@@ -98,7 +101,7 @@ const SideImageBlock = ({
 				<div className='md:flex-1 rounded-2xl overflow-hidden'>
 					<Image
 						src={image}
-						alt={'Plenklipperen image'}
+						alt={imageAlt}
 						width={800}
 						height={800}
 						className='aspect-9/10 object-cover rounded-2xl'

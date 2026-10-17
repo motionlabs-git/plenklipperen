@@ -4,13 +4,14 @@ import IconGridSection from '../components/UI/IconGridSection'
 import ContactUs from '../components/Sections/Contact/ContactUs'
 import FAQ from '../components/UI/FAQ/FAQ'
 import { CityPartData } from '../contstants/CityPartsData'
+import { pageMetadata } from '../lib/seo'
 
 const { lagunen: data } = CityPartData
 
-export const metadata: Metadata = {
-	title: data.seo.title,
-	description: data.seo.description,
-}
+export const metadata: Metadata = pageMetadata({
+	...data.seo,
+	path: '/gressklipping-lagunen',
+})
 
 const page = () => {
 	return (
@@ -47,6 +48,8 @@ const page = () => {
 							width='100%'
 							height='650px'
 							src={data.map}
+							title={`Kart over ${data.content.iconsGrid.grayTitle}`}
+							loading='lazy'
 							allowFullScreen
 						></iframe>
 					</div>

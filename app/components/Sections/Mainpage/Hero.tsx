@@ -10,9 +10,11 @@ const Hero = () => {
 
 				<Image
 					src='/images/plenklipperen_hero.jpg'
-					alt='Plenklipperen Hero image'
+					alt='Nyklippet plen med striper ved boligblokk i Bergen'
 					width={2000}
 					height={1500}
+					sizes='100vw'
+					preload
 					className='w-full h-full object-cover'
 				></Image>
 			</div>

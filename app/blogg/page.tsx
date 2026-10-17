@@ -4,11 +4,13 @@ import PageHeadingSection from '../components/UI/PageHeadingSection'
 import { Posts } from './posts'
 import Link from 'next/link'
 import { ChevronRight } from 'feather-icons-react'
+import { pageMetadata } from '../lib/seo'
 
-export const metadata: Metadata = {
-	title: 'Blogg | Plenklipping og hagearbeid i Bergen',
+export const metadata: Metadata = pageMetadata({
+	title: 'Blogg – plenklipping og hagearbeid i Bergen',
 	description:
 		'Les nyttige artikler om plenklipping, hagearbeid og vedlikehold av uteområder i Bergen. Tips, guider og råd fra profesjonelle fagfolk.',
+	path: '/blogg',
 	keywords: [
 		'plenklipping bergen',
 		'hagearbeid bergen',
@@ -17,16 +19,7 @@ export const metadata: Metadata = {
 		'uteområde bergen',
 		'plen tips',
 	],
-	openGraph: {
-		title: 'Blogg | Plenklipping og hagearbeid i Bergen',
-		description:
-			'Tips og guider om plenklipping, hagearbeid og vedlikehold av uteområder i Bergen.',
-		url: 'https://plenklipperen.no/blogg',
-		siteName: 'Plenklipperen',
-		locale: 'nb_NO',
-		type: 'website',
-	},
-}
+})
 
 const page = () => {
 	return (
@@ -63,9 +56,7 @@ const page = () => {
 								</div>
 							</div>
 							<div>
-								<button
-									type='button'
-									aria-label={'Les mer om' + post.title}
+								<span
 									className={`p-2 mt-4 justify-self-end bg-primary pl-6 py-2 font-semibold rounded-full flex items-center gap-4 hover:bg-primaryAccent duration-200 cursor-pointer shadow-sm select-none w-fit `}
 								>
 									<span className='text-white text-[1em] text-nowrap whitespace-nowrap'>
@@ -78,7 +69,7 @@ const page = () => {
 											width={15}
 										></ChevronRight>
 									</span>
-								</button>
+								</span>
 							</div>
 						</Link>
 					))}

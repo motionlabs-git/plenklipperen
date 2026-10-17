@@ -26,7 +26,7 @@ const SubmenuItem = ({
 			<div className='relative w-full h-full flex-1 bg-darkGray rounded-2xl mt-4 overflow-hidden'>
 				<Image
 					src={image}
-					alt={'Submenu image'}
+					alt={''}
 					width={500}
 					height={500}
 					className='w-full h-full object-cover '

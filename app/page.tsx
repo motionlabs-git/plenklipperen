@@ -5,6 +5,11 @@ import OurWork from './components/Sections/Mainpage/OurWork/OurWork'
 import Services from './components/Sections/Mainpage/Services/Services'
 import Vaktmaster from './components/Sections/Vaktmaster/Vaktmaster'
 import SideImageBlock from './components/UI/SideImageBlock'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+	alternates: { canonical: '/' },
+}
 
 export default function Home() {
 	return (

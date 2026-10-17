@@ -2,12 +2,16 @@ import { Metadata } from 'next'
 import ContactUs from '../components/Sections/Contact/ContactUs'
 import SummerServices from '../components/Sections/SummerServices/SummerServices'
 import PageHeadingSection from '../components/UI/PageHeadingSection'
+import { pageMetadata } from '@/app/lib/seo'
 
-export const metadata: Metadata = {
+const seo = {
 	title: `Hagetjenester og trefelling i Bergen`,
 	description:
 		'Komplett hagevedlikehold, gressklipping og trefelling i Bergen. Skreddersydde løsninger for private og næringskunder. Plenklipperen - Vi klipper plen!',
+	path: '/tjenester',
 }
+
+export const metadata: Metadata = pageMetadata(seo)
 
 const page = () => {
 	return (

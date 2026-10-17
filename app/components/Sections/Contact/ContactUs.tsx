@@ -27,7 +27,7 @@ const ContactUs = () => {
 						<Image
 							className='rounded-2xl w-full h-full object-cover'
 							src={'/images/kontaktoss.jpg'}
-							alt={'Contact image'}
+							alt={'Plenklipperen-teamet foran firmabilen'}
 							width={800}
 							height={600}
 						/>

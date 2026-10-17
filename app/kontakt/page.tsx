@@ -2,12 +2,16 @@ import { Metadata } from 'next'
 import ContactUs from '../components/Sections/Contact/ContactUs'
 import Hero from '../components/Sections/Contact/Hero'
 import FAQ from '../components/UI/FAQ/FAQ'
+import { pageMetadata } from '@/app/lib/seo'
 
-export const metadata: Metadata = {
-	title: `Kontakt oss | Hagearbeid i Bergen`,
+const seo = {
+	title: `Kontakt oss – hagearbeid i Bergen`,
 	description:
 		'Trenger du gressklipping, hagevedlikehold eller snørydding i Bergen? Kontakt oss i dag for et uforpliktende tilbud. Plenklipperen - Vi klipper plen!',
+	path: '/kontakt',
 }
+
+export const metadata: Metadata = pageMetadata(seo)
 
 const qaa = [
 	{

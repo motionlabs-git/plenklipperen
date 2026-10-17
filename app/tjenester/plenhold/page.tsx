@@ -11,12 +11,17 @@ import IconGridSection from '@/app/components/UI/IconGridSection'
 import SmallGallerySection from '@/app/components/UI/SmallGallerySection'
 import SideImageBlock from '@/app/components/UI/SideImageBlock'
 import { GiHighGrass } from 'react-icons/gi'
+import { pageMetadata, serviceSchema } from '@/app/lib/seo'
+import JsonLd from '@/app/components/SEO/JsonLd'
 
-export const metadata: Metadata = {
-	title: `Plenhold`,
+const seo = {
+	title: `Plenhold i Bergen`,
 	description:
 		'Profesjonelt plenhold i Bergen for private hager, borettslag og bedrifter. Vi sørger for regelmessig plenklipping, kantklipping og vedlikehold slik at uteområdene alltid ser velstelte ut.',
+	path: '/tjenester/plenhold',
 }
+
+export const metadata: Metadata = pageMetadata(seo)
 
 const servicesGrid = [
 	{
@@ -65,7 +70,12 @@ const gallery = [
 const page = () => {
 	return (
 		<>
+			<JsonLd data={serviceSchema(seo)} />
 			<PageHeadingSection
+				breadcrumbs={[
+					{ name: 'Tjenester', path: '/tjenester' },
+					{ name: 'Plenhold', path: seo.path },
+				]}
 				image={'/images/stripes.jpg'}
 				title={'Plenhold'}
 				paragraph={

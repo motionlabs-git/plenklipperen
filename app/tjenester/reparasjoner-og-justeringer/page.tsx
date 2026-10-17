@@ -9,12 +9,17 @@ import { GiDrill } from 'react-icons/gi'
 import { HiMiniWrenchScrewdriver } from 'react-icons/hi2'
 import SideImageBlock from '@/app/components/UI/SideImageBlock'
 import SmallGallerySection from '@/app/components/UI/SmallGallerySection'
+import { pageMetadata, serviceSchema } from '@/app/lib/seo'
+import JsonLd from '@/app/components/SEO/JsonLd'
 
-export const metadata: Metadata = {
-	title: `Reparasjoner og justeringer`,
+const seo = {
+	title: `Reparasjoner og justeringer i Bergen`,
 	description:
 		'Mindre reparasjoner og vedlikeholdsarbeid i Bergen. Vi hjelper med praktiske oppgaver, justeringer og vedlikehold av eiendommer både inne og ute.',
+	path: '/tjenester/reparasjoner-og-justeringer',
 }
+
+export const metadata: Metadata = pageMetadata(seo)
 
 const servicesGrid = [
 	{
@@ -61,7 +66,12 @@ const gallery = [
 const page = () => {
 	return (
 		<>
+			<JsonLd data={serviceSchema(seo)} />
 			<PageHeadingSection
+				breadcrumbs={[
+					{ name: 'Tjenester', path: '/tjenester' },
+					{ name: 'Reparasjoner og justeringer', path: seo.path },
+				]}
 				image={'/images/repairs.jpg'}
 				title={'Reparasjoner og justeringer'}
 				paragraph={

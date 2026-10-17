@@ -9,12 +9,17 @@ import ContactUs from '@/app/components/Sections/Contact/ContactUs'
 import IconGridSection from '@/app/components/UI/IconGridSection'
 import SideImageBlock from '@/app/components/UI/SideImageBlock'
 import SmallGallerySection from '@/app/components/UI/SmallGallerySection'
+import { pageMetadata, serviceSchema } from '@/app/lib/seo'
+import JsonLd from '@/app/components/SEO/JsonLd'
 
-export const metadata: Metadata = {
-	title: `Hagevedlikehold`,
+const seo = {
+	title: `Hagevedlikehold i Bergen`,
 	description:
 		'Hagevedlikehold i Bergen for private og bedrifter. Vi hjelper med beskjæring, opprydding av hager og generell vedlikehold av uteområder gjennom hele sesongen.',
+	path: '/tjenester/hagevedlikehold',
 }
+
+export const metadata: Metadata = pageMetadata(seo)
 
 const servicesGrid = [
 	{
@@ -62,7 +67,12 @@ const gallery = [
 const page = () => {
 	return (
 		<>
+			<JsonLd data={serviceSchema(seo)} />
 			<PageHeadingSection
+				breadcrumbs={[
+					{ name: 'Tjenester', path: '/tjenester' },
+					{ name: 'Hagevedlikehold', path: seo.path },
+				]}
 				image={'/images/plenklipperen_busker1.jpg'}
 				title={'Hagevedlikehold'}
 				paragraph={

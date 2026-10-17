@@ -9,6 +9,15 @@ const nextConfig: NextConfig = {
 		NEXT_PUBLIC_EMAILJS_BOOKING_TEMPLATE_ID:
 			process.env.NEXT_PUBLIC_EMAILJS_BOOKING_TEMPLATE_ID,
 	},
+	async redirects() {
+		return [
+			{
+				source: '/kontakt-oss',
+				destination: '/kontakt',
+				permanent: true,
+			},
+		]
+	},
 }
 
 export default nextConfig

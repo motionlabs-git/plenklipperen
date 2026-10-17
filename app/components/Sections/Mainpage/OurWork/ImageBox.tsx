@@ -18,7 +18,7 @@ const ImageBox = ({
 				src={img}
 				width={800}
 				height={800}
-				alt={'Plenklipperen work image'}
+				alt={text.split('\n')[0]}
 				className=' group-hover:scale-105 duration-200 select-none w-full h-full object-cover'
 			/>
 

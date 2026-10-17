@@ -97,7 +97,7 @@ const Gallery = () => {
 
 						<Image
 							src={gallery[selectedImage].img}
-							alt={'lasdkjflkdasfj'}
+							alt={gallery[selectedImage].title}
 							width={1000}
 							height={1000}
 							className='w-full h-full object-cover'

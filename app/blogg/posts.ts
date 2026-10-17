@@ -9,7 +9,7 @@ export const Posts = [
 		content: `
       <p>Å holde plenen velstelt gjennom sesongen krever både tid og riktig utstyr. Mange boligeiere og bedrifter i Bergen velger derfor profesjonell plenklipping for å sikre et jevnt og pent resultat uten ekstra arbeid selv. Men hva koster egentlig plenklipping i Bergen, og hva påvirker prisen?</p>
 
-      <p>Hvis du ønsker mer informasjon om hva som inngår i tjenesten, kan du lese mer på vår <a href="https://www.plenklipperen.no/tjenester">tjenesteside for plenklipping og hagevedlikehold</a>.</p>
+      <p>Hvis du ønsker mer informasjon om hva som inngår i tjenesten, kan du lese mer på vår <a href="${baseURL}/tjenester">tjenesteside for plenklipping og hagevedlikehold</a>.</p>
 
       <p>I denne guiden forklarer vi hvilke faktorer som bestemmer prisen på plenklipping, hva som vanligvis er inkludert i tjenesten, og hvordan du kan få et godt tilbud tilpasset ditt behov.</p>
 
@@ -58,7 +58,7 @@ export const Posts = [
         <li>✅ Profesjonelt utstyr</li>
       </ul>
 
-      <p>Ekstra tjenester som gjødsling, vedlikehold av hage eller hekkeklipping kan ofte bestilles i tillegg. Du kan også se eksempler på utført arbeid i vårt <a href="https://www.plenklipperen.no/galleri">galleri</a>.</p>
+      <p>Ekstra tjenester som gjødsling, vedlikehold av hage eller hekkeklipping kan ofte bestilles i tillegg. Du kan også se eksempler på utført arbeid i vårt <a href="${baseURL}/galleri">galleri</a>.</p>
 
       <h2>Når bør du bestille plenklipping?</h2>
       <p>Den beste tiden å starte plenklipping i Bergen er vanligvis på våren, når veksten begynner. Mange kunder bestiller allerede før sesongen starter for å sikre plass i kalenderen.</p>
@@ -68,14 +68,14 @@ export const Posts = [
       <h2>Få tilbud på plenklipping i Bergen</h2>
       <p>Prisen på plenklipping avhenger alltid av området og behovet ditt, derfor anbefales det å be om et uforpliktende tilbud. En profesjonell leverandør vil kunne gi riktig pris etter en enkel vurdering.</p>
 
-      <p>Ønsker du hjelp med plenklipping eller vedlikehold av uteområder i Bergen? Ta kontakt via vår <a href="https://www.plenklipperen.no">kontaktside</a> for en hyggelig prat og et tilbud tilpasset din eiendom.</p>
+      <p>Ønsker du hjelp med plenklipping eller vedlikehold av uteområder i Bergen? Ta kontakt via vår <a href="${baseURL}/kontakt">kontaktside</a> for en hyggelig prat og et tilbud tilpasset din eiendom.</p>
     `,
 		coverImage: '/images/plenklipperen_hero.jpg',
 		date: '2025-02-01',
 		author: 'Plenklipperen',
 		category: 'Plenklipping',
 		seo: {
-			metaTitle: 'Hva koster plenklipping i Bergen? Prisguide 2025',
+			metaTitle: 'Hva koster plenklipping i Bergen? Prisguide',
 			metaDescription:
 				'Hva koster plenklipping i Bergen? Se priseksempler, hva som påvirker kostnaden og hvordan du får best tilbud på plenklipping.',
 			keywords: [
@@ -96,7 +96,7 @@ export const Posts = [
 
     <p>Derfor velger mange boligeiere, borettslag og bedrifter profesjonell plenklipping for å sikre et pent resultat uten å bruke egen tid og energi.</p>
 
-    <img src="/images/grass4.jpg" alt="Plenklipping i Bergen" />
+    <img loading="lazy" src="/images/grass4.jpg" alt="Plenklipping i Bergen" />
 
     <h2>Hvorfor velge profesjonell plenklipping?</h2>
     <p>Profesjonell plenklipping handler ikke bare om å kutte gresset. Det handler om riktig høyde, riktig frekvens og riktig teknikk gjennom hele sesongen.</p>
@@ -112,7 +112,7 @@ export const Posts = [
     <p>Ved å bruke en profesjonell leverandør får du også råd om vedlikehold, sesongtilpasning og optimal pleie av uteområdene.</p>
 
     <h2>Hva inkluderer plenklippingstjenester?</h2>
-    <p>De fleste profesjonelle tjenester inkluderer mer enn bare selve klippingen. Hos oss kan du lese mer om hva vi tilbyr på vår <a href="https://www.plenklipperen.no/tjenester">tjenesteside for plenklipping og hagearbeid</a>.</p>
+    <p>De fleste profesjonelle tjenester inkluderer mer enn bare selve klippingen. Hos oss kan du lese mer om hva vi tilbyr på vår <a href="${baseURL}/tjenester">tjenesteside for plenklipping og hagearbeid</a>.</p>
 
     <ul>
       <li>Klipping av plen</li>
@@ -122,7 +122,7 @@ export const Posts = [
       <li>Vedlikehold av større uteområder</li>
     </ul>
 
-    <img src="/images/kvitko.jpg" alt="Vedlikehold av plen" />
+    <img loading="lazy" src="/images/kvitko.jpg" alt="Vedlikehold av plen" />
 
     <h2>Hvor ofte bør man klippe plenen i Bergen?</h2>
     <p>I vekstsesongen anbefales det vanligvis å klippe plenen hver 1–2 uke. Klimaet i Bergen gjør at gresset vokser raskt i perioder, spesielt på våren og tidlig sommer.</p>
@@ -141,13 +141,13 @@ export const Posts = [
 
     <p>Med en fast avtale får du forutsigbare kostnader og et uteområde som alltid ser representativt ut.</p>
 
-    <img src="/images/plenklipperen_hero.jpg" alt="Stor plen eiendom" />
+    <img loading="lazy" src="/images/plenklipperen_hero.jpg" alt="Stor plen eiendom" />
 
     <h2>Kombiner plenklipping med andre tjenester</h2>
     <p>Mange kunder velger å kombinere plenklipping med andre tjenester som hekkeklipping, rydding av uteområder eller sesongvedlikehold. Dette gir en mer komplett løsning og sparer tid.</p>
 
     <p>Du kan lese mer om alle våre tjenester her:  
-    <a href="https://www.plenklipperen.no/tjenester">Se alle tjenester</a></p>
+    <a href="${baseURL}/tjenester">Se alle tjenester</a></p>
 
     <h2>Bestill plenklipping i Bergen</h2>
     <p>Enten du trenger engangsklipping eller fast vedlikehold gjennom sesongen, kan profesjonell hjelp gjøre stor forskjell for resultatet.</p>
@@ -160,7 +160,7 @@ export const Posts = [
 		category: 'Plenklipping',
 		seo: {
 			metaTitle:
-				'Profesjonell plenklipping i Bergen | Gressklipping tjenester',
+				'Profesjonell plenklipping i Bergen',
 			metaDescription:
 				'Profesjonell plenklipping i Bergen for private, borettslag og bedrifter. Få en grønn og velstelt plen gjennom hele sesongen.',
 			keywords: [
@@ -180,7 +180,7 @@ export const Posts = [
 		content: `
     <p>Bergen har et klima som gir gode vekstforhold for gress, men også utfordringer med fuktighet og rask vekst. Mange lurer derfor på når det egentlig er riktig tidspunkt å starte plenklipping og hvor ofte plenen bør vedlikeholdes gjennom sesongen.</p>
 
-    <img src="/images/blog/IMG_0346.jpeg" alt="Plenklipping vår" />
+    <img loading="lazy" src="/images/blog/IMG_0346.jpeg" alt="Plenklipping vår" />
 
     <h2>Start plenklipping om våren</h2>
     <p>De fleste plener i Bergen kan klippes første gang i april eller mai, avhengig av temperatur og vekst. Det viktigste er at gresset har begynt å vokse aktivt.</p>
@@ -196,26 +196,26 @@ export const Posts = [
       <li>Etter behov ved kraftig vekst</li>
     </ul>
 
-    <img src="/images/blog/IMG_0474.jpeg" alt="Vedlikehold plen" />
+    <img loading="lazy" src="/images/blog/IMG_0474.jpeg" alt="Vedlikehold plen" />
 
     <h2>Fordeler med fast vedlikeholdsavtale</h2>
     <p>Mange kunder velger faste avtaler fordi det gir jevn kvalitet gjennom hele sesongen. Du slipper planlegging og får alltid et representativt uteområde.</p>
 
     <p>Du kan lese mer om våre tjenester her:  
-    <a href="https://www.plenklipperen.no/tjenester">Plenklipping og hagearbeid tjenester</a></p>
+    <a href="${baseURL}/tjenester">Plenklipping og hagearbeid tjenester</a></p>
 
     <h2>Plenklipping før vinteren</h2>
     <p>Sesongens siste klipp skjer vanligvis i september eller oktober. Dette forbereder plenen for vinteren og gir bedre start neste år.</p>
 
     <p>Trenger du hjelp med plenklipping i Bergen?  
-    <a href="https://www.plenklipperen.no/kontakt">Kontakt oss for tilbud</a>.</p>
+    <a href="${baseURL}/kontakt">Kontakt oss for tilbud</a>.</p>
   `,
 		coverImage: '/images/blog/IMG_0270.jpeg',
 		date: '2025-02-10',
 		author: 'Plenklipperen',
 		category: 'Vedlikehold',
 		seo: {
-			metaTitle: 'Når bør du klippe plenen i Bergen? Guide 2025',
+			metaTitle: 'Når bør du klippe plenen i Bergen?',
 			metaDescription:
 				'Finn ut når du bør starte plenklipping i Bergen og hvor ofte plenen bør vedlikeholdes for best resultat.',
 			keywords: [
@@ -234,7 +234,7 @@ export const Posts = [
 		content: `
     <p>En grønn og sunn plen krever mer enn bare klipping. Med riktig vedlikehold kan du få en sterk plen som tåler både regn, sol og bruk gjennom hele sommeren.</p>
 
-    <img src="/images/blog/IMG_1815.jpeg" alt="Grønn plen" />
+    <img loading="lazy" src="/images/blog/IMG_1815.jpeg" alt="Grønn plen" />
 
     <h2>1. Klipp ofte, men ikke for kort</h2>
     <p>For kort klipping svekker gresset og gir mer ugress. Hold en moderat høyde for bedre vekst.</p>
@@ -242,7 +242,7 @@ export const Posts = [
     <h2>2. Vann riktig</h2>
     <p>Det er bedre å vanne sjeldnere men grundig enn litt hver dag. Dette gir dypere røtter.</p>
 
-    <img src="/images/blog/IMG_1845.JPG" alt="Vanning plen" />
+    <img loading="lazy" src="/images/blog/IMG_1845.JPG" alt="Vanning plen" />
 
     <h2>3. Gjødsel gir sterkere plen</h2>
     <p>Gjødsel tilfører næring som gjør plenen grønnere og mer motstandsdyktig.</p>
@@ -252,19 +252,19 @@ export const Posts = [
 
     <h2>5. Profesjonell hjelp sparer tid</h2>
     <p>Mange velger profesjonell plenklipping for å få jevn kvalitet uten ekstra arbeid. Se våre tjenester her:  
-    <a href="https://www.plenklipperen.no/tjenester">Se hva vi tilbyr</a></p>
+    <a href="${baseURL}/tjenester">Se hva vi tilbyr</a></p>
 
-    <img src="/images/blog/IMG_2787.JPG" alt="Profesjonell plenklipping" />
+    <img loading="lazy" src="/images/blog/IMG_2787.JPG" alt="Profesjonell plenklipping" />
 
     <p>Ønsker du en perfekt plen uten stress?  
-    <a href="https://www.plenklipperen.no">Ta kontakt med oss</a> for tilbud.</p>
+    <a href="${baseURL}/kontakt">Ta kontakt med oss</a> for tilbud.</p>
   `,
 		coverImage: '/images/blog/IMG_3280.jpeg',
 		date: '2025-02-15',
 		author: 'Plenklipperen',
 		category: 'Tips',
 		seo: {
-			metaTitle: '5 tips for grønn plen | Plen vedlikehold Bergen',
+			metaTitle: '5 tips for en sunn og grønn plen',
 			metaDescription:
 				'Lær hvordan du får en sunn og grønn plen gjennom sommeren med enkle vedlikeholdstips.',
 			keywords: [
@@ -283,7 +283,7 @@ export const Posts = [
 		content: `
     <p>For borettslag og sameier er uteområdene en viktig del av trivselen for beboerne. Regelmessig plenklipping og vedlikehold gir et pent miljø og øker verdien på eiendommen.</p>
 
-    <img src="/images/blog/IMG_4944.jpeg" alt="Borettslag plen" />
+    <img loading="lazy" src="/images/blog/IMG_4944.jpeg" alt="Borettslag plen" />
 
     <h2>Hvorfor profesjonell plenklipping?</h2>
     <p>Større områder krever riktig utstyr og planlegging. Profesjonelle leverandører kan håndtere både små og store eiendommer effektivt.</p>
@@ -299,18 +299,18 @@ export const Posts = [
     <p>Med faste avtaler slipper borettslag å organisere vedlikehold selv. Arbeidet utføres regelmessig gjennom sesongen.</p>
 
     <p>Les mer om oss her:  
-    <a href="https://www.plenklipperen.no/om-oss">Om vår bedrift</a></p>
+    <a href="${baseURL}/om-oss">Om vår bedrift</a></p>
 
-    <img src="/images/blog/IMG_5402.jpeg" alt="Vedlikehold uteområde" />
+    <img loading="lazy" src="/images/blog/IMG_5402.jpeg" alt="Vedlikehold uteområde" />
 
     <h2>Kombiner sommer og vintertjenester</h2>
     <p>Mange eiendommer kombinerer plenklipping med vintervedlikehold som snørydding og strøing. Dette gir én leverandør hele året.</p>
 
     <p>Se våre vintertjenester her:  
-    <a href="https://www.plenklipperen.no/vintertjenester">Vintertjenester</a></p>
+    <a href="${baseURL}/vintertjenester">Vintertjenester</a></p>
 
     <p>Ønsker dere tilbud på vedlikehold av uteområder i Bergen?  
-    <a href="https://www.plenklipperen.no">Kontakt oss</a> for en uforpliktende prat.</p>
+    <a href="${baseURL}/kontakt">Kontakt oss</a> for en uforpliktende prat.</p>
   `,
 		coverImage: '/images/blog/IMG_4944.jpeg',
 		date: '2025-02-20',
@@ -318,7 +318,7 @@ export const Posts = [
 		category: 'Borettslag',
 		seo: {
 			metaTitle:
-				'Plenklipping borettslag Bergen | Vedlikehold uteområder',
+				'Plenklipping for borettslag i Bergen',
 			metaDescription:
 				'Profesjonell plenklipping for borettslag og sameier i Bergen. Effektiv drift og pent uteområde hele sesongen.',
 			keywords: [
@@ -337,9 +337,9 @@ export const Posts = [
 		content: `
     <p>Busker og hekker er en viktig del av uteområdet rundt boliger og eiendommer i Bergen. Riktig hekkeklipping gir ikke bare et pent uttrykk, men bidrar også til sunn vekst og lengre levetid for plantene.</p>
 
-    <p>Mange eiendomseiere velger profesjonell hjelp for å sikre et jevnt resultat og spare tid. Hos oss kan du lese mer om våre tjenester på <a href="https://www.plenklipperen.no/tjenester">tjenestesiden</a>.</p>
+    <p>Mange eiendomseiere velger profesjonell hjelp for å sikre et jevnt resultat og spare tid. Hos oss kan du lese mer om våre tjenester på <a href="${baseURL}/tjenester">tjenestesiden</a>.</p>
 
-    <img src="/images/blog/bush1.webp" alt="Hekkeklipping Bergen" />
+    <img loading="lazy" src="/images/blog/bush1.webp" alt="Hekkeklipping Bergen" />
 
     <h2>Når bør man klippe hekk i Bergen?</h2>
     <p>Klimaet på Vestlandet gjør at vekstsesongen ofte starter tidligere enn mange tror. Generelt anbefales det å klippe hekk:</p>
@@ -351,7 +351,7 @@ export const Posts = [
 
     <p>Regelmessig vedlikehold gjør arbeidet enklere og gir et bedre resultat.</p>
 
-    <img src="/images/blog/bush2.webp" alt="Busker klipping" />
+    <img loading="lazy" src="/images/blog/bush2.webp" alt="Busker klipping" />
 
     <h2>Fordeler med profesjonell hekkeklipping</h2>
     <p>Profesjonelle tjenester gir flere fordeler:</p>
@@ -365,10 +365,10 @@ export const Posts = [
 
     <p>Dette er spesielt nyttig for borettslag, næringseiendommer og større hager.</p>
 
-    <img src="/images/blog/bush3.webp" alt="Profesjonell hekkeklipping" />
+    <img loading="lazy" src="/images/blog/bush3.webp" alt="Profesjonell hekkeklipping" />
 
     <h2>Bestill hekkeklipping i Bergen</h2>
-    <p>Trenger du hjelp med hekk eller busker? Du kan enkelt <a href="https://www.plenklipperen.no">kontakte oss her</a> for et uforpliktende tilbud.</p>
+    <p>Trenger du hjelp med hekk eller busker? Du kan enkelt <a href="${baseURL}/kontakt">kontakte oss her</a> for et uforpliktende tilbud.</p>
 
     <p>Vi tilbyr fleksible løsninger for både private kunder, sameier og bedrifter i Bergen og omegn.</p>
   `,
@@ -377,7 +377,7 @@ export const Posts = [
 		author: 'Plenklipperen',
 		category: 'Hagearbeid',
 		seo: {
-			metaTitle: 'Hekkeklipping Bergen | Profesjonell klipping av busker',
+			metaTitle: 'Hekkeklipping i Bergen – tips og hjelp',
 			metaDescription:
 				'Profesjonell hekkeklipping i Bergen for private og bedrifter. Få jevne busker og et pent uteområde.',
 			keywords: [
@@ -396,9 +396,9 @@ export const Posts = [
 		content: `
     <p>En plen med tydelige striper gir et eksklusivt og velstelt uttrykk. Mange forbinder dette med fotballbaner eller parker, men effekten kan også oppnås hjemme i hagen.</p>
 
-    <p>Profesjonell plenklipping handler ikke bare om å kutte gresset, men også om teknikk, utstyr og erfaring. Les mer om våre tjenester på <a href="https://www.plenklipperen.no/tjenester">tjenestesiden</a>.</p>
+    <p>Profesjonell plenklipping handler ikke bare om å kutte gresset, men også om teknikk, utstyr og erfaring. Les mer om våre tjenester på <a href="${baseURL}/tjenester">tjenestesiden</a>.</p>
 
-    <img src="/images/blog/stripe1.webp" alt="Striper i plenen Bergen" />
+    <img loading="lazy" src="/images/blog/stripe1.webp" alt="Striper i plenen Bergen" />
 
     <h2>Hva skaper striper i gresset?</h2>
     <p>Stripene oppstår når gresset bøyes i forskjellige retninger under klipping. Lyset reflekteres ulikt, noe som gir det karakteristiske mønsteret.</p>
@@ -410,7 +410,7 @@ export const Posts = [
       <li>Regelmessig vedlikehold</li>
     </ul>
 
-    <img src="/images/blog/stripe2.webp" alt="Plenklipping striper" />
+    <img loading="lazy" src="/images/blog/stripe2.webp" alt="Plenklipping striper" />
 
     <h2>Fordeler med profesjonell plenklipping</h2>
     <p>Når du bruker profesjonelle tjenester får du:</p>
@@ -423,10 +423,10 @@ export const Posts = [
 
     <p>Dette er spesielt populært for representasjonsområder, bedrifter og borettslag.</p>
 
-    <img src="/images/blog/stripe3.webp" alt="Profesjonell gressklipping" />
+    <img loading="lazy" src="/images/blog/stripe3.webp" alt="Profesjonell gressklipping" />
 
     <h2>Bestill plenklipping i Bergen</h2>
-    <p>Ønsker du en plen som ser profesjonell ut hele sesongen? Ta kontakt via <a href="https://www.plenklipperen.no">kontaktsiden</a> for et tilbud.</p>
+    <p>Ønsker du en plen som ser profesjonell ut hele sesongen? Ta kontakt via <a href="${baseURL}/kontakt">kontaktsiden</a> for et tilbud.</p>
 
     <p>Vi hjelper både private og bedrifter i Bergen med plenklipping og vedlikehold av uteområder.</p>
   `,
@@ -435,7 +435,7 @@ export const Posts = [
 		author: 'Plenklipperen',
 		category: 'Plenklipping',
 		seo: {
-			metaTitle: 'Striper i plenen Bergen | Profesjonell plenklipping',
+			metaTitle: 'Slik får du striper i plenen',
 			metaDescription:
 				'Vil du ha striper i plenen? Profesjonell plenklipping i Bergen gir et perfekt og jevnt resultat.',
 			keywords: [
@@ -475,10 +475,10 @@ export const Posts = [
     <h2>Fordel med profesjonell plenklipping</h2>
     <p>Mange velger profesjonell hjelp for å sikre riktig start på sesongen. Med riktig utstyr og erfaring får man et bedre resultat og en sunnere plen.</p>
 
-    <p>Du kan lese mer om våre tjenester på <a href="https://www.plenklipperen.no/tjenester">tjenestesiden</a>.</p>
+    <p>Du kan lese mer om våre tjenester på <a href="${baseURL}/tjenester">tjenestesiden</a>.</p>
 
     <h2>Bestill plenklipping i Bergen</h2>
-    <p>Ønsker du hjelp med plenklipping eller vedlikehold av uteområder? Ta kontakt via <a href="https://www.plenklipperen.no">kontaktsiden</a> for et tilbud.</p>
+    <p>Ønsker du hjelp med plenklipping eller vedlikehold av uteområder? Ta kontakt via <a href="${baseURL}/kontakt">kontaktsiden</a> for et tilbud.</p>
 
     <p>Vi hjelper både private boliger, borettslag og bedrifter i Bergen.</p>
   `,
@@ -487,7 +487,7 @@ export const Posts = [
 		author: 'Plenklipperen',
 		category: 'Plenklipping',
 		seo: {
-			metaTitle: 'Når starte plenklipping i Bergen? | Guide 2025',
+			metaTitle: 'Når starte plenklipping i Bergen?',
 			metaDescription:
 				'Når bør du starte plenklipping i Bergen? Les vår guide om riktig tidspunkt og få en sunn og grønn plen.',
 			keywords: [
@@ -532,10 +532,10 @@ export const Posts = [
       <li>Bedre plenhelse</li>
     </ul>
 
-    <p>Du kan lese mer om våre løsninger på <a href="https://www.plenklipperen.no/tjenester">tjenestesiden</a>.</p>
+    <p>Du kan lese mer om våre løsninger på <a href="${baseURL}/tjenester">tjenestesiden</a>.</p>
 
     <h2>Trenger du hjelp med plenklipping?</h2>
-    <p>Ønsker du profesjonell plenklipping i Bergen? Ta kontakt via <a href="https://www.plenklipperen.no">kontaktsiden</a> for et tilbud.</p>
+    <p>Ønsker du profesjonell plenklipping i Bergen? Ta kontakt via <a href="${baseURL}/kontakt">kontaktsiden</a> for et tilbud.</p>
 
     <p>Vi tilbyr tjenester for både private hager, borettslag og næringseiendom.</p>
   `,
@@ -544,7 +544,7 @@ export const Posts = [
 		author: 'Plenklipperen',
 		category: 'Plenklipping',
 		seo: {
-			metaTitle: 'Hvor ofte klippe plen? | Tips for Bergen',
+			metaTitle: 'Hvor ofte bør du klippe plenen?',
 			metaDescription:
 				'Hvor ofte bør du klippe plenen? Få tips for sunn plen og profesjonelt resultat i Bergen.',
 			keywords: [
@@ -563,7 +563,7 @@ export const Posts = [
 		content: `
       <p>Mose i plenen er et vanlig problem i Norge, spesielt i områder med mye regn og fuktighet. Mange hageeiere i Bergen opplever at mosen tar over gresset, noe som gjør plenen ujevn og mindre pen. Heldigvis finnes det gode løsninger for å bli kvitt mose og samtidig styrke gresset.</p>
 
-      <p>Hvis du ønsker profesjonell hjelp med plenpleie eller vedlikehold av uteområder, kan du lese mer om våre <a href="https://www.plenklipperen.no/tjenester">tjenester for plenklipping og hagearbeid</a>.</p>
+      <p>Hvis du ønsker profesjonell hjelp med plenpleie eller vedlikehold av uteområder, kan du lese mer om våre <a href="${baseURL}/tjenester">tjenester for plenklipping og hagearbeid</a>.</p>
 
       <h2>Hvorfor får man mose i plenen?</h2>
       <p>Mose trives der gresset har dårlige vekstforhold. De vanligste årsakene er:</p>
@@ -596,7 +596,7 @@ export const Posts = [
       <h2>Når er beste tidspunkt for mosefjerning?</h2>
       <p>Den beste tiden for å fjerne mose er vår og tidlig høst. Da har gresset gode vekstforhold og kan raskt fylle tomrommene etter mosen.</p>
 
-      <p>Regelmessig vedlikehold gjennom sesongen, inkludert jevnlig klipping, bidrar også til en sunnere plen. Du kan se eksempler på resultater i vårt <a href="https://www.plenklipperen.no/galleri">galleri</a>.</p>
+      <p>Regelmessig vedlikehold gjennom sesongen, inkludert jevnlig klipping, bidrar også til en sunnere plen. Du kan se eksempler på resultater i vårt <a href="${baseURL}/galleri">galleri</a>.</p>
 
       <h2>Hvordan forhindre at mose kommer tilbake?</h2>
       <p>For å unngå nye moseproblemer bør du:</p>
@@ -613,14 +613,14 @@ export const Posts = [
       <h2>Få hjelp med plen og hage i Bergen</h2>
       <p>Hvis plenen din har mye mose eller trenger vedlikehold, kan profesjonell hjelp spare deg for både tid og arbeid. Riktig utstyr og erfaring gir ofte raskere og bedre resultat.</p>
 
-      <p>Ta gjerne kontakt via vår <a href="https://www.plenklipperen.no">kontaktside</a> for et uforpliktende tilbud på plenklipping eller hagearbeid i Bergen.</p>
+      <p>Ta gjerne kontakt via vår <a href="${baseURL}/kontakt">kontaktside</a> for et uforpliktende tilbud på plenklipping eller hagearbeid i Bergen.</p>
     `,
 		coverImage: '/images/Hero_image.jpg',
 		date: '2025-02-01',
 		author: 'Plenklipperen',
 		category: 'Plenpleie',
 		seo: {
-			metaTitle: 'Hvordan bli kvitt mose i plen – Tips som virker',
+			metaTitle: 'Hvordan bli kvitt mose i plenen',
 			metaDescription:
 				'Hvordan bli kvitt mose i plenen? Se effektive metoder, tips og når du bør fjerne mose for best resultat.',
 			keywords: [
@@ -661,7 +661,7 @@ export const Posts = [
   <p>Hvis du bor i andre deler av Bergen, tilbyr vi også <a href="${baseURL}/plenklipping-asane">plenklipping i Åsane</a>.</p>
 
   <h2>Trenger du hjelp?</h2>
-  <p>Du kan lese mer om våre tjenester for <a href="${baseURL}/tjenester/plenhold">plenhold</a> eller kontakte oss via <a href="${baseURL}/kontakt-oss">kontaktsiden</a>.</p>
+  <p>Du kan lese mer om våre tjenester for <a href="${baseURL}/tjenester/plenhold">plenhold</a> eller kontakte oss via <a href="${baseURL}/kontakt">kontaktsiden</a>.</p>
   `,
 		coverImage: '/images/plenklipperen_hero.jpg',
 		date: '2025-02-10',
@@ -736,7 +736,7 @@ export const Posts = [
 
   <p>Vi tilbyr også <a href="${baseURL}/hagearbeid-fyllingsdalen">hagearbeid i Fyllingsdalen</a>.</p>
 
-  <p>Kontakt oss via <a href="${baseURL}/kontakt-oss">kontaktsiden</a> for tilbud.</p>
+  <p>Kontakt oss via <a href="${baseURL}/kontakt">kontaktsiden</a> for tilbud.</p>
   `,
 		coverImage: '/images/blog/blogg1.jpg',
 		date: '2025-02-20',
@@ -831,7 +831,7 @@ export const Posts = [
   <h2>Profesjonell hjelp med hagevedlikehold</h2>
   <p>For mange huseiere kan regelmessig vedlikehold av hage og hekk ta mye tid. Profesjonell hjelp kan sikre et jevnt og godt resultat gjennom hele sesongen.</p>
 
-  <p>Les mer om våre <a href="${baseURL}/tjenester/hagevedlikehold">tjenester for hagevedlikehold</a> eller ta kontakt via <a href="${baseURL}/kontakt-oss">kontaktsiden</a> for et uforpliktende tilbud.</p>
+  <p>Les mer om våre <a href="${baseURL}/tjenester/hagevedlikehold">tjenester for hagevedlikehold</a> eller ta kontakt via <a href="${baseURL}/kontakt">kontaktsiden</a> for et uforpliktende tilbud.</p>
   `,
 		coverImage: '/images/plenklipperen_hero.jpg',
 		date: '2025-03-01',

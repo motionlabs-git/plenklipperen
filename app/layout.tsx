@@ -3,6 +3,8 @@ import { Rubik } from 'next/font/google'
 import './globals.css'
 import Navigation from './components/Layout/Navigation/Navigation'
 import Footer from './components/Layout/Footer/Footer'
+import JsonLd from './components/SEO/JsonLd'
+import { DEFAULT_OG_IMAGE, SITE_NAME, localBusinessSchema } from './lib/seo'
 
 const rubik = Rubik({
 	variable: '--font-rubik',
@@ -14,51 +16,23 @@ export const metadata: Metadata = {
 	metadataBase: new URL('https://plenklipperen.no'),
 	authors: [{ name: 'Motionlabs', url: 'https://motionlabs.cz' }],
 	title: {
-		default: `Plenklipperen - Hagevedlikehold og Snørydding i Bergen`,
-		template: 'Plenklipperen - %s',
+		default: 'Hagevedlikehold og snørydding i Bergen | Plenklipperen',
+		template: '%s | Plenklipperen',
 	},
 	description:
 		'Vi tilbyr profesjonell gressklipp, hagevedlikehold, trefelling og snørydding for private og bedrifter i Bergen. Rask respons og pålitelig service hele året.',
-	keywords: [
-		'gressklipping Bergen',
-		'plenklipping Bergen',
-		'plenklipper Bergen',
-		'hagearbeid Bergen',
-		'hagestell Bergen',
-		'vedlikehold av hage Bergen',
-		'klippe plen Bergen',
-		'kantklipping Bergen',
-		'beskjæring av busker Bergen',
-		'beskjæring av trær Bergen',
-		'hekkeklipping Bergen',
-		'fjerning av ugress Bergen',
-		'hage service Bergen',
-		'utendørs vedlikehold Bergen',
-		'plen service Bergen',
-		'profesjonell plenklipping Bergen',
-		'snømåking Bergen',
-		'snørydding Bergen',
-		'strøing Bergen',
-		'vintertjenester Bergen',
-		'brøyting Bergen',
-		'takmåking Bergen',
-		'feiing av uteområder Bergen',
-		'rengjøring av terrasse Bergen',
-		'høytrykksspyling Bergen',
-		'spyling av uteområder Bergen',
-		'hage hjelp Bergen',
-		'lokal gartner Bergen',
-		'plenpleie Bergen',
-		'sesongarbeid hage Bergen',
-	],
 	twitter: {
 		card: 'summary_large_image',
 	},
 	openGraph: {
-		title: 'Plenklipperen - Hagevedlikehold og Snørydding i Bergen',
+		title: 'Hagevedlikehold og snørydding i Bergen | Plenklipperen',
 		description:
 			'Vi tilbyr profesjonell gressklipp, hagevedlikehold, trefelling og snørydding for private og bedrifter i Bergen. Rask respons og pålitelig service hele året.',
-		images: '/brand/open-graph.png',
+		images: DEFAULT_OG_IMAGE,
+		url: '/',
+		siteName: SITE_NAME,
+		locale: 'nb_NO',
+		type: 'website',
 	},
 	icons: {
 		icon: {
@@ -81,8 +55,9 @@ export default function RootLayout({
 	children: React.ReactNode
 }>) {
 	return (
-		<html lang='no'>
+		<html lang='nb'>
 			<body className={`${rubik.className} antialiased items-center`}>
+				<JsonLd data={localBusinessSchema} />
 				<Navigation />
 
 				<main className='w-full flex flex-col items-center'>
